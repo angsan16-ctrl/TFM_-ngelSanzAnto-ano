@@ -1,0 +1,57 @@
+2026-09-16 22:15:03,377 | INFO | load_excel_to_mysql | excel=C:\Users\angel\OneDrive\Escritorio\Master datos\data\plantilla.xlsx
+2026-09-16 22:15:04,936 | INFO | src.etl.extract | table=source extracted=96
+2026-09-16 22:15:05,425 | INFO | src.etl.extract | table=biomass extracted=183
+2026-09-16 22:15:06,040 | INFO | src.etl.extract | table=biomass_composition extracted=306
+2026-09-16 22:15:06,527 | INFO | src.etl.extract | table=molecule extracted=173
+2026-09-16 22:15:06,990 | INFO | src.etl.extract | table=biomass_molecule extracted=13
+2026-09-16 22:15:07,514 | INFO | src.etl.extract | table=reaction extracted=82
+2026-09-16 22:15:07,990 | INFO | src.etl.extract | table=reaction_participant extracted=164
+2026-09-16 22:15:08,513 | INFO | src.etl.extract | table=fuel_property extracted=64
+2026-09-16 22:15:09,004 | INFO | src.etl.extract | table=molecular_descriptor extracted=216
+2026-09-16 22:15:09,542 | INFO | src.etl.extract | table=quantum_calculation extracted=0
+2026-09-16 22:15:10,010 | INFO | src.etl.extract | table=quantum_property extracted=0
+2026-09-16 22:15:10,023 | INFO | src.etl.transform | table=source transformed=96 blank_rows_removed=0
+2026-09-16 22:15:10,035 | INFO | src.etl.transform | table=biomass transformed=183 blank_rows_removed=0
+2026-09-16 22:15:10,306 | INFO | src.etl.transform | table=biomass_composition transformed=306 blank_rows_removed=0
+2026-09-16 22:15:10,323 | INFO | src.etl.transform | table=molecule transformed=173 blank_rows_removed=0
+2026-09-16 22:15:10,330 | INFO | src.etl.transform | table=biomass_molecule transformed=13 blank_rows_removed=0
+2026-09-16 22:15:10,357 | INFO | src.etl.transform | table=reaction transformed=82 blank_rows_removed=0
+2026-09-16 22:15:10,374 | INFO | src.etl.transform | table=reaction_participant transformed=164 blank_rows_removed=0
+2026-09-16 22:15:10,386 | INFO | src.etl.transform | table=fuel_property transformed=64 blank_rows_removed=0
+2026-09-16 22:15:10,409 | INFO | src.etl.transform | table=molecular_descriptor transformed=216 blank_rows_removed=0
+2026-09-16 22:15:10,414 | INFO | src.etl.transform | table=quantum_calculation transformed=0 blank_rows_removed=0
+2026-09-16 22:15:10,415 | INFO | src.etl.transform | table=quantum_property transformed=0 blank_rows_removed=0
+2026-09-16 22:15:10,423 | INFO | src.etl.validate | table=source processed=96 valid=96 rejected=0
+2026-09-16 22:15:10,438 | INFO | src.etl.validate | table=biomass processed=183 valid=183 rejected=0
+2026-09-16 22:15:10,501 | INFO | src.etl.validate | table=biomass_composition processed=306 valid=306 rejected=0
+2026-09-16 22:15:10,517 | INFO | src.etl.validate | table=molecule processed=173 valid=173 rejected=0
+2026-09-16 22:15:10,522 | INFO | src.etl.validate | table=biomass_molecule processed=13 valid=13 rejected=0
+2026-09-16 22:15:10,535 | INFO | src.etl.validate | table=reaction processed=82 valid=82 rejected=0
+2026-09-16 22:15:10,554 | INFO | src.etl.validate | table=reaction_participant processed=164 valid=164 rejected=0
+2026-09-16 22:15:10,564 | INFO | src.etl.validate | table=fuel_property processed=64 valid=64 rejected=0
+2026-09-16 22:15:10,584 | INFO | src.etl.validate | table=molecular_descriptor processed=216 valid=216 rejected=0
+2026-09-16 22:15:10,587 | INFO | src.etl.validate | table=quantum_calculation processed=0 valid=0 rejected=0
+2026-09-16 22:15:10,589 | INFO | src.etl.validate | table=quantum_property processed=0 valid=0 rejected=0
+2026-09-16 22:15:10,590 | WARNING | load_excel_to_mysql | molecule: 155 filas sin canonical_smiles; no podrán pasar directamente a RDKit hasta completarse en una fase posterior.
+2026-09-16 22:15:10,828 | INFO | src.etl.load | table=quantum_property existing_rows_deleted
+2026-09-16 22:15:10,830 | INFO | src.etl.load | table=quantum_calculation existing_rows_deleted
+2026-09-16 22:15:10,831 | INFO | src.etl.load | table=molecular_descriptor existing_rows_deleted
+2026-09-16 22:15:10,836 | INFO | src.etl.load | table=fuel_property existing_rows_deleted
+2026-09-16 22:15:10,842 | INFO | src.etl.load | table=reaction_participant existing_rows_deleted
+2026-09-16 22:15:10,848 | INFO | src.etl.load | table=reaction existing_rows_deleted
+2026-09-16 22:15:10,851 | INFO | src.etl.load | table=biomass_molecule existing_rows_deleted
+2026-09-16 22:15:10,859 | INFO | src.etl.load | table=molecule existing_rows_deleted
+2026-09-16 22:15:10,867 | INFO | src.etl.load | table=biomass_composition existing_rows_deleted
+2026-09-16 22:15:10,878 | INFO | src.etl.load | table=biomass existing_rows_deleted
+2026-09-16 22:15:10,886 | INFO | src.etl.load | table=source existing_rows_deleted
+2026-09-16 22:15:11,034 | INFO | src.etl.load | table=source loaded=96
+2026-09-16 22:15:11,089 | INFO | src.etl.load | table=biomass loaded=183
+2026-09-16 22:15:11,239 | INFO | src.etl.load | table=biomass_composition loaded=306
+2026-09-16 22:15:11,266 | INFO | src.etl.load | table=molecule loaded=173
+2026-09-16 22:15:11,275 | INFO | src.etl.load | table=biomass_molecule loaded=13
+2026-09-16 22:15:11,296 | INFO | src.etl.load | table=reaction loaded=82
+2026-09-16 22:15:11,314 | INFO | src.etl.load | table=reaction_participant loaded=164
+2026-09-16 22:15:11,329 | INFO | src.etl.load | table=fuel_property loaded=64
+2026-09-16 22:15:11,366 | INFO | src.etl.load | table=molecular_descriptor loaded=216
+2026-09-16 22:15:11,366 | INFO | src.etl.load | table=quantum_calculation loaded=0
+2026-09-16 22:15:11,366 | INFO | src.etl.load | table=quantum_property loaded=0

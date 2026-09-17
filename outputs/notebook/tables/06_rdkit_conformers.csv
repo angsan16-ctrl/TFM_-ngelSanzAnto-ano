@@ -1,0 +1,19 @@
+molecule_id,preferred_name,status,force_field,energy,xyz_path
+1,D-glucose,ok,MMFF94,87.02454542295564,outputs\notebook\conformers\molecule_0001.xyz
+2,D-xylose,ok,MMFF94,69.5185437524152,outputs\notebook\conformers\molecule_0002.xyz
+3,5-hydroxymethylfurfural,ok,MMFF94,25.923758205591437,outputs\notebook\conformers\molecule_0003.xyz
+4,levulinic acid,ok,MMFF94,-35.39601694048192,outputs\notebook\conformers\molecule_0004.xyz
+5,sorbitol,ok,MMFF94,91.74876540032304,outputs\notebook\conformers\molecule_0005.xyz
+6,furfural,ok,MMFF94,18.182824328786616,outputs\notebook\conformers\molecule_0006.xyz
+7,furfuryl alcohol,ok,MMFF94,5.420873001251267,outputs\notebook\conformers\molecule_0007.xyz
+8,2-methylfuran,ok,MMFF94,1.8062203125274041,outputs\notebook\conformers\molecule_0008.xyz
+9,phenol,ok,MMFF94,5.713261107010964,outputs\notebook\conformers\molecule_0009.xyz
+10,guaiacol,ok,MMFF94,19.32351996122331,outputs\notebook\conformers\molecule_0010.xyz
+11,syringol,ok,MMFF94,40.03867501048585,outputs\notebook\conformers\molecule_0011.xyz
+12,catechol,ok,MMFF94,4.674166263586796,outputs\notebook\conformers\molecule_0012.xyz
+13,cyclohexane,ok,MMFF94,-3.560933543059626,outputs\notebook\conformers\molecule_0013.xyz
+14,gamma-valerolactone,ok,MMFF94,-7.462398887325043,outputs\notebook\conformers\molecule_0014.xyz
+15,"2,5-dimethylfuran",ok,MMFF94,2.007422613581202,outputs\notebook\conformers\molecule_0015.xyz
+171,2-methylheptane,ok,MMFF94,0.37369261473397053,outputs\notebook\conformers\molecule_0171.xyz
+172,ethylcyclohexane,ok,MMFF94,7.23193959846361,outputs\notebook\conformers\molecule_0172.xyz
+173,propylcyclohexane,ok,MMFF94,3.3958017776793588,outputs\notebook\conformers\molecule_0173.xyz

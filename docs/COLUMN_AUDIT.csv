@@ -1,0 +1,171 @@
+﻿sheet,table,column,apparent_types,non_null,nulls,unique_non_null,max_string_length,completely_empty
+01_Sources,source,source_id,"{""int"": 92}",92,0,92,0,no
+01_Sources,source,source_type,"{""str"": 92}",92,0,4,8,no
+01_Sources,source,title,"{""str"": 92}",92,0,92,188,no
+01_Sources,source,authors,"{""str"": 44}",44,48,43,144,no
+01_Sources,source,journal_or_org,"{""str"": 84}",84,8,49,53,no
+01_Sources,source,year,"{""int"": 90}",90,2,16,0,no
+01_Sources,source,doi,"{""str"": 73}",73,19,73,30,no
+01_Sources,source,url,"{""str"": 92}",92,0,92,92,no
+01_Sources,source,access_date,"{""int"": 92}",92,0,1,0,no
+01_Sources,source,license_notes,"{""str"": 66}",66,26,4,25,no
+01_Sources,source,peer_reviewed,"{""str"": 92}",92,0,3,7,no
+01_Sources,source,evidence_quality,"{""str"": 92}",92,0,2,6,no
+01_Sources,source,primary_or_secondary,"{""str"": 92}",92,0,2,9,no
+01_Sources,source,notes,"{""str"": 92}",92,0,92,189,no
+02_Biomass,biomass,biomass_id,"{""int"": 182}",182,0,182,0,no
+02_Biomass,biomass,common_name,"{""str"": 182}",182,0,182,27,no
+02_Biomass,biomass,scientific_name,{},0,182,0,0,yes
+02_Biomass,biomass,species,{},0,182,0,0,yes
+02_Biomass,biomass,genus,{},0,182,0,0,yes
+02_Biomass,biomass,family,{},0,182,0,0,yes
+02_Biomass,biomass,biomass_category,"{""str"": 182}",182,0,9,31,no
+02_Biomass,biomass,residue_type,"{""str"": 182}",182,0,54,17,no
+02_Biomass,biomass,plant_part,"{""str"": 177}",177,5,12,13,no
+02_Biomass,biomass,country,{},0,182,0,0,yes
+02_Biomass,biomass,region,{},0,182,0,0,yes
+02_Biomass,biomass,origin_notes,{},0,182,0,0,yes
+02_Biomass,biomass,description,"{""str"": 182}",182,0,182,101,no
+02_Biomass,biomass,created_at,"{""int"": 182}",182,0,1,0,no
+03_Composition,biomass_composition,composition_id,"{""int"": 305}",305,0,305,0,no
+03_Composition,biomass_composition,biomass_id,"{""int"": 305}",305,0,132,0,no
+03_Composition,biomass_composition,source_id,"{""int"": 305}",305,0,58,0,no
+03_Composition,biomass_composition,sample_label,"{""str"": 305}",305,0,96,50,no
+03_Composition,biomass_composition,measurement_basis,"{""str"": 305}",305,0,4,18,no
+03_Composition,biomass_composition,analytical_method,"{""str"": 34}",34,271,10,39,no
+03_Composition,biomass_composition,cellulose_pct,"{""float"": 157, ""int"": 84}",241,64,179,0,no
+03_Composition,biomass_composition,hemicellulose_pct,"{""float"": 162, ""int"": 74}",236,69,172,0,no
+03_Composition,biomass_composition,lignin_total_pct,"{""float"": 172, ""int"": 71}",243,62,179,0,no
+03_Composition,biomass_composition,acid_insoluble_lignin_pct,"{""float"": 2}",2,303,2,0,no
+03_Composition,biomass_composition,acid_soluble_lignin_pct,"{""float"": 1}",1,304,1,0,no
+03_Composition,biomass_composition,glucan_pct,"{""float"": 3, ""int"": 2}",5,300,5,0,no
+03_Composition,biomass_composition,xylan_pct,"{""float"": 2, ""int"": 1}",3,302,3,0,no
+03_Composition,biomass_composition,arabinan_pct,"{""float"": 3}",3,302,3,0,no
+03_Composition,biomass_composition,mannan_pct,"{""float"": 1}",1,304,1,0,no
+03_Composition,biomass_composition,galactan_pct,"{""float"": 3}",3,302,3,0,no
+03_Composition,biomass_composition,extractives_pct,"{""float"": 23, ""int"": 4}",27,278,27,0,no
+03_Composition,biomass_composition,ash_pct,"{""float"": 85, ""int"": 8}",93,212,85,0,no
+03_Composition,biomass_composition,moisture_pct,"{""float"": 33, ""int"": 4}",37,268,35,0,no
+03_Composition,biomass_composition,protein_pct,"{""float"": 14}",14,291,14,0,no
+03_Composition,biomass_composition,lipids_pct,"{""float"": 6}",6,299,6,0,no
+03_Composition,biomass_composition,starch_pct,"{""float"": 6}",6,299,6,0,no
+03_Composition,biomass_composition,pectin_pct,"{""float"": 16, ""int"": 8}",24,281,19,0,no
+03_Composition,biomass_composition,volatile_matter_pct,"{""float"": 29, ""int"": 2}",31,274,31,0,no
+03_Composition,biomass_composition,fixed_carbon_pct,"{""float"": 30, ""int"": 1}",31,274,30,0,no
+03_Composition,biomass_composition,carbon_pct,"{""float"": 38, ""int"": 3}",41,264,40,0,no
+03_Composition,biomass_composition,hydrogen_pct,"{""float"": 38, ""int"": 1}",39,266,37,0,no
+03_Composition,biomass_composition,oxygen_pct,"{""float"": 30, ""int"": 2}",32,273,32,0,no
+03_Composition,biomass_composition,nitrogen_pct,"{""float"": 38, ""int"": 1}",39,266,35,0,no
+03_Composition,biomass_composition,sulfur_pct,"{""float"": 9, ""int"": 15}",24,281,6,0,no
+03_Composition,biomass_composition,chlorine_pct,{},0,305,0,0,yes
+03_Composition,biomass_composition,hhv_value,"{""float"": 24}",24,281,24,0,no
+03_Composition,biomass_composition,hhv_unit,"{""str"": 24}",24,281,1,5,no
+03_Composition,biomass_composition,lhv_value,"{""float"": 5, ""int"": 1}",6,299,6,0,no
+03_Composition,biomass_composition,lhv_unit,"{""str"": 6}",6,299,1,5,no
+03_Composition,biomass_composition,uncertainty_text,"{""str"": 63}",63,242,63,206,no
+03_Composition,biomass_composition,n_replicates,"{""int"": 13}",13,292,1,0,no
+03_Composition,biomass_composition,country,"{""str"": 74}",74,231,10,12,no
+03_Composition,biomass_composition,region,"{""str"": 9}",9,296,8,30,no
+03_Composition,biomass_composition,page_table_figure,"{""str"": 305}",305,0,8,35,no
+03_Composition,biomass_composition,notes,"{""str"": 304}",304,1,109,195,no
+04_Molecules,molecule,molecule_id,"{""int"": 170}",170,0,170,0,no
+04_Molecules,molecule,preferred_name,"{""str"": 170}",170,0,170,41,no
+04_Molecules,molecule,synonyms,"{""str"": 13}",13,157,13,35,no
+04_Molecules,molecule,canonical_smiles,"{""str"": 15}",15,155,15,42,no
+04_Molecules,molecule,inchi,"{""str"": 17}",17,153,17,79,no
+04_Molecules,molecule,inchikey,"{""str"": 17}",17,153,17,27,no
+04_Molecules,molecule,cas_number,"{""str"": 17}",17,153,17,8,no
+04_Molecules,molecule,molecular_formula,"{""str"": 17}",17,153,17,7,no
+04_Molecules,molecule,charge,"{""int"": 15}",15,155,1,0,no
+04_Molecules,molecule,multiplicity,{},0,170,0,0,yes
+04_Molecules,molecule,molecule_role,"{""str"": 170}",170,0,4,17,no
+04_Molecules,molecule,renewable_origin,"{""str"": 6}",6,164,2,21,no
+04_Molecules,molecule,notes,"{""str"": 170}",170,0,23,179,no
+05_Biomass_Molecule,biomass_molecule,biomass_molecule_id,"{""int"": 13}",13,0,13,0,no
+05_Biomass_Molecule,biomass_molecule,biomass_id,"{""int"": 13}",13,0,4,0,no
+05_Biomass_Molecule,biomass_molecule,molecule_id,"{""int"": 13}",13,0,2,0,no
+05_Biomass_Molecule,biomass_molecule,source_id,"{""int"": 13}",13,0,2,0,no
+05_Biomass_Molecule,biomass_molecule,fraction_origin,"{""str"": 13}",13,0,3,13,no
+05_Biomass_Molecule,biomass_molecule,conversion_process,"{""str"": 13}",13,0,1,10,no
+05_Biomass_Molecule,biomass_molecule,reported_yield,"{""float"": 5}",5,8,5,0,no
+05_Biomass_Molecule,biomass_molecule,yield_unit,"{""str"": 5}",5,8,2,3,no
+05_Biomass_Molecule,biomass_molecule,temperature_c,"{""int"": 12}",12,1,2,0,no
+05_Biomass_Molecule,biomass_molecule,pressure_bar,{},0,13,0,0,yes
+05_Biomass_Molecule,biomass_molecule,reaction_time_h,"{""float"": 11, ""int"": 2}",13,0,3,0,no
+05_Biomass_Molecule,biomass_molecule,evidence_level,"{""str"": 13}",13,0,2,6,no
+05_Biomass_Molecule,biomass_molecule,page_table_figure,"{""str"": 13}",13,0,2,8,no
+05_Biomass_Molecule,biomass_molecule,notes,"{""str"": 13}",13,0,7,169,no
+06_Reactions,reaction,reaction_id,"{""int"": 82}",82,0,82,0,no
+06_Reactions,reaction,source_id,"{""int"": 82}",82,0,13,0,no
+06_Reactions,reaction,reaction_name,"{""str"": 82}",82,0,8,44,no
+06_Reactions,reaction,reaction_class,"{""str"": 82}",82,0,3,18,no
+06_Reactions,reaction,temperature_c,"{""int"": 82}",82,0,29,0,no
+06_Reactions,reaction,pressure_bar,"{""float"": 3, ""int"": 45}",48,34,15,0,no
+06_Reactions,reaction,reaction_time_h,"{""float"": 8, ""int"": 54}",62,20,18,0,no
+06_Reactions,reaction,catalyst_text,"{""str"": 82}",82,0,72,90,no
+06_Reactions,reaction,solvent_text,"{""str"": 69}",69,13,16,36,no
+06_Reactions,reaction,conversion_pct,"{""float"": 9, ""int"": 66}",75,7,43,0,no
+06_Reactions,reaction,selectivity_pct,"{""float"": 6, ""int"": 26}",32,50,25,0,no
+06_Reactions,reaction,yield_pct,"{""float"": 12, ""int"": 37}",49,33,37,0,no
+06_Reactions,reaction,yield_basis,{},0,82,0,0,yes
+06_Reactions,reaction,h2_consumption,{},0,82,0,0,yes
+06_Reactions,reaction,h2_unit,{},0,82,0,0,yes
+06_Reactions,reaction,trl,{},0,82,0,0,yes
+06_Reactions,reaction,reactor_type,"{""str"": 9}",9,73,4,44,no
+06_Reactions,reaction,page_table_figure,"{""str"": 82}",82,0,10,31,no
+06_Reactions,reaction,notes,"{""str"": 82}",82,0,24,193,no
+07_Reaction_Participants,reaction_participant,participant_id,"{""int"": 164}",164,0,164,0,no
+07_Reaction_Participants,reaction_participant,reaction_id,"{""int"": 164}",164,0,82,0,no
+07_Reaction_Participants,reaction_participant,molecule_id,"{""int"": 164}",164,0,12,0,no
+07_Reaction_Participants,reaction_participant,participant_role,"{""str"": 164}",164,0,2,8,no
+07_Reaction_Participants,reaction_participant,stoichiometric_coefficient,{},0,164,0,0,yes
+07_Reaction_Participants,reaction_participant,notes,"{""str"": 150}",150,14,75,63,no
+08_Fuel_Properties,fuel_property,fuel_property_id,"{""int"": 61}",61,0,61,0,no
+08_Fuel_Properties,fuel_property,molecule_id,"{""int"": 61}",61,0,18,0,no
+08_Fuel_Properties,fuel_property,source_id,"{""int"": 61}",61,0,5,0,no
+08_Fuel_Properties,fuel_property,property_name,"{""str"": 61}",61,0,8,19,no
+08_Fuel_Properties,fuel_property,value,"{""float"": 46, ""int"": 15}",61,0,57,0,no
+08_Fuel_Properties,fuel_property,unit,"{""str"": 56}",56,5,5,5,no
+08_Fuel_Properties,fuel_property,temperature_c,"{""int"": 2}",2,59,2,0,no
+08_Fuel_Properties,fuel_property,pressure_bar,{},0,61,0,0,yes
+08_Fuel_Properties,fuel_property,uncertainty,"{""str"": 5}",5,56,3,7,no
+08_Fuel_Properties,fuel_property,measurement_method,"{""str"": 61}",61,0,9,38,no
+08_Fuel_Properties,fuel_property,value_origin,"{""str"": 61}",61,0,1,10,no
+08_Fuel_Properties,fuel_property,page_table_figure,"{""str"": 61}",61,0,5,20,no
+08_Fuel_Properties,fuel_property,notes,"{""str"": 35}",35,26,14,174,no
+09_Descriptors,molecular_descriptor,descriptor_id,{},0,0,0,0,yes
+09_Descriptors,molecular_descriptor,molecule_id,{},0,0,0,0,yes
+09_Descriptors,molecular_descriptor,descriptor_name,{},0,0,0,0,yes
+09_Descriptors,molecular_descriptor,descriptor_value,{},0,0,0,0,yes
+09_Descriptors,molecular_descriptor,unit,{},0,0,0,0,yes
+09_Descriptors,molecular_descriptor,software,{},0,0,0,0,yes
+09_Descriptors,molecular_descriptor,software_version,{},0,0,0,0,yes
+09_Descriptors,molecular_descriptor,calculation_date,{},0,0,0,0,yes
+09_Descriptors,molecular_descriptor,config_hash,{},0,0,0,0,yes
+09_Descriptors,molecular_descriptor,notes,{},0,0,0,0,yes
+10_Quantum_Calc,quantum_calculation,calculation_id,{},0,0,0,0,yes
+10_Quantum_Calc,quantum_calculation,molecule_id,{},0,0,0,0,yes
+10_Quantum_Calc,quantum_calculation,conformer_id,{},0,0,0,0,yes
+10_Quantum_Calc,quantum_calculation,software,{},0,0,0,0,yes
+10_Quantum_Calc,quantum_calculation,software_version,{},0,0,0,0,yes
+10_Quantum_Calc,quantum_calculation,method,{},0,0,0,0,yes
+10_Quantum_Calc,quantum_calculation,basis_set,{},0,0,0,0,yes
+10_Quantum_Calc,quantum_calculation,dispersion_correction,{},0,0,0,0,yes
+10_Quantum_Calc,quantum_calculation,solvent_model,{},0,0,0,0,yes
+10_Quantum_Calc,quantum_calculation,charge,{},0,0,0,0,yes
+10_Quantum_Calc,quantum_calculation,multiplicity,{},0,0,0,0,yes
+10_Quantum_Calc,quantum_calculation,status,{},0,0,0,0,yes
+10_Quantum_Calc,quantum_calculation,started_at,{},0,0,0,0,yes
+10_Quantum_Calc,quantum_calculation,finished_at,{},0,0,0,0,yes
+10_Quantum_Calc,quantum_calculation,input_path,{},0,0,0,0,yes
+10_Quantum_Calc,quantum_calculation,output_path,{},0,0,0,0,yes
+10_Quantum_Calc,quantum_calculation,geometry_path,{},0,0,0,0,yes
+10_Quantum_Calc,quantum_calculation,file_hash,{},0,0,0,0,yes
+10_Quantum_Calc,quantum_calculation,runtime_seconds,{},0,0,0,0,yes
+10_Quantum_Calc,quantum_calculation,hardware_notes,{},0,0,0,0,yes
+11_Quantum_Properties,quantum_property,quantum_property_id,{},0,0,0,0,yes
+11_Quantum_Properties,quantum_property,calculation_id,{},0,0,0,0,yes
+11_Quantum_Properties,quantum_property,property_name,{},0,0,0,0,yes
+11_Quantum_Properties,quantum_property,value,{},0,0,0,0,yes
+11_Quantum_Properties,quantum_property,unit,{},0,0,0,0,yes
+11_Quantum_Properties,quantum_property,notes,{},0,0,0,0,yes

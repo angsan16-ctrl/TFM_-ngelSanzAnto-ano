@@ -1,0 +1,163 @@
+molecule_id,preferred_name,descriptor_name,descriptor_value,unit,software,software_version,calculation_date,config_hash
+1,D-glucose,MolWt,180.156,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+1,D-glucose,MolLogP,-3.2213999999999987,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+1,D-glucose,TPSA,110.38000000000001,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+1,D-glucose,HBD,5.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+1,D-glucose,HBA,6.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+1,D-glucose,RotatableBonds,1.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+1,D-glucose,RingCount,1.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+1,D-glucose,FractionCSP3,1.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+1,D-glucose,HeavyAtomCount,12.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+2,D-xylose,MolWt,150.13,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+2,D-xylose,MolLogP,-2.5823,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+2,D-xylose,TPSA,90.15,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+2,D-xylose,HBD,4.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+2,D-xylose,HBA,5.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+2,D-xylose,RotatableBonds,0.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+2,D-xylose,RingCount,1.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+2,D-xylose,FractionCSP3,1.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+2,D-xylose,HeavyAtomCount,10.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+3,5-hydroxymethylfurfural,MolWt,126.11099999999996,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+3,5-hydroxymethylfurfural,MolLogP,0.5844,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+3,5-hydroxymethylfurfural,TPSA,50.44,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+3,5-hydroxymethylfurfural,HBD,1.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+3,5-hydroxymethylfurfural,HBA,3.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+3,5-hydroxymethylfurfural,RotatableBonds,2.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+3,5-hydroxymethylfurfural,RingCount,1.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+3,5-hydroxymethylfurfural,FractionCSP3,0.16666666666666666,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+3,5-hydroxymethylfurfural,HeavyAtomCount,9.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+4,levulinic acid,MolWt,116.11599999999999,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+4,levulinic acid,MolLogP,0.4402,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+4,levulinic acid,TPSA,54.370000000000005,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+4,levulinic acid,HBD,1.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+4,levulinic acid,HBA,2.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+4,levulinic acid,RotatableBonds,3.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+4,levulinic acid,RingCount,0.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+4,levulinic acid,FractionCSP3,0.6,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+4,levulinic acid,HeavyAtomCount,8.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+5,sorbitol,MolWt,182.172,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+5,sorbitol,MolLogP,-3.585399999999998,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+5,sorbitol,TPSA,121.38000000000001,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+5,sorbitol,HBD,6.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+5,sorbitol,HBA,6.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+5,sorbitol,RotatableBonds,5.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+5,sorbitol,RingCount,0.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+5,sorbitol,FractionCSP3,1.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+5,sorbitol,HeavyAtomCount,12.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+6,furfural,MolWt,96.08499999999998,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+6,furfural,MolLogP,1.0920999999999998,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+6,furfural,TPSA,30.21,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+6,furfural,HBD,0.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+6,furfural,HBA,2.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+6,furfural,RotatableBonds,1.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+6,furfural,RingCount,1.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+6,furfural,FractionCSP3,0.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+6,furfural,HeavyAtomCount,7.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+7,furfuryl alcohol,MolWt,98.10099999999998,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+7,furfuryl alcohol,MolLogP,0.7719,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+7,furfuryl alcohol,TPSA,33.370000000000005,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+7,furfuryl alcohol,HBD,1.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+7,furfuryl alcohol,HBA,2.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+7,furfuryl alcohol,RotatableBonds,1.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+7,furfuryl alcohol,RingCount,1.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+7,furfuryl alcohol,FractionCSP3,0.2,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+7,furfuryl alcohol,HeavyAtomCount,7.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+8,2-methylfuran,MolWt,82.102,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+8,2-methylfuran,MolLogP,1.58802,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+8,2-methylfuran,TPSA,13.14,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+8,2-methylfuran,HBD,0.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+8,2-methylfuran,HBA,1.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+8,2-methylfuran,RotatableBonds,0.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+8,2-methylfuran,RingCount,1.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+8,2-methylfuran,FractionCSP3,0.2,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+8,2-methylfuran,HeavyAtomCount,6.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+9,phenol,MolWt,94.11299999999997,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+9,phenol,MolLogP,1.3921999999999997,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+9,phenol,TPSA,20.23,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+9,phenol,HBD,1.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+9,phenol,HBA,1.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+9,phenol,RotatableBonds,0.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+9,phenol,RingCount,1.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+9,phenol,FractionCSP3,0.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+9,phenol,HeavyAtomCount,7.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+10,guaiacol,MolWt,124.13899999999997,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+10,guaiacol,MolLogP,1.4008,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+10,guaiacol,TPSA,29.46,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+10,guaiacol,HBD,1.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+10,guaiacol,HBA,2.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+10,guaiacol,RotatableBonds,1.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+10,guaiacol,RingCount,1.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+10,guaiacol,FractionCSP3,0.14285714285714285,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+10,guaiacol,HeavyAtomCount,9.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+11,syringol,MolWt,154.16499999999996,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+11,syringol,MolLogP,1.4093999999999995,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+11,syringol,TPSA,38.69,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+11,syringol,HBD,1.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+11,syringol,HBA,3.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+11,syringol,RotatableBonds,2.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+11,syringol,RingCount,1.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+11,syringol,FractionCSP3,0.25,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+11,syringol,HeavyAtomCount,11.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+12,catechol,MolWt,110.11199999999997,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+12,catechol,MolLogP,1.0977999999999994,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+12,catechol,TPSA,40.46,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+12,catechol,HBD,2.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+12,catechol,HBA,2.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+12,catechol,RotatableBonds,0.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+12,catechol,RingCount,1.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+12,catechol,FractionCSP3,0.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+12,catechol,HeavyAtomCount,8.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+13,cyclohexane,MolWt,84.162,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+13,cyclohexane,MolLogP,2.3406000000000002,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+13,cyclohexane,TPSA,0.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+13,cyclohexane,HBD,0.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+13,cyclohexane,HBA,0.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+13,cyclohexane,RotatableBonds,0.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+13,cyclohexane,RingCount,1.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+13,cyclohexane,FractionCSP3,1.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+13,cyclohexane,HeavyAtomCount,6.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+14,gamma-valerolactone,MolWt,100.11699999999999,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+14,gamma-valerolactone,MolLogP,0.7119,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+14,gamma-valerolactone,TPSA,26.3,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+14,gamma-valerolactone,HBD,0.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+14,gamma-valerolactone,HBA,2.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+14,gamma-valerolactone,RotatableBonds,0.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+14,gamma-valerolactone,RingCount,1.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+14,gamma-valerolactone,FractionCSP3,0.8,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+14,gamma-valerolactone,HeavyAtomCount,7.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+15,"2,5-dimethylfuran",MolWt,96.129,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+15,"2,5-dimethylfuran",MolLogP,1.89644,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+15,"2,5-dimethylfuran",TPSA,13.14,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+15,"2,5-dimethylfuran",HBD,0.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+15,"2,5-dimethylfuran",HBA,1.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+15,"2,5-dimethylfuran",RotatableBonds,0.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+15,"2,5-dimethylfuran",RingCount,1.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+15,"2,5-dimethylfuran",FractionCSP3,0.3333333333333333,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+15,"2,5-dimethylfuran",HeavyAtomCount,7.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+171,2-methylheptane,MolWt,114.23199999999999,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+171,2-methylheptane,MolLogP,3.2227000000000023,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+171,2-methylheptane,TPSA,0.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+171,2-methylheptane,HBD,0.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+171,2-methylheptane,HBA,0.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+171,2-methylheptane,RotatableBonds,4.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+171,2-methylheptane,RingCount,0.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+171,2-methylheptane,FractionCSP3,1.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+171,2-methylheptane,HeavyAtomCount,8.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+172,ethylcyclohexane,MolWt,112.21600000000001,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+172,ethylcyclohexane,MolLogP,2.976700000000002,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+172,ethylcyclohexane,TPSA,0.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+172,ethylcyclohexane,HBD,0.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+172,ethylcyclohexane,HBA,0.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+172,ethylcyclohexane,RotatableBonds,1.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+172,ethylcyclohexane,RingCount,1.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+172,ethylcyclohexane,FractionCSP3,1.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+172,ethylcyclohexane,HeavyAtomCount,8.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+173,propylcyclohexane,MolWt,126.24300000000001,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+173,propylcyclohexane,MolLogP,3.3668000000000022,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+173,propylcyclohexane,TPSA,0.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+173,propylcyclohexane,HBD,0.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+173,propylcyclohexane,HBA,0.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+173,propylcyclohexane,RotatableBonds,2.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+173,propylcyclohexane,RingCount,1.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+173,propylcyclohexane,FractionCSP3,1.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3
+173,propylcyclohexane,HeavyAtomCount,9.0,,RDKit,2026.03.6,2026-09-16,520d4201b277fdf3

@@ -1,0 +1,181 @@
+molecule_id,preferred_name,descriptor_name,descriptor_value,unit,software,software_version,calculation_date,config_hash,notes
+1,D-glucose,RadiusOfGyration,2.427236284337748,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+1,D-glucose,Asphericity,0.24843662712379744,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+1,D-glucose,Eccentricity,0.9067561378339176,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+1,D-glucose,InertialShapeFactor,0.0014157027457355669,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+1,D-glucose,SpherocityIndex,0.21302722098446075,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+1,D-glucose,PMI1,438.29979966146226,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+1,D-glucose,PMI2,644.9958424954424,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+1,D-glucose,PMI3,1039.4738511509167,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+1,D-glucose,NPR1,0.42165543575355163,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+1,D-glucose,NPR2,0.6205022298360809,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+2,D-xylose,RadiusOfGyration,2.1331848696262865,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+2,D-xylose,Asphericity,0.2510455064693283,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+2,D-xylose,Eccentricity,0.9124375531936153,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+2,D-xylose,InertialShapeFactor,0.002375920321683533,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+2,D-xylose,SpherocityIndex,0.25831403432832617,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+2,D-xylose,PMI1,272.01323758224515,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+2,D-xylose,PMI2,429.59515566965905,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+2,D-xylose,PMI3,664.7180373477329,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+2,D-xylose,NPR1,0.40921597173381247,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+2,D-xylose,NPR2,0.6462817789385872,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+3,5-hydroxymethylfurfural,RadiusOfGyration,2.2473411734962694,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+3,5-hydroxymethylfurfural,Asphericity,0.5441818321204336,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+3,5-hydroxymethylfurfural,Eccentricity,0.9826680168646944,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+3,5-hydroxymethylfurfural,InertialShapeFactor,0.0074571183176680746,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+3,5-hydroxymethylfurfural,SpherocityIndex,0.11402368962663612,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+3,5-hydroxymethylfurfural,PMI1,115.41392975328246,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+3,5-hydroxymethylfurfural,PMI2,535.8439872637541,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+3,5-hydroxymethylfurfural,PMI3,622.5999756077647,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+3,5-hydroxymethylfurfural,NPR1,0.18537413150493398,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+3,5-hydroxymethylfurfural,NPR2,0.860655329677259,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+4,levulinic acid,RadiusOfGyration,2.059784218635986,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+4,levulinic acid,Asphericity,0.3787876732875226,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+4,levulinic acid,Eccentricity,0.9566633194208485,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+4,levulinic acid,InertialShapeFactor,0.007750574630477234,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+4,levulinic acid,SpherocityIndex,0.3041139771030239,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+4,levulinic acid,PMI1,126.36182832951552,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+4,levulinic acid,PMI2,424.9910961049165,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+4,levulinic acid,PMI3,433.94034286722234,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+4,levulinic acid,NPR1,0.291196313978532,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+4,levulinic acid,NPR2,0.9793767809114624,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+5,sorbitol,RadiusOfGyration,2.796037457769178,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+5,sorbitol,Asphericity,0.5843117263053385,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+5,sorbitol,Eccentricity,0.9860450576997903,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+5,sorbitol,InertialShapeFactor,0.004164941284839499,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+5,sorbitol,SpherocityIndex,0.22463702306481864,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+5,sorbitol,PMI1,225.29135195947245,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+5,sorbitol,PMI2,1269.8117884365922,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+5,sorbitol,PMI3,1353.2746609143737,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+5,sorbitol,NPR1,0.16647865985109686,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+5,sorbitol,NPR2,0.938325252893313,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+6,furfural,RadiusOfGyration,1.7946907506915704,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+6,furfural,Asphericity,0.5203684785087165,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+6,furfural,Eccentricity,0.9798376469186575,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+6,furfural,InertialShapeFactor,0.012941387012848984,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+6,furfural,SpherocityIndex,2.1153241326922858e-10,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+6,furfural,PMI1,61.83298898198228,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+6,furfural,PMI2,247.6486182961892,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+6,furfural,PMI3,309.4816072518647,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+6,furfural,NPR1,0.19979535950794283,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+6,furfural,NPR2,0.8002046405770599,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+7,furfuryl alcohol,RadiusOfGyration,1.774056052605208,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+7,furfuryl alcohol,Asphericity,0.43107036098180695,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+7,furfuryl alcohol,Eccentricity,0.9686164966744433,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+7,furfuryl alcohol,InertialShapeFactor,0.011376816566224105,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+7,furfuryl alcohol,SpherocityIndex,0.15600364955261828,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+7,furfuryl alcohol,PMI1,73.58783389110118,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+7,furfuryl alcohol,PMI2,247.85719098768365,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+7,furfuryl alcohol,PMI3,296.0566006924211,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+7,furfuryl alcohol,NPR1,0.24856001764187313,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+7,furfuryl alcohol,NPR2,0.8371952876848276,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+8,2-methylfuran,RadiusOfGyration,1.5509769497295316,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+8,2-methylfuran,Asphericity,0.37023199162470777,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+8,2-methylfuran,Eccentricity,0.9550254745894727,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+8,2-methylfuran,InertialShapeFactor,0.012388961476528364,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+8,2-methylfuran,SpherocityIndex,0.08955352193433744,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+8,2-methylfuran,PMI1,58.091897792417846,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+8,2-methylfuran,PMI2,140.99591384823714,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+8,2-methylfuran,PMI3,195.90975414619814,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+8,2-methylfuran,NPR1,0.29652376445261946,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+8,2-methylfuran,NPR2,0.7196982838486877,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+9,phenol,RadiusOfGyration,1.7287878154790235,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+9,phenol,Asphericity,0.3483064622063885,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+9,phenol,Eccentricity,0.9477619860582778,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+9,phenol,InertialShapeFactor,0.007590434096569276,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+9,phenol,SpherocityIndex,3.5613385765323232e-12,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+9,phenol,PMI1,89.721034961819,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+9,phenol,PMI2,191.55517619363718,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+9,phenol,PMI3,281.2762111551802,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+9,phenol,NPR1,0.3189783970473062,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+9,phenol,NPR2,0.681021602953675,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+10,guaiacol,RadiusOfGyration,2.041348685685607,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+10,guaiacol,Asphericity,0.294447753304989,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+10,guaiacol,Eccentricity,0.9271371218726545,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+10,guaiacol,InertialShapeFactor,0.0032690309533430326,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+10,guaiacol,SpherocityIndex,0.0453971617285124,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+10,guaiacol,PMI1,193.2268365762951,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+10,guaiacol,PMI2,325.7200185445306,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+10,guaiacol,PMI3,515.6535051425832,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+10,guaiacol,NPR1,0.3747222401268581,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+10,guaiacol,NPR2,0.6316645097844644,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+11,syringol,RadiusOfGyration,2.3975774064641673,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+11,syringol,Asphericity,0.4347092830496145,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+11,syringol,Eccentricity,0.9679967581780718,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+11,syringol,InertialShapeFactor,0.0034141463099156095,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+11,syringol,SpherocityIndex,0.051869562622669514,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+11,syringol,PMI1,221.57658217492352,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+11,syringol,PMI2,667.9141906731614,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+11,syringol,PMI3,882.9064370566441,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+11,syringol,NPR1,0.2509626987357755,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+11,syringol,NPR2,0.756494870396228,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+12,catechol,RadiusOfGyration,1.8401961824324495,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+12,catechol,Asphericity,0.2773513669947783,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+12,catechol,Eccentricity,0.9145307545606972,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+12,catechol,InertialShapeFactor,0.003947942439123666,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+12,catechol,SpherocityIndex,1.1469498663144804e-12,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+12,catechol,PMI1,150.83391730041453,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+12,catechol,PMI2,222.04076964483303,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+12,catechol,PMI3,372.8746869450473,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+12,catechol,NPR1,0.40451637663096124,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+12,catechol,NPR2,0.5954836233695758,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+13,cyclohexane,RadiusOfGyration,1.6135971248439906,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+13,cyclohexane,Asphericity,0.16121849285390355,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+13,cyclohexane,Eccentricity,0.8214601428111294,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+13,cyclohexane,InertialShapeFactor,0.004884119959729295,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+13,cyclohexane,SpherocityIndex,0.4383599782429309,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+13,cyclohexane,PMI1,116.75938769860583,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+13,cyclohexane,PMI2,116.75957676925395,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+13,cyclohexane,PMI3,204.745507392088,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+13,cyclohexane,NPR1,0.5702659325023011,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+13,cyclohexane,NPR2,0.570266855944532,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+14,gamma-valerolactone,RadiusOfGyration,1.7650073960496633,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+14,gamma-valerolactone,Asphericity,0.35214352253172326,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+14,gamma-valerolactone,Eccentricity,0.9529732934345669,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+14,gamma-valerolactone,InertialShapeFactor,0.008443666546573187,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+14,gamma-valerolactone,SpherocityIndex,0.3490644563857563,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+14,gamma-valerolactone,PMI1,91.18970062386666,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+14,gamma-valerolactone,PMI2,231.6872950883127,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+14,gamma-valerolactone,PMI3,300.90219466912055,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+14,gamma-valerolactone,NPR1,0.3030542888666568,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+14,gamma-valerolactone,NPR2,0.769975424549767,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+15,"2,5-dimethylfuran",RadiusOfGyration,1.8051432159980734,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+15,"2,5-dimethylfuran",Asphericity,0.40732051139013314,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+15,"2,5-dimethylfuran",Eccentricity,0.963381168943551,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+15,"2,5-dimethylfuran",InertialShapeFactor,0.009049482310906567,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+15,"2,5-dimethylfuran",SpherocityIndex,0.10591199239495308,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+15,"2,5-dimethylfuran",PMI1,83.13879439647722,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+15,"2,5-dimethylfuran",PMI2,233.27952987381727,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+15,"2,5-dimethylfuran",PMI3,310.06244938417547,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+15,"2,5-dimethylfuran",NPR1,0.268135643518271,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+15,"2,5-dimethylfuran",NPR2,0.7523630492410187,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+171,2-methylheptane,RadiusOfGyration,2.744826591354806,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+171,2-methylheptane,Asphericity,0.7179973983021141,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+171,2-methylheptane,Eccentricity,0.9944622651295275,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+171,2-methylheptane,InertialShapeFactor,0.010618094147340131,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+171,2-methylheptane,SpherocityIndex,0.17499904510854142,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+171,2-methylheptane,PMI1,88.47674544481085,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+171,2-methylheptane,PMI2,790.9077993495852,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+171,2-methylheptane,PMI3,841.879912872034,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+171,2-methylheptane,NPR1,0.1050942588034635,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+171,2-methylheptane,NPR2,0.9394544129832486,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+172,ethylcyclohexane,RadiusOfGyration,2.1131956737029176,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+172,ethylcyclohexane,Asphericity,0.3898127652713426,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+172,ethylcyclohexane,Eccentricity,0.9613507414996175,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+172,ethylcyclohexane,InertialShapeFactor,0.006085757733816504,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+172,ethylcyclohexane,SpherocityIndex,0.291132564574137,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+172,ethylcyclohexane,PMI1,132.5397171377242,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+172,ethylcyclohexane,PMI2,388.29207197412086,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+172,ethylcyclohexane,PMI3,481.3908423407753,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+172,ethylcyclohexane,NPR1,0.27532662751382314,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+172,ethylcyclohexane,NPR2,0.8066046086087569,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+173,propylcyclohexane,RadiusOfGyration,2.462117670611553,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+173,propylcyclohexane,Asphericity,0.5486085615633697,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+173,propylcyclohexane,Eccentricity,0.9831038519036596,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+173,propylcyclohexane,InertialShapeFactor,0.006431865726569878,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+173,propylcyclohexane,SpherocityIndex,0.22607009007699602,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+173,propylcyclohexane,PMI1,136.10619973512317,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+173,propylcyclohexane,PMI2,650.917882164921,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+173,propylcyclohexane,PMI3,743.5519643162793,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+173,propylcyclohexane,NPR1,0.18304867213991874,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization
+173,propylcyclohexane,NPR2,0.875416801250013,,RDKit,2026.03.6,2026-09-17,160c6e9753e3649b,3D on minimum-energy ETKDGv3 conformer after FF optimization

@@ -1,0 +1,5 @@
+variable,n,groups,H,p_value,epsilon_squared,group_labels,q_fdr_bh
+cellulose_pct,46,4,21.835468091268922,7.058038048609729e-05,0.44846352598259337,agricultural_residue | agroindustrial_residue | food_industry_residue | herbaceous_biomass,9.410717398146305e-05
+hemicellulose_pct,48,4,22.116145453634434,6.170008887528991e-05,0.4344578512189644,agricultural_residue | agroindustrial_residue | food_industry_residue | herbaceous_biomass,9.410717398146305e-05
+lignin_total_pct,50,4,26.344894267556693,8.076106123780975e-06,0.5074977014686237,agricultural_residue | agroindustrial_residue | food_industry_residue | herbaceous_biomass,3.23044244951239e-05
+ash_pct,36,5,20.049881948916106,0.00048820219352428305,0.5177381273843905,agricultural_residue | agroindustrial_residue | food_industry_residue | forestry_residue | woody_biomass,0.00048820219352428305

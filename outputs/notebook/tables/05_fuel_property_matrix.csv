@@ -1,0 +1,22 @@
+molecule_id,preferred_name,molecule_role,boiling_point,density,energy_density,flash_point,lower_heating_value,melting_point,octane_number,specific_energy
+6,furfural,platform_molecule,161.55,,,,,,,
+7,furfuryl alcohol,intermediate,171.0,,,,,,,
+8,2-methylfuran,fuel_candidate,62.925,910.0,,,31.2,,103.0,
+13,cyclohexane,fuel_candidate,80.78,,,,,,,
+14,gamma-valerolactone,fuel_candidate,207.55,,,,,,,
+15,"2,5-dimethylfuran",fuel_candidate,92.925,889.85,30.0,,33.55,,119.0,
+16,methyl levulinate,intermediate,196.05,,,,,,,
+17,ethyl levulinate,intermediate,205.85,,,,,,,
+18,tetrahydrofuran,fuel_candidate,65.85,889.2,,,34.6,,,
+19,2-methyltetrahydrofuran,fuel_candidate,80.05,854.0,,,32.8,,86.0,
+20,"1,1-diethylcyclohexane",fuel_candidate,,828.6,35.81,49.2,,-54.4,,43.6
+21,"1,2,3,4-tetramethylcyclohexane",fuel_candidate,,825.8,35.4,40.5,,-75.0,,43.26
+22,"1,4-dimethylcyclooctane",fuel_candidate,,827.0,36.22,49.5,,-78.0,,43.82
+23,"1,1,4-trimethylcycloheptane",fuel_candidate,,807.6,34.83,42.5,,,,43.56
+24,"1,1,5-trimethyl-2-pentylcyclohexane",fuel_candidate,,812.6,35.0,,,,,43.46
+168,cis-decalin,fuel_candidate,,901.02,38.7,,,-38.8,,42.98
+169,"1,2-dimethyl-cis-decalin",fuel_candidate,,,32.6,,,,,42.94
+170,"1,3-dimethyl-cis-decalin",fuel_candidate,,,32.55,,,,,42.88
+171,2-methylheptane,fuel_candidate,,,,,,,,44.82
+172,ethylcyclohexane,fuel_candidate,,,,,,,,43.88
+173,propylcyclohexane,fuel_candidate,,,,,,,,43.89

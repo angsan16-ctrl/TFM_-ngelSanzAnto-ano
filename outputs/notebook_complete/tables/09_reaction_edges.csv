@@ -1,0 +1,83 @@
+reactant_id,product_id,reaction_id,reaction_name,reaction_class,temperature_c,pressure_bar,reaction_time_h,yield_pct,conversion_pct,selectivity_pct,trl,source_id
+1,3,1,glucose to 5-hydroxymethylfurfural,dehydration,140.0,,0.008333,71.0,96.0,,,26
+2,6,2,xylose to furfural,dehydration,180.0,,0.25,92.2,,,,27
+6,7,3,furfural to furfuryl alcohol,hydrogenation,150.0,20.0,1.5,88.0,,96.0,,28
+6,8,4,furfural to 2-methylfuran,hydrodeoxygenation,180.0,20.0,,92.4,,,,29
+3,15,5,"5-hydroxymethylfurfural to 2,5-dimethylfuran",hydrodeoxygenation,200.0,10.0,1.5,97.9,98.7,,,30
+4,14,6,levulinic acid to gamma-valerolactone,hydrogenation,140.0,30.0,3.0,100.0,100.0,100.0,,31
+10,13,7,guaiacol to cyclohexane,hydrodeoxygenation,140.0,30.0,2.5,91.7,,,,32
+4,14,8,levulinic acid to gamma-valerolactone,hydrogenation,230.0,,1.0,,53.0,82.0,,54
+4,14,9,levulinic acid to gamma-valerolactone,hydrogenation,270.0,,1.0,,66.0,81.0,,54
+4,14,10,levulinic acid to gamma-valerolactone,hydrogenation,290.0,,1.0,,68.0,75.0,,54
+4,14,11,levulinic acid to gamma-valerolactone,hydrogenation,90.0,,12.0,,90.93,99.9,,54
+4,14,12,levulinic acid to gamma-valerolactone,hydrogenation,190.0,,2.0,86.0,89.0,,,54
+4,14,13,levulinic acid to gamma-valerolactone,hydrogenation,240.0,,2.0,83.5,90.8,100.0,,54
+4,14,14,levulinic acid to gamma-valerolactone,hydrogenation,270.0,,,,26.0,88.0,,55
+4,14,15,levulinic acid to gamma-valerolactone,hydrogenation,270.0,,,,55.0,90.0,,55
+4,14,16,levulinic acid to gamma-valerolactone,hydrogenation,270.0,,,,80.0,93.0,,55
+4,14,17,levulinic acid to gamma-valerolactone,hydrogenation,270.0,,,,100.0,99.0,,55
+4,14,18,levulinic acid to gamma-valerolactone,hydrogenation,270.0,,,,92.0,97.0,,55
+4,14,19,levulinic acid to gamma-valerolactone,hydrogenation,160.0,30.0,1.0,,43.0,97.3,,55
+4,14,20,levulinic acid to gamma-valerolactone,hydrogenation,160.0,30.0,1.0,,83.0,93.4,,55
+4,14,21,levulinic acid to gamma-valerolactone,hydrogenation,160.0,30.0,1.0,,100.0,99.7,,55
+4,14,22,levulinic acid to gamma-valerolactone,hydrogenation,160.0,30.0,1.0,,100.0,94.9,,55
+4,14,23,levulinic acid to gamma-valerolactone,hydrogenation,160.0,30.0,1.0,,22.0,95.6,,55
+4,14,24,levulinic acid to gamma-valerolactone,hydrogenation,265.0,,,,98.0,87.0,,55
+4,14,25,levulinic acid to gamma-valerolactone,hydrogenation,265.0,,,,82.0,76.0,,55
+4,14,26,levulinic acid to gamma-valerolactone,hydrogenation,265.0,,,,76.0,71.0,,55
+4,14,27,levulinic acid to gamma-valerolactone,hydrogenation,265.0,,,,69.0,66.0,,55
+4,14,28,levulinic acid to gamma-valerolactone,hydrogenation,265.0,,,,41.0,56.0,,55
+4,14,29,levulinic acid to gamma-valerolactone,hydrogenation,250.0,1.0,10.0,,48.0,17.0,,55
+4,14,30,levulinic acid to gamma-valerolactone,hydrogenation,250.0,1.0,10.0,,8.0,55.0,,55
+4,14,31,levulinic acid to gamma-valerolactone,hydrogenation,250.0,1.0,10.0,,38.0,82.0,,55
+4,14,32,levulinic acid to gamma-valerolactone,hydrogenation,250.0,1.0,10.0,,24.0,15.0,,55
+4,14,33,levulinic acid to gamma-valerolactone,hydrogenation,250.0,1.0,10.0,,48.0,64.0,,55
+4,14,34,levulinic acid to gamma-valerolactone,hydrogenation,180.0,50.0,3.0,,43.0,99.0,,55
+4,14,35,levulinic acid to gamma-valerolactone,hydrogenation,180.0,50.0,3.0,,46.0,99.0,,55
+4,14,36,levulinic acid to gamma-valerolactone,hydrogenation,180.0,50.0,3.0,,43.0,99.0,,55
+4,14,37,levulinic acid to gamma-valerolactone,hydrogenation,180.0,50.0,3.0,,100.0,99.0,,55
+4,14,38,levulinic acid to gamma-valerolactone,hydrogenation,180.0,50.0,3.0,,93.0,99.0,,55
+16,14,39,methyl levulinate to gamma-valerolactone,hydrogenation,200.0,,,4.0,80.0,,,56
+16,14,40,methyl levulinate to gamma-valerolactone,hydrogenation,200.0,,,2.0,78.0,,,56
+4,14,41,levulinic acid to gamma-valerolactone,hydrogenation,150.0,,,60.0,68.0,,,56
+4,14,42,levulinic acid to gamma-valerolactone,hydrogenation,170.0,,,90.0,95.0,,,56
+4,14,43,levulinic acid to gamma-valerolactone,hydrogenation,170.0,,,42.0,68.0,,,56
+4,14,44,levulinic acid to gamma-valerolactone,hydrogenation,190.0,,,65.0,86.0,,,56
+4,14,45,levulinic acid to gamma-valerolactone,hydrogenation,175.0,,,94.0,,,,56
+6,7,46,furfural to furfuryl alcohol,hydrogenation,180.0,10.0,4.0,17.0,87.0,,,57
+6,7,47,furfural to furfuryl alcohol,hydrogenation,60.0,21.0,6.0,98.0,99.9,,,57
+6,7,48,furfural to furfuryl alcohol,hydrogenation,80.0,20.0,1.0,97.0,98.0,,,57
+6,7,49,furfural to furfuryl alcohol,hydrogenation,80.0,20.0,1.0,93.0,95.0,,,57
+6,7,50,furfural to furfuryl alcohol,hydrogenation,80.0,20.0,1.0,90.0,94.0,,,57
+6,7,51,furfural to furfuryl alcohol,hydrogenation,80.0,20.0,1.0,88.0,92.0,,,57
+6,7,52,furfural to furfuryl alcohol,hydrogenation,50.0,10.0,3.0,65.0,69.0,,,57
+6,7,53,furfural to furfuryl alcohol,hydrogenation,80.0,17.0,,41.0,50.0,,,57
+6,7,54,furfural to furfuryl alcohol,hydrogenation,110.0,100.0,,,66.3,,,58
+6,7,55,furfural to furfuryl alcohol,hydrogenation,25.0,10.0,3.0,26.5,80.2,,,58
+6,7,56,furfural to furfuryl alcohol,hydrogenation,60.0,5.0,3.0,,,,,58
+6,7,57,furfural to furfuryl alcohol,hydrogenation,70.0,10.0,2.0,97.0,98.0,,,58
+6,7,58,furfural to furfuryl alcohol,hydrogenation,100.0,10.0,1.0,99.0,100.0,,,58
+6,7,59,furfural to furfuryl alcohol,hydrogenation,110.0,6.0,1.3,99.0,100.0,,,58
+6,7,60,furfural to furfuryl alcohol,hydrogenation,20.0,5.0,4.0,94.0,95.0,,,58
+6,7,61,furfural to furfuryl alcohol,hydrogenation,90.0,20.0,4.0,93.0,94.0,,,58
+6,7,62,furfural to furfuryl alcohol,hydrogenation,70.0,7.0,7.0,,26.1,,,58
+6,7,63,furfural to furfuryl alcohol,hydrogenation,170.0,,3.0,72.5,75.0,,,58
+6,7,64,furfural to furfuryl alcohol,hydrogenation,100.0,,8.0,96.0,100.0,,,58
+6,7,65,furfural to furfuryl alcohol,hydrogenation,130.0,,3.0,92.5,95.6,,,58
+6,7,66,furfural to furfuryl alcohol,hydrogenation,100.0,10.0,5.0,94.5,100.0,,,58
+3,15,67,"5-hydroxymethylfurfural to 2,5-dimethylfuran",hydrodeoxygenation,220.0,6.8,10.0,61.0,100.0,,,64
+3,15,68,"5-hydroxymethylfurfural to 2,5-dimethylfuran",hydrodeoxygenation,220.0,6.8,10.0,71.0,100.0,,,64
+3,15,69,"5-hydroxymethylfurfural to 2,5-dimethylfuran",hydrodeoxygenation,75.0,,15.0,32.0,,,,64
+3,15,70,"5-hydroxymethylfurfural to 2,5-dimethylfuran",hydrodeoxygenation,220.0,10.0,6.0,33.0,90.0,,,64
+3,15,71,"5-hydroxymethylfurfural to 2,5-dimethylfuran",hydrodeoxygenation,200.0,20.0,2.0,94.7,100.0,,,64
+3,15,72,"5-hydroxymethylfurfural to 2,5-dimethylfuran",hydrodeoxygenation,120.0,,15.0,,100.0,,,64
+3,15,73,"5-hydroxymethylfurfural to 2,5-dimethylfuran",hydrodeoxygenation,260.0,,1.5,60.3,99.8,,,64
+3,15,74,"5-hydroxymethylfurfural to 2,5-dimethylfuran",hydrodeoxygenation,120.0,62.0,1.0,15.0,47.0,,,64
+3,15,75,"5-hydroxymethylfurfural to 2,5-dimethylfuran",hydrodeoxygenation,70.0,,15.0,95.0,100.0,,,64
+3,15,76,"5-hydroxymethylfurfural to 2,5-dimethylfuran",hydrodeoxygenation,300.0,,0.75,34.0,100.0,,,64
+3,15,77,"5-hydroxymethylfurfural to 2,5-dimethylfuran",hydrodeoxygenation,190.0,,6.0,81.0,100.0,,,64
+3,15,78,"5-hydroxymethylfurfural to 2,5-dimethylfuran",hydrodeoxygenation,80.0,10.0,2.0,100.0,100.0,,,64
+3,15,79,"5-hydroxymethylfurfural to 2,5-dimethylfuran",hydrodeoxygenation,130.0,7.0,24.0,93.4,99.0,,,64
+3,15,80,"5-hydroxymethylfurfural to 2,5-dimethylfuran",hydrodeoxygenation,180.0,10.0,2.0,98.0,100.0,,,64
+3,15,81,"5-hydroxymethylfurfural to 2,5-dimethylfuran",hydrodeoxygenation,60.0,6.0795,6.0,96.0,100.0,,,64
+3,15,82,"5-hydroxymethylfurfural to 2,5-dimethylfuran",hydrodeoxygenation,180.0,40.0,3.0,96.0,100.0,,,64

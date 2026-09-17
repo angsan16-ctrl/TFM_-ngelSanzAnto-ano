@@ -1,0 +1,78 @@
+check,value,status
+source.rows,96,OK
+source.source_id.null,0,OK
+source.source_id.duplicates,0,OK
+biomass.rows,183,OK
+biomass.biomass_id.null,0,OK
+biomass.biomass_id.duplicates,0,OK
+biomass_composition.rows,306,OK
+biomass_composition.composition_id.null,0,OK
+biomass_composition.composition_id.duplicates,0,OK
+molecule.rows,173,OK
+molecule.molecule_id.null,0,OK
+molecule.molecule_id.duplicates,0,OK
+biomass_molecule.rows,13,OK
+biomass_molecule.biomass_molecule_id.null,0,OK
+biomass_molecule.biomass_molecule_id.duplicates,0,OK
+reaction.rows,82,OK
+reaction.reaction_id.null,0,OK
+reaction.reaction_id.duplicates,0,OK
+reaction_participant.rows,164,OK
+reaction_participant.participant_id.null,0,OK
+reaction_participant.participant_id.duplicates,0,OK
+fuel_property.rows,64,OK
+fuel_property.fuel_property_id.null,0,OK
+fuel_property.fuel_property_id.duplicates,0,OK
+molecular_descriptor.rows,4302,OK
+molecular_descriptor.descriptor_id.null,0,OK
+molecular_descriptor.descriptor_id.duplicates,0,OK
+quantum_calculation.rows,6,OK
+quantum_calculation.calculation_id.null,0,OK
+quantum_calculation.calculation_id.duplicates,0,OK
+quantum_property.rows,37,OK
+quantum_property.quantum_property_id.null,0,OK
+quantum_property.quantum_property_id.duplicates,0,OK
+FK biomass_composition.biomass_id->biomass.biomass_id,0,OK
+FK biomass_composition.source_id->source.source_id,0,OK
+FK biomass_molecule.biomass_id->biomass.biomass_id,0,OK
+FK biomass_molecule.molecule_id->molecule.molecule_id,0,OK
+FK biomass_molecule.source_id->source.source_id,0,OK
+FK reaction.source_id->source.source_id,0,OK
+FK reaction_participant.reaction_id->reaction.reaction_id,0,OK
+FK reaction_participant.molecule_id->molecule.molecule_id,0,OK
+FK fuel_property.molecule_id->molecule.molecule_id,0,OK
+FK fuel_property.source_id->source.source_id,0,OK
+FK molecular_descriptor.molecule_id->molecule.molecule_id,0,OK
+FK quantum_calculation.molecule_id->molecule.molecule_id,0,OK
+FK quantum_property.calculation_id->quantum_calculation.calculation_id,0,OK
+source.doi.duplicates_non_null,0,OK
+molecule.inchikey.duplicates_non_null,0,OK
+biomass_composition.cellulose_pct.range_0_100,0,OK
+biomass_composition.hemicellulose_pct.range_0_100,0,OK
+biomass_composition.lignin_total_pct.range_0_100,0,OK
+biomass_composition.acid_insoluble_lignin_pct.range_0_100,0,OK
+biomass_composition.acid_soluble_lignin_pct.range_0_100,0,OK
+biomass_composition.glucan_pct.range_0_100,0,OK
+biomass_composition.xylan_pct.range_0_100,0,OK
+biomass_composition.arabinan_pct.range_0_100,0,OK
+biomass_composition.mannan_pct.range_0_100,0,OK
+biomass_composition.galactan_pct.range_0_100,0,OK
+biomass_composition.extractives_pct.range_0_100,0,OK
+biomass_composition.ash_pct.range_0_100,0,OK
+biomass_composition.moisture_pct.range_0_100,0,OK
+biomass_composition.protein_pct.range_0_100,0,OK
+biomass_composition.lipids_pct.range_0_100,0,OK
+biomass_composition.starch_pct.range_0_100,0,OK
+biomass_composition.pectin_pct.range_0_100,0,OK
+biomass_composition.volatile_matter_pct.range_0_100,0,OK
+biomass_composition.fixed_carbon_pct.range_0_100,0,OK
+biomass_composition.carbon_pct.range_0_100,0,OK
+biomass_composition.hydrogen_pct.range_0_100,0,OK
+biomass_composition.oxygen_pct.range_0_100,0,OK
+biomass_composition.nitrogen_pct.range_0_100,0,OK
+biomass_composition.sulfur_pct.range_0_100,0,OK
+biomass_composition.chlorine_pct.range_0_100,0,OK
+reaction.conversion_pct.range_0_100,0,OK
+reaction.selectivity_pct.range_0_100,0,OK
+reaction.yield_pct.range_0_100,0,OK
+reaction.trl.range_1_9,0,OK

@@ -1,0 +1,12 @@
+! R2SCAN-3C Opt TightSCF PrintGap Freq
+%maxcore 1000
+%freq
+  Temp 298.15
+  QuasiRRHO true
+  QRRHORefFreq 100
+end
+%elprop
+  Dipole true
+  Polar 1
+end
+* xyzfile 0 1 xtb_optimized.xyz

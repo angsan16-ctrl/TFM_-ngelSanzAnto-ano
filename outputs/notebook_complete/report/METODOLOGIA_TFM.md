@@ -1,0 +1,7 @@
+# Metodología computacional reproducible
+
+El análisis se ejecutó con Python 3.11.9 y MySQL 8.0.43. La integridad referencial se verificó antes de cualquier cálculo. Los descriptores moleculares se calcularon con RDKit a partir de SMILES documentados. Los conformeros se generaron con ETKDGv3 y se optimizaron con MMFF94 cuando existían parámetros, o UFF en caso contrario. Se generó un ensemble conformacional y se seleccionó la geometría de menor energía del campo de fuerza para la etapa cuántica.
+
+Las geometrías se preoptimizaron con GFN2-xTB, optimización `tight`, seguida de Hessiano para control vibracional y termoquímica. Las geometrías xTB se emplearon como entrada de ORCA. La optimización DFT se realizó con R2SCAN-3C, seguida de frecuencias a 298.15 K; cuando estaba activado, se calculó un single point adicional con wB97X-3c. Los resultados se consideraron mínimos cuando no presentaban frecuencias imaginarias significativas por debajo de -20.0 cm-1.
+
+Los modelos de HHV utilizaron validación cruzada anidada agrupada por biomass_id para reducir fuga de información entre mediciones de una misma biomasa. Se compararon modelos lineales regularizados, kernel y ensembles; las predicciones reportadas son out-of-fold. La incertidumbre de las métricas se estimó mediante bootstrap por grupos y se realizó Y-scrambling como control frente a asociaciones espurias. Los modelos moleculares solo se ejecutaron cuando el tamaño muestral superó el umbral mínimo predefinido.

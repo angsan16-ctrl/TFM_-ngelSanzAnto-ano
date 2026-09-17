@@ -1,0 +1,9 @@
+target,unit,n_molecules,ml_level
+boiling_point,°C,6,insufficient
+specific_energy,MJ/kg,3,insufficient
+lower_heating_value,MJ/kg,2,insufficient
+density,kg/m3,2,insufficient
+octane_number,,2,insufficient
+energy_density,MJ/L,1,insufficient
+flash_point,°C,0,insufficient
+melting_point,°C,0,insufficient

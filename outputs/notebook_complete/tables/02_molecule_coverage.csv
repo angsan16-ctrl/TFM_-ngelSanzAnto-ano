@@ -1,0 +1,7 @@
+metric,n,pct_total_molecules
+molecules_total,173,100.0
+with_smiles,18,10.404624277456648
+with_inchikey,20,11.560693641618498
+with_fuel_property,21,12.138728323699421
+with_descriptor_db,18,10.404624277456648
+with_quantum_calc_db,4,2.3121387283236996

@@ -1,0 +1,9 @@
+biomass_id,common_name,n_measurements,cellulose_median,hemicellulose_median,lignin_median,ash_median,moisture_median,hhv_median,structural_carbohydrates_median,cellulose_iqr,lignin_iqr,pareto_biochemical
+39,flax straw,1,51.34,25.2,14.12,4.13,11.0,,76.54,,,True
+162,hardwood stem,1,45.0,30.0,20.0,0.6,,,75.0,,,True
+1,wheat straw,8,41.9,32.28,10.23,2.8,,17.51,71.15,10.380000000000003,5.090000000000002,True
+161,softwood stem,1,42.0,27.0,28.0,0.5,,,69.0,,,True
+20,oat straw,1,37.6,23.34,12.85,2.19,,,60.94,,,True
+35,canola straw,1,42.39,16.41,14.15,2.1,,,58.8,,,True
+42,flax oil cake,1,8.2,4.6,6.0,5.3,,,12.799999999999999,,,True
+46,hull-less pumpkin oil cake,1,4.4,6.7,0.7,7.8,,,11.100000000000001,,,True

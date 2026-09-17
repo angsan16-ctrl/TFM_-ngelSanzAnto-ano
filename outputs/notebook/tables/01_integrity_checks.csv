@@ -1,0 +1,47 @@
+check,value,status
+source.rows,96,OK
+source.source_id.null,0,OK
+source.source_id.duplicates,0,OK
+biomass.rows,183,OK
+biomass.biomass_id.null,0,OK
+biomass.biomass_id.duplicates,0,OK
+biomass_composition.rows,306,OK
+biomass_composition.composition_id.null,0,OK
+biomass_composition.composition_id.duplicates,0,OK
+molecule.rows,173,OK
+molecule.molecule_id.null,0,OK
+molecule.molecule_id.duplicates,0,OK
+biomass_molecule.rows,13,OK
+biomass_molecule.biomass_molecule_id.null,0,OK
+biomass_molecule.biomass_molecule_id.duplicates,0,OK
+reaction.rows,82,OK
+reaction.reaction_id.null,0,OK
+reaction.reaction_id.duplicates,0,OK
+reaction_participant.rows,164,OK
+reaction_participant.participant_id.null,0,OK
+reaction_participant.participant_id.duplicates,0,OK
+fuel_property.rows,64,OK
+fuel_property.fuel_property_id.null,0,OK
+fuel_property.fuel_property_id.duplicates,0,OK
+molecular_descriptor.rows,216,OK
+molecular_descriptor.descriptor_id.null,0,OK
+molecular_descriptor.descriptor_id.duplicates,0,OK
+quantum_calculation.rows,0,OK
+quantum_calculation.calculation_id.null,0,OK
+quantum_calculation.calculation_id.duplicates,0,OK
+quantum_property.rows,0,OK
+quantum_property.quantum_property_id.null,0,OK
+quantum_property.quantum_property_id.duplicates,0,OK
+FK biomass_composition.biomass_id -> biomass.biomass_id,0,OK
+FK biomass_composition.source_id -> source.source_id,0,OK
+FK biomass_molecule.biomass_id -> biomass.biomass_id,0,OK
+FK biomass_molecule.molecule_id -> molecule.molecule_id,0,OK
+FK biomass_molecule.source_id -> source.source_id,0,OK
+FK reaction.source_id -> source.source_id,0,OK
+FK reaction_participant.reaction_id -> reaction.reaction_id,0,OK
+FK reaction_participant.molecule_id -> molecule.molecule_id,0,OK
+FK fuel_property.molecule_id -> molecule.molecule_id,0,OK
+FK fuel_property.source_id -> source.source_id,0,OK
+FK molecular_descriptor.molecule_id -> molecule.molecule_id,0,OK
+FK quantum_calculation.molecule_id -> molecule.molecule_id,0,OK
+FK quantum_property.calculation_id -> quantum_calculation.calculation_id,0,OK

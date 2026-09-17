@@ -1,0 +1,174 @@
+molecule_id,preferred_name,molecule_role,in_degree,out_degree,pagerank,betweenness
+6,furfural,platform_molecule,1,2,0.01025513306005715,6.799945600435197e-05
+3,5-hydroxymethylfurfural,platform_molecule,1,1,0.01025513306005715,3.399972800217598e-05
+14,gamma-valerolactone,fuel_candidate,2,0,0.014966840669729812,0.0
+15,"2,5-dimethylfuran",fuel_candidate,1,0,0.01425785496794629,0.0
+13,cyclohexane,fuel_candidate,1,0,0.01025513306005715,0.0
+7,furfuryl alcohol,intermediate,1,0,0.009900640209165387,0.0
+8,2-methylfuran,fuel_candidate,1,0,0.009900640209165387,0.0
+1,D-glucose,platform_molecule,0,1,0.005543425450384489,0.0
+2,D-xylose,platform_molecule,0,1,0.005543425450384489,0.0
+4,levulinic acid,platform_molecule,0,1,0.005543425450384489,0.0
+5,sorbitol,platform_molecule,0,0,0.005543425450384489,0.0
+9,phenol,intermediate,0,0,0.005543425450384489,0.0
+10,guaiacol,intermediate,0,1,0.005543425450384489,0.0
+11,syringol,intermediate,0,0,0.005543425450384489,0.0
+12,catechol,intermediate,0,0,0.005543425450384489,0.0
+16,methyl levulinate,intermediate,0,1,0.005543425450384489,0.0
+17,ethyl levulinate,intermediate,0,0,0.005543425450384489,0.0
+18,tetrahydrofuran,fuel_candidate,0,0,0.005543425450384489,0.0
+19,2-methyltetrahydrofuran,fuel_candidate,0,0,0.005543425450384489,0.0
+20,"1,1-diethylcyclohexane",fuel_candidate,0,0,0.005543425450384489,0.0
+21,"1,2,3,4-tetramethylcyclohexane",fuel_candidate,0,0,0.005543425450384489,0.0
+22,"1,4-dimethylcyclooctane",fuel_candidate,0,0,0.005543425450384489,0.0
+23,"1,1,4-trimethylcycloheptane",fuel_candidate,0,0,0.005543425450384489,0.0
+24,"1,1,5-trimethyl-2-pentylcyclohexane",fuel_candidate,0,0,0.005543425450384489,0.0
+25,glycolaldehyde,intermediate,0,0,0.005543425450384489,0.0
+26,acetic acid,intermediate,0,0,0.005543425450384489,0.0
+27,acetol,intermediate,0,0,0.005543425450384489,0.0
+28,3-hydroxy-2-butanone,intermediate,0,0,0.005543425450384489,0.0
+29,propanoic acid,intermediate,0,0,0.005543425450384489,0.0
+30,butanoic acid,intermediate,0,0,0.005543425450384489,0.0
+31,2-cyclopenten-1-one,intermediate,0,0,0.005543425450384489,0.0
+32,crotonic acid,intermediate,0,0,0.005543425450384489,0.0
+33,5-methylfurfural,intermediate,0,0,0.005543425450384489,0.0
+34,2(5H)-furanone,intermediate,0,0,0.005543425450384489,0.0
+35,"3-methyl-1,2-cyclopentanedione",intermediate,0,0,0.005543425450384489,0.0
+36,3-methyl-2(5H)-furanone,intermediate,0,0,0.005543425450384489,0.0
+37,o-cresol,intermediate,0,0,0.005543425450384489,0.0
+38,maltol,intermediate,0,0,0.005543425450384489,0.0
+39,p-cresol,intermediate,0,0,0.005543425450384489,0.0
+40,m-cresol,intermediate,0,0,0.005543425450384489,0.0
+41,creosol,intermediate,0,0,0.005543425450384489,0.0
+42,"1,3-dihydroxy-2-propanone",intermediate,0,0,0.005543425450384489,0.0
+43,3-ethyl-2-hydroxy-2-cyclopenten-1-one,intermediate,0,0,0.005543425450384489,0.0
+44,5-hydroxymethyldihydrofuran-2-one,intermediate,0,0,0.005543425450384489,0.0
+45,cyclopropylmethanol,intermediate,0,0,0.005543425450384489,0.0
+46,tetradecane,intermediate,0,0,0.005543425450384489,0.0
+47,"2,3-anhydro-D-mannosan",intermediate,0,0,0.005543425450384489,0.0
+48,"1,4:3,6-dianhydro-alpha-D-glucopyranose",intermediate,0,0,0.005543425450384489,0.0
+49,4-propylguaiacol,intermediate,0,0,0.005543425450384489,0.0
+50,trans-isoeugenol,intermediate,0,0,0.005543425450384489,0.0
+51,isoeugenol,intermediate,0,0,0.005543425450384489,0.0
+52,"3,4,5-trimethoxytoluene",intermediate,0,0,0.005543425450384489,0.0
+53,D-mannose,intermediate,0,0,0.005543425450384489,0.0
+54,guaiacylacetone,intermediate,0,0,0.005543425450384489,0.0
+55,methoxyeugenol,intermediate,0,0,0.005543425450384489,0.0
+56,D-allose,intermediate,0,0,0.005543425450384489,0.0
+57,dihydromethyleugenol,intermediate,0,0,0.005543425450384489,0.0
+58,coniferyl alcohol,intermediate,0,0,0.005543425450384489,0.0
+59,"tetrahydro-2,5-dimethoxyfuran",intermediate,0,0,0.005543425450384489,0.0
+60,"1,2-cyclopentanedione",intermediate,0,0,0.005543425450384489,0.0
+61,1-hydroxy-2-pentanone,intermediate,0,0,0.005543425450384489,0.0
+62,levoglucosenone,intermediate,0,0,0.005543425450384489,0.0
+63,"1,2,3-benzenetriol",intermediate,0,0,0.005543425450384489,0.0
+64,"3,4-anhydro-D-galactosan",intermediate,0,0,0.005543425450384489,0.0
+65,3-methylbenzaldehyde,intermediate,0,0,0.005543425450384489,0.0
+66,5-hydroxy-9-oxabicyclo[3.3.1]nonan-2-one,intermediate,0,0,0.005543425450384489,0.0
+67,levoglucosan,intermediate,0,0,0.005543425450384489,0.0
+68,bisphenol A,byproduct,0,0,0.005543425450384489,0.0
+69,"1,2,3-butanetriol",intermediate,0,0,0.005543425450384489,0.0
+70,"ethyl 2,2-dimethylacetoacetate",intermediate,0,0,0.005543425450384489,0.0
+71,"2,5-dimethyl-4-hydroxy-3(2H)-furanone",intermediate,0,0,0.005543425450384489,0.0
+72,fumaric acid,intermediate,0,0,0.005543425450384489,0.0
+73,rosolic acid,intermediate,0,0,0.005543425450384489,0.0
+74,mequinol,intermediate,0,0,0.005543425450384489,0.0
+75,4-ethylcatechol,intermediate,0,0,0.005543425450384489,0.0
+76,o-xylenol,intermediate,0,0,0.005543425450384489,0.0
+77,4-ethylguaiacol,intermediate,0,0,0.005543425450384489,0.0
+78,ethyl-m-cresol,intermediate,0,0,0.005543425450384489,0.0
+79,eugenol,intermediate,0,0,0.005543425450384489,0.0
+80,acetophenone,intermediate,0,0,0.005543425450384489,0.0
+81,mandelic acid,intermediate,0,0,0.005543425450384489,0.0
+82,m-xylene,intermediate,0,0,0.005543425450384489,0.0
+83,pyruvic acid,intermediate,0,0,0.005543425450384489,0.0
+84,1-octene,intermediate,0,0,0.005543425450384489,0.0
+85,cyclopentane,intermediate,0,0,0.005543425450384489,0.0
+86,vanillin,intermediate,0,0,0.005543425450384489,0.0
+87,glutaric acid,intermediate,0,0,0.005543425450384489,0.0
+88,cyclopentanone,intermediate,0,0,0.005543425450384489,0.0
+89,5-ethylfurfural,intermediate,0,0,0.005543425450384489,0.0
+90,4-ethylcyclohexanone,intermediate,0,0,0.005543425450384489,0.0
+91,pentenoic acid,intermediate,0,0,0.005543425450384489,0.0
+92,"3-hydroxy-1,8-nonadiene",intermediate,0,0,0.005543425450384489,0.0
+93,furan-3-carbaldehyde,intermediate,0,0,0.005543425450384489,0.0
+94,1-acetoxyacetone,intermediate,0,0,0.005543425450384489,0.0
+95,2-methyl-2-cyclopenten-1-one,intermediate,0,0,0.005543425450384489,0.0
+96,"2,4-dimethylcyclohexan-1-ol",intermediate,0,0,0.005543425450384489,0.0
+97,4-ethyl-4-methylcyclohex-2-en-1-one,intermediate,0,0,0.005543425450384489,0.0
+98,methyl cyclopentenolone,intermediate,0,0,0.005543425450384489,0.0
+99,4-ethylphenol,intermediate,0,0,0.005543425450384489,0.0
+100,"2,3-dihydrobenzofuran",intermediate,0,0,0.005543425450384489,0.0
+101,4-hydroxy-3-methoxystyrene,intermediate,0,0,0.005543425450384489,0.0
+102,3-hydroxydodecanoic acid,intermediate,0,0,0.005543425450384489,0.0
+103,trimethyl orthoacetate,intermediate,0,0,0.005543425450384489,0.0
+104,acetol acetate,intermediate,0,0,0.005543425450384489,0.0
+105,"2,5-dimethoxytetrahydrofuran",intermediate,0,0,0.005543425450384489,0.0
+106,4-oxo-5-methoxy-2-penten-5-olide,intermediate,0,0,0.005543425450384489,0.0
+107,erythritol tetramethyl ether,intermediate,0,0,0.005543425450384489,0.0
+108,"2,3,4-trimethylfuran",intermediate,0,0,0.005543425450384489,0.0
+109,hexanal dimethyl acetal,intermediate,0,0,0.005543425450384489,0.0
+110,"1,1,N,N-tetramethylbuta-1,3-diene-4-amine",intermediate,0,0,0.005543425450384489,0.0
+111,methyl vinyl ketone,intermediate,0,0,0.005543425450384489,0.0
+112,1-methylcyclopentadiene,intermediate,0,0,0.005543425450384489,0.0
+113,4-hydroxy-4-methyl-2-pentanone,intermediate,0,0,0.005543425450384489,0.0
+114,toluene,intermediate,0,0,0.005543425450384489,0.0
+115,ethylbenzene,intermediate,0,0,0.005543425450384489,0.0
+116,o-xylene,intermediate,0,0,0.005543425450384489,0.0
+117,p-xylene,intermediate,0,0,0.005543425450384489,0.0
+118,N-butyl-tert-butylamine,intermediate,0,0,0.005543425450384489,0.0
+119,3-methylcatechol,intermediate,0,0,0.005543425450384489,0.0
+120,3-methoxycatechol,intermediate,0,0,0.005543425450384489,0.0
+121,4-methylcatechol,intermediate,0,0,0.005543425450384489,0.0
+122,2-methoxy-4-vinylphenol,intermediate,0,0,0.005543425450384489,0.0
+123,"3,5-dimethoxy-4-hydroxytoluene",intermediate,0,0,0.005543425450384489,0.0
+124,5-tert-butylpyrogallol,intermediate,0,0,0.005543425450384489,0.0
+125,"4-acetyl-2,6-dimethoxyphenol",intermediate,0,0,0.005543425450384489,0.0
+126,butyrovanillone,intermediate,0,0,0.005543425450384489,0.0
+127,syringaldehyde,intermediate,0,0,0.005543425450384489,0.0
+128,coniferyl aldehyde,intermediate,0,0,0.005543425450384489,0.0
+129,syringylacetone,intermediate,0,0,0.005543425450384489,0.0
+130,butylsyringone,intermediate,0,0,0.005543425450384489,0.0
+131,acetic acid hydrazide,intermediate,0,0,0.005543425450384489,0.0
+132,methyl 2-methylbutanoate,intermediate,0,0,0.005543425450384489,0.0
+133,styrene,intermediate,0,0,0.005543425450384489,0.0
+134,dihydro-5-methyl-2(3H)-furanone,intermediate,0,0,0.005543425450384489,0.0
+135,3-phenyl-1-propanol acetate,intermediate,0,0,0.005543425450384489,0.0
+136,benzofuran,intermediate,0,0,0.005543425450384489,0.0
+137,indene,intermediate,0,0,0.005543425450384489,0.0
+138,phenyl acetate,intermediate,0,0,0.005543425450384489,0.0
+139,cinnamaldehyde,intermediate,0,0,0.005543425450384489,0.0
+140,"2,3-dimethylphenol",intermediate,0,0,0.005543425450384489,0.0
+141,3-methyl-1H-indene,intermediate,0,0,0.005543425450384489,0.0
+142,azulene,intermediate,0,0,0.005543425450384489,0.0
+143,1-methylnaphthalene,intermediate,0,0,0.005543425450384489,0.0
+144,"1,2-diacetoxybenzene",intermediate,0,0,0.005543425450384489,0.0
+145,biphenyl,intermediate,0,0,0.005543425450384489,0.0
+146,"1,3-dimethylnaphthalene",intermediate,0,0,0.005543425450384489,0.0
+147,acenaphthene,intermediate,0,0,0.005543425450384489,0.0
+148,biphenylene,intermediate,0,0,0.005543425450384489,0.0
+149,"3,3-dimethylhexane",intermediate,0,0,0.005543425450384489,0.0
+150,fluorene,intermediate,0,0,0.005543425450384489,0.0
+151,anthracene,intermediate,0,0,0.005543425450384489,0.0
+152,9-methylenefluorene,intermediate,0,0,0.005543425450384489,0.0
+153,phthalic acid,intermediate,0,0,0.005543425450384489,0.0
+154,fluoranthene,intermediate,0,0,0.005543425450384489,0.0
+155,"1,2,3-trimethylbenzene",intermediate,0,0,0.005543425450384489,0.0
+156,butanoic anhydride,intermediate,0,0,0.005543425450384489,0.0
+157,diethylene glycol diacetate,intermediate,0,0,0.005543425450384489,0.0
+158,indane,intermediate,0,0,0.005543425450384489,0.0
+159,"2,5-dimethylphenol",intermediate,0,0,0.005543425450384489,0.0
+160,naphthalene,intermediate,0,0,0.005543425450384489,0.0
+161,2-methylnaphthalene,intermediate,0,0,0.005543425450384489,0.0
+162,"3-pentanol, 2,2,4,4-tetramethyl-",intermediate,0,0,0.005543425450384489,0.0
+163,2-methyllactic acid anhydride,intermediate,0,0,0.005543425450384489,0.0
+164,n-hexadecanoic acid,intermediate,0,0,0.005543425450384489,0.0
+165,ethyl hexadecanoate,intermediate,0,0,0.005543425450384489,0.0
+166,octadecanoic acid,intermediate,0,0,0.005543425450384489,0.0
+167,methyl 17-methyloctadecanoate,intermediate,0,0,0.005543425450384489,0.0
+168,cis-decalin,fuel_candidate,0,0,0.005543425450384489,0.0
+169,"1,2-dimethyl-cis-decalin",fuel_candidate,0,0,0.005543425450384489,0.0
+170,"1,3-dimethyl-cis-decalin",fuel_candidate,0,0,0.005543425450384489,0.0
+171,2-methylheptane,fuel_candidate,0,0,0.005543425450384489,0.0
+172,ethylcyclohexane,fuel_candidate,0,0,0.005543425450384489,0.0
+173,propylcyclohexane,fuel_candidate,0,0,0.005543425450384489,0.0

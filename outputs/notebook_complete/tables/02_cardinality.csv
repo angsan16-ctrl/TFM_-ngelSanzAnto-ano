@@ -1,0 +1,5 @@
+relationship,parents,children,mean_children
+biomass -> composition,183,306,2.300751879699248
+biomass -> molecule evidence,183,13,3.25
+molecule -> fuel_property,173,64,3.0476190476190474
+reaction -> participant,82,164,2.0

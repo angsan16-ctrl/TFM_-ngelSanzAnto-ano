@@ -1,0 +1,22 @@
+{
+  "seed": 20260916,
+  "quantum_pipeline_version": "2.2",
+  "quantum_mode": "full",
+  "resume_quantum": true,
+  "run_xtb": true,
+  "run_xtb_hessian": true,
+  "run_orca": true,
+  "run_orca_freq": true,
+  "run_orca_refinement": true,
+  "xtb_gfn": 2,
+  "xtb_opt_level": "tight",
+  "xtb_threads": 4,
+  "orca_geom_method": "R2SCAN-3C",
+  "orca_refinement_method": "wB97X-3c",
+  "orca_nprocs_requested": 4,
+  "orca_nprocs_effective": 1,
+  "mpi_executable": null,
+  "orca_maxcore_mb": 1000,
+  "thermo_temperature_k": 298.15,
+  "imag_freq_threshold_cm1": -20.0
+}

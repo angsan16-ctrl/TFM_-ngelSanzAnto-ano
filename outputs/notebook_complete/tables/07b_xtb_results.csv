@@ -1,0 +1,541 @@
+pipeline_version,input_sha256,molecule_id,preferred_name,software,software_version,method,charge,multiplicity,status,returncode,hessian_returncode,runtime_seconds,started_at,finished_at,input_path,output_path,geometry_path,file_hash,stderr_tail,electronic_energy_Eh,homo_eV,lumo_eV,homo_lumo_gap_eV,dipole_debye,isotropic_polarizability_au,molecular_c6_au,zero_point_energy_Eh,total_free_energy_Eh,imaginary_frequencies,min_frequency_cm1,normal_termination,optimization_converged,chemical_hardness_eV,chemical_potential_eV,electronegativity_eV,electrophilicity_eV,temperature_K,enthalpy_Eh,entropy_term_Eh,gibbs_free_energy_Eh
+2.2,54d08833ea245bf40c57634c131e7cdb5c6083966b85272b61b69f68e6fa3d8a,1,D-glucose,xTB,* xtb version 6.7.1pre (5071a88) compiled by 'Marcel@Raven' on 2024-07-23,GFN2-xTB,0,1,completed,0,0,0.9121454999994967,2026-09-16T22:11:27.296251+00:00,2026-09-16T22:11:28.232976+00:00,outputs\notebook_complete\quantum\xtb\molecule_0001\opt\input.xyz,outputs\notebook_complete\quantum\xtb\molecule_0001\opt\xtb_opt.out,outputs\notebook_complete\quantum\xtb\molecule_0001\opt\xtbopt.xyz,54d08833ea245bf40c57634c131e7cdb5c6083966b85272b61b69f68e6fa3d8a,"   6 C    8 O           7     1.4029242     1.4195958     1.3874423
+
+
+optimized geometry written to: xtbopt.xyz
+
+
+           -------------------------------------------------
+          | TOTAL ENERGY              -43.362941699021 Eh   |
+          | GRADIENT NORM               0.000388252417 Eh/α |
+          | HOMO-LUMO GAP              10.468721897187 eV   |
+           -------------------------------------------------
+
+------------------------------------------------------------------------
+ * finished run on 2026/09/17 at 00:11:27.567     
+------------------------------------------------------------------------
+ total:
+ * wall-time:     0 d,  0 h,  0 min,  0.202 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.688 sec
+ * ratio c/w:     3.403 speedup
+ SCF:
+ * wall-time:     0 d,  0 h,  0 min,  0.011 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.062 sec
+ * ratio c/w:     5.682 speedup
+ ANC optimizer:
+ * wall-time:     0 d,  0 h,  0 min,  0.164 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.562 sec
+ * ratio c/w:     3.430 speedup
+
+
+normal termination of xtb",-43.36294169902,-11.3445,-0.8757,10.4688,4.042,98.324571,4718.295463,0.18813112533,-43.21305976342,0,-0.0,True,False,5.2344,-6.1101,6.1101,3.566151040233838,298.15,0.201988,0.0521058,0.149882
+2.2,88fa5a26f92a1d0e634a307020ea9abc0646da18f2084cf0d8b42e7755df18fb,2,D-xylose,xTB,* xtb version 6.7.1pre (5071a88) compiled by 'Marcel@Raven' on 2024-07-23,GFN2-xTB,0,1,completed,0,0,0.631875899998704,2026-09-16T22:40:19.580055+00:00,2026-09-16T22:40:20.238688+00:00,outputs\notebook_complete\quantum\xtb\molecule_0002\opt\input.xyz,outputs\notebook_complete\quantum\xtb\molecule_0002\opt\xtb_opt.out,outputs\notebook_complete\quantum\xtb\molecule_0002\opt\xtbopt.xyz,88fa5a26f92a1d0e634a307020ea9abc0646da18f2084cf0d8b42e7755df18fb,"   6 C    8 O           6     1.4022815     1.4084943     1.3891830
+
+
+optimized geometry written to: xtbopt.xyz
+
+
+           -------------------------------------------------
+          | TOTAL ENERGY              -36.136475332948 Eh   |
+          | GRADIENT NORM               0.000156738659 Eh/α |
+          | HOMO-LUMO GAP              10.663770762690 eV   |
+           -------------------------------------------------
+
+------------------------------------------------------------------------
+ * finished run on 2026/09/17 at 00:40:19.780     
+------------------------------------------------------------------------
+ total:
+ * wall-time:     0 d,  0 h,  0 min,  0.142 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.469 sec
+ * ratio c/w:     3.301 speedup
+ SCF:
+ * wall-time:     0 d,  0 h,  0 min,  0.012 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.047 sec
+ * ratio c/w:     3.906 speedup
+ ANC optimizer:
+ * wall-time:     0 d,  0 h,  0 min,  0.082 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.312 sec
+ * ratio c/w:     3.811 speedup
+
+
+normal termination of xtb",-36.136475332947,-11.223,-0.5592,10.6638,-1.576,81.9847,3279.441871,0.156553886761,-36.014888619702,0,-0.0,True,False,5.3319,-5.891100000000001,5.891100000000001,3.2544739408090932,298.15,0.167875,0.0462883,0.121587
+2.2,933f8df867e272d984eabd6d105386cd46e32dec259b706e974bf12dd19574ae,3,5-hydroxymethylfurfural,xTB,* xtb version 6.7.1pre (5071a88) compiled by 'Marcel@Raven' on 2024-07-23,GFN2-xTB,0,1,completed,0,0,0.6747739000002184,2026-09-16T22:40:20.366915+00:00,2026-09-16T22:40:21.059265+00:00,outputs\notebook_complete\quantum\xtb\molecule_0003\opt\input.xyz,outputs\notebook_complete\quantum\xtb\molecule_0003\opt\xtb_opt.out,outputs\notebook_complete\quantum\xtb\molecule_0003\opt\xtbopt.xyz,933f8df867e272d984eabd6d105386cd46e32dec259b706e974bf12dd19574ae,"   6 C    8 O           4     1.3284407     1.4074223     1.2064779
+
+
+optimized geometry written to: xtbopt.xyz
+
+
+           -------------------------------------------------
+          | TOTAL ENERGY              -28.064630641700 Eh   |
+          | GRADIENT NORM               0.000328624518 Eh/α |
+          | HOMO-LUMO GAP               3.027580545125 eV   |
+           -------------------------------------------------
+
+------------------------------------------------------------------------
+ * finished run on 2026/09/17 at 00:40:20.716     
+------------------------------------------------------------------------
+ total:
+ * wall-time:     0 d,  0 h,  0 min,  0.196 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.641 sec
+ * ratio c/w:     3.268 speedup
+ SCF:
+ * wall-time:     0 d,  0 h,  0 min,  0.019 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.109 sec
+ * ratio c/w:     5.757 speedup
+ ANC optimizer:
+ * wall-time:     0 d,  0 h,  0 min,  0.153 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.484 sec
+ * ratio c/w:     3.166 speedup
+
+
+normal termination of xtb",-28.0646306417,-11.1961,-8.1685,3.0275999999999996,7.451,79.649464,2676.457689,0.108123522233,-27.990291727202,0,-0.0,True,False,1.5137999999999998,-9.6823,9.6823,30.96410797000925,298.15,0.117603,0.0432639,0.0743389
+2.2,475b901a31fd18775b6ec521037356a988516db9f1fab03d00e7b280291a2ef7,4,levulinic acid,xTB,* xtb version 6.7.1pre (5071a88) compiled by 'Marcel@Raven' on 2024-07-23,GFN2-xTB,0,1,completed,0,0,0.617906800000128,2026-09-16T22:40:21.165679+00:00,2026-09-16T22:40:21.803186+00:00,outputs\notebook_complete\quantum\xtb\molecule_0004\opt\input.xyz,outputs\notebook_complete\quantum\xtb\molecule_0004\opt\xtb_opt.out,outputs\notebook_complete\quantum\xtb\molecule_0004\opt\xtbopt.xyz,475b901a31fd18775b6ec521037356a988516db9f1fab03d00e7b280291a2ef7,"   6 C    8 O           3     1.2477060     1.3371146     1.2018603
+
+
+optimized geometry written to: xtbopt.xyz
+
+
+           -------------------------------------------------
+          | TOTAL ENERGY              -26.986926703697 Eh   |
+          | GRADIENT NORM               0.000219223223 Eh/α |
+          | HOMO-LUMO GAP               4.092092679410 eV   |
+           -------------------------------------------------
+
+------------------------------------------------------------------------
+ * finished run on 2026/09/17 at 00:40:21.492     
+------------------------------------------------------------------------
+ total:
+ * wall-time:     0 d,  0 h,  0 min,  0.165 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.625 sec
+ * ratio c/w:     3.788 speedup
+ SCF:
+ * wall-time:     0 d,  0 h,  0 min,  0.008 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.000 sec
+ * ratio c/w:     0.000 speedup
+ ANC optimizer:
+ * wall-time:     0 d,  0 h,  0 min,  0.132 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.547 sec
+ * ratio c/w:     4.143 speedup
+
+
+normal termination of xtb",-26.986926703699,-10.8002,-6.7081,4.0921,-5.315,70.974924,2304.103773,0.124400094553,-26.896800826263,0,-0.0,True,False,2.04605,-8.75415,8.75415,18.72758295801666,298.15,0.134395,0.0442695,0.0901259
+2.2,58add8cbe88faaf620e7be623bda1d4aa1a07c6b770ad1297e0bd96d374885eb,5,sorbitol,xTB,* xtb version 6.7.1pre (5071a88) compiled by 'Marcel@Raven' on 2024-07-23,GFN2-xTB,0,1,completed,0,0,1.1126086000003852,2026-09-16T22:40:21.957853+00:00,2026-09-16T22:40:23.093419+00:00,outputs\notebook_complete\quantum\xtb\molecule_0005\opt\input.xyz,outputs\notebook_complete\quantum\xtb\molecule_0005\opt\xtb_opt.out,outputs\notebook_complete\quantum\xtb\molecule_0005\opt\xtbopt.xyz,58add8cbe88faaf620e7be623bda1d4aa1a07c6b770ad1297e0bd96d374885eb,"   6 C    8 O           6     1.4095996     1.4159608     1.4014346
+
+
+optimized geometry written to: xtbopt.xyz
+
+
+           -------------------------------------------------
+          | TOTAL ENERGY              -44.363046758795 Eh   |
+          | GRADIENT NORM               0.000166042035 Eh/α |
+          | HOMO-LUMO GAP              10.604006301224 eV   |
+           -------------------------------------------------
+
+------------------------------------------------------------------------
+ * finished run on 2026/09/17 at 00:40:22.304     
+------------------------------------------------------------------------
+ total:
+ * wall-time:     0 d,  0 h,  0 min,  0.221 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.781 sec
+ * ratio c/w:     3.535 speedup
+ SCF:
+ * wall-time:     0 d,  0 h,  0 min,  0.030 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.062 sec
+ * ratio c/w:     2.083 speedup
+ ANC optimizer:
+ * wall-time:     0 d,  0 h,  0 min,  0.144 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.547 sec
+ * ratio c/w:     3.798 speedup
+
+
+normal termination of xtb",-44.363046758795,-10.9469,-0.3429,10.604,-0.42,102.93422,5141.292697,0.208793513946,-44.19493813717,0,-0.0,True,False,5.302,-5.6449,5.6449,3.00498830724255,298.15,0.224315,0.0562061,0.168109
+2.2,e20fa29eb9a85157d9530dd3e3605dc1a1f7b5181fed5a83932e29fffa607ecd,6,furfural,xTB,* xtb version 6.7.1pre (5071a88) compiled by 'Marcel@Raven' on 2024-07-23,GFN2-xTB,0,1,completed,0,0,0.49388309999994817,2026-09-16T22:40:23.190619+00:00,2026-09-16T22:40:23.744036+00:00,outputs\notebook_complete\quantum\xtb\molecule_0006\opt\input.xyz,outputs\notebook_complete\quantum\xtb\molecule_0006\opt\xtb_opt.out,outputs\notebook_complete\quantum\xtb\molecule_0006\opt\xtbopt.xyz,e20fa29eb9a85157d9530dd3e3605dc1a1f7b5181fed5a83932e29fffa607ecd,"   6 C    8 O           3     1.2979731     1.3562568     1.2064188
+
+
+optimized geometry written to: xtbopt.xyz
+
+
+           -------------------------------------------------
+          | TOTAL ENERGY              -20.838424274377 Eh   |
+          | GRADIENT NORM               0.000241554122 Eh/α |
+          | HOMO-LUMO GAP               3.050182456706 eV   |
+           -------------------------------------------------
+
+------------------------------------------------------------------------
+ * finished run on 2026/09/17 at 00:40:23.440     
+------------------------------------------------------------------------
+ total:
+ * wall-time:     0 d,  0 h,  0 min,  0.101 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.328 sec
+ * ratio c/w:     3.249 speedup
+ SCF:
+ * wall-time:     0 d,  0 h,  0 min,  0.020 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.016 sec
+ * ratio c/w:     0.781 speedup
+ ANC optimizer:
+ * wall-time:     0 d,  0 h,  0 min,  0.059 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.203 sec
+ * ratio c/w:     3.443 speedup
+
+
+normal termination of xtb",-20.838424274377,-11.1335,-8.0833,3.0502000000000002,3.381,63.390013,1630.729546,0.076852156432,-20.791178095044,0,-0.0,True,False,1.5251000000000001,-9.6084,9.6084,30.26731052390007,298.15,0.083517,0.0362708,0.0472462
+2.2,b6abf3bd7e133823b268252fde9ef00824d34678cb460200cd3bd3d74a26fe63,7,furfuryl alcohol,xTB,* xtb version 6.7.1pre (5071a88) compiled by 'Marcel@Raven' on 2024-07-23,GFN2-xTB,0,1,completed,0,0,0.5909176000004663,2026-09-16T22:40:23.904356+00:00,2026-09-16T22:40:24.512992+00:00,outputs\notebook_complete\quantum\xtb\molecule_0007\opt\input.xyz,outputs\notebook_complete\quantum\xtb\molecule_0007\opt\xtb_opt.out,outputs\notebook_complete\quantum\xtb\molecule_0007\opt\xtbopt.xyz,b6abf3bd7e133823b268252fde9ef00824d34678cb460200cd3bd3d74a26fe63,"   6 C    8 O           3     1.3696840     1.4113052     1.3436387
+
+
+optimized geometry written to: xtbopt.xyz
+
+
+           -------------------------------------------------
+          | TOTAL ENERGY              -21.871254929259 Eh   |
+          | GRADIENT NORM               0.000100424611 Eh/α |
+          | HOMO-LUMO GAP               4.753497382632 eV   |
+           -------------------------------------------------
+
+------------------------------------------------------------------------
+ * finished run on 2026/09/17 at 00:40:24.159     
+------------------------------------------------------------------------
+ total:
+ * wall-time:     0 d,  0 h,  0 min,  0.144 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.547 sec
+ * ratio c/w:     3.798 speedup
+ SCF:
+ * wall-time:     0 d,  0 h,  0 min,  0.005 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.000 sec
+ * ratio c/w:     0.000 speedup
+ ANC optimizer:
+ * wall-time:     0 d,  0 h,  0 min,  0.085 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.375 sec
+ * ratio c/w:     4.412 speedup
+
+
+normal termination of xtb",-21.871254929257,-10.7097,-5.9562,4.7535,3.612,66.212249,1828.739354,0.099684976541,-21.802117604553,0,-0.0,True,False,2.37675,-8.33295,8.33295,14.6077744193752,298.15,0.107075,0.037938,0.0691373
+2.2,61943b9450c5feb23f5280ddc68113a466357e4640d4267b991a43417a0cbd6d,8,2-methylfuran,xTB,* xtb version 6.7.1pre (5071a88) compiled by 'Marcel@Raven' on 2024-07-23,GFN2-xTB,0,1,completed,0,0,0.49876150000091,2026-09-16T22:40:24.678914+00:00,2026-09-16T22:40:25.194018+00:00,outputs\notebook_complete\quantum\xtb\molecule_0008\opt\input.xyz,outputs\notebook_complete\quantum\xtb\molecule_0008\opt\xtb_opt.out,outputs\notebook_complete\quantum\xtb\molecule_0008\opt\xtbopt.xyz,61943b9450c5feb23f5280ddc68113a466357e4640d4267b991a43417a0cbd6d,"   6 C    8 O           2     1.3483875     1.3510130     1.3457619
+
+
+optimized geometry written to: xtbopt.xyz
+
+
+           -------------------------------------------------
+          | TOTAL ENERGY              -17.816401133275 Eh   |
+          | GRADIENT NORM               0.000077531442 Eh/α |
+          | HOMO-LUMO GAP               4.763284053542 eV   |
+           -------------------------------------------------
+
+------------------------------------------------------------------------
+ * finished run on 2026/09/17 at 00:40:24.948     
+------------------------------------------------------------------------
+ total:
+ * wall-time:     0 d,  0 h,  0 min,  0.099 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.297 sec
+ * ratio c/w:     2.999 speedup
+ SCF:
+ * wall-time:     0 d,  0 h,  0 min,  0.005 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.031 sec
+ * ratio c/w:     6.250 speedup
+ ANC optimizer:
+ * wall-time:     0 d,  0 h,  0 min,  0.070 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.203 sec
+ * ratio c/w:     2.902 speedup
+
+
+normal termination of xtb",-17.816401133275,-10.2766,-5.5133,4.7633,-0.187,61.4616,1535.524217,0.095505113324,-17.749933693088,0,-0.0,True,False,2.38165,-7.89495,7.89495,13.085515399512941,298.15,0.101995,0.0355279,0.0664674
+2.2,18ca757eb4f4f11d049c4c2ca74a861c0d801441b1fef86d6b936e5d7d970be7,9,phenol,xTB,* xtb version 6.7.1pre (5071a88) compiled by 'Marcel@Raven' on 2024-07-23,GFN2-xTB,0,1,completed,0,0,0.9640570999999909,2026-09-16T22:40:25.268342+00:00,2026-09-16T22:40:26.248682+00:00,outputs\notebook_complete\quantum\xtb\molecule_0009\opt\input.xyz,outputs\notebook_complete\quantum\xtb\molecule_0009\opt\xtb_opt.out,outputs\notebook_complete\quantum\xtb\molecule_0009\opt\xtbopt.xyz,18ca757eb4f4f11d049c4c2ca74a861c0d801441b1fef86d6b936e5d7d970be7,"   6 C    8 O           1     1.3613582     1.3613582     1.3613582
+
+
+optimized geometry written to: xtbopt.xyz
+
+
+           -------------------------------------------------
+          | TOTAL ENERGY              -19.954146323170 Eh   |
+          | GRADIENT NORM               0.000060591238 Eh/α |
+          | HOMO-LUMO GAP               4.352141837448 eV   |
+           -------------------------------------------------
+
+------------------------------------------------------------------------
+ * finished run on 2026/09/17 at 00:40:25.529     
+------------------------------------------------------------------------
+ total:
+ * wall-time:     0 d,  0 h,  0 min,  0.094 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.281 sec
+ * ratio c/w:     2.992 speedup
+ SCF:
+ * wall-time:     0 d,  0 h,  0 min,  0.005 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.000 sec
+ * ratio c/w:     0.000 speedup
+ ANC optimizer:
+ * wall-time:     0 d,  0 h,  0 min,  0.023 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.125 sec
+ * ratio c/w:     5.435 speedup
+
+
+normal termination of xtb",-19.95414632317,-10.4277,-6.0755,4.3522,0.77,72.308594,2046.285788,0.101331662396,-19.881854567719,0,-0.0,True,False,2.1761,-8.2516,8.2516,15.644709011534395,298.15,0.107921,0.035629,0.0722918
+2.2,6fed79fe003d94c5e5ba0d514a1042ffbd83c034870707a574c494cd9a93ac13,10,guaiacol,xTB,* xtb version 6.7.1pre (5071a88) compiled by 'Marcel@Raven' on 2024-07-23,GFN2-xTB,0,1,completed,0,0,0.5140077000014571,2026-09-16T22:40:26.323917+00:00,2026-09-16T22:40:26.850677+00:00,outputs\notebook_complete\quantum\xtb\molecule_0010\opt\input.xyz,outputs\notebook_complete\quantum\xtb\molecule_0010\opt\xtb_opt.out,outputs\notebook_complete\quantum\xtb\molecule_0010\opt\xtbopt.xyz,6fed79fe003d94c5e5ba0d514a1042ffbd83c034870707a574c494cd9a93ac13,"   6 C    8 O           3     1.3809668     1.4045696     1.3590954
+
+
+optimized geometry written to: xtbopt.xyz
+
+
+           -------------------------------------------------
+          | TOTAL ENERGY              -27.187138220283 Eh   |
+          | GRADIENT NORM               0.000146169052 Eh/α |
+          | HOMO-LUMO GAP               4.167685595511 eV   |
+           -------------------------------------------------
+
+------------------------------------------------------------------------
+ * finished run on 2026/09/17 at 00:40:26.490     
+------------------------------------------------------------------------
+ total:
+ * wall-time:     0 d,  0 h,  0 min,  0.067 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.250 sec
+ * ratio c/w:     3.731 speedup
+ SCF:
+ * wall-time:     0 d,  0 h,  0 min,  0.007 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.000 sec
+ * ratio c/w:     0.000 speedup
+ ANC optimizer:
+ * wall-time:     0 d,  0 h,  0 min,  0.038 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.172 sec
+ * ratio c/w:     4.523 speedup
+
+
+normal termination of xtb",-27.187138220281,-10.0728,-5.9051,4.167700000000001,-0.248,88.785848,3212.338561,0.132823979551,-27.086958014499,0,-0.0,True,False,2.0838500000000004,-7.988950000000001,7.988950000000001,15.313799482328383,298.15,0.14201,0.0418298,0.10018
+2.2,f6d0d8daa966a742161ee04b1fc4129616a49559f4374d6d8a2fe3fa4f849e27,11,syringol,xTB,* xtb version 6.7.1pre (5071a88) compiled by 'Marcel@Raven' on 2024-07-23,GFN2-xTB,0,1,completed,0,0,0.8231444999983069,2026-09-16T22:40:26.933674+00:00,2026-09-16T22:40:27.810090+00:00,outputs\notebook_complete\quantum\xtb\molecule_0011\opt\input.xyz,outputs\notebook_complete\quantum\xtb\molecule_0011\opt\xtb_opt.out,outputs\notebook_complete\quantum\xtb\molecule_0011\opt\xtbopt.xyz,f6d0d8daa966a742161ee04b1fc4129616a49559f4374d6d8a2fe3fa4f849e27,"   6 C    8 O           5     1.3824324     1.4046237     1.3609293
+
+
+optimized geometry written to: xtbopt.xyz
+
+
+           -------------------------------------------------
+          | TOTAL ENERGY              -34.413040113307 Eh   |
+          | GRADIENT NORM               0.000083470456 Eh/α |
+          | HOMO-LUMO GAP               4.094809238702 eV   |
+           -------------------------------------------------
+
+------------------------------------------------------------------------
+ * finished run on 2026/09/17 at 00:40:27.193     
+------------------------------------------------------------------------
+ total:
+ * wall-time:     0 d,  0 h,  0 min,  0.085 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.312 sec
+ * ratio c/w:     3.676 speedup
+ SCF:
+ * wall-time:     0 d,  0 h,  0 min,  0.011 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.016 sec
+ * ratio c/w:     1.420 speedup
+ ANC optimizer:
+ * wall-time:     0 d,  0 h,  0 min,  0.052 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.234 sec
+ * ratio c/w:     4.507 speedup
+
+
+normal termination of xtb",-34.413040113304,-9.8196,-5.7248,4.094799999999999,-8.202,105.381491,4650.521398,0.163973270329,-34.28517851194,0,-0.0,True,False,2.0473999999999997,-7.7722,7.7722,14.752147318550358,298.15,0.175903,0.0480419,0.127862
+2.2,c475367fe5c5e7c0e93fc71727ab0f25f5adbb27ddde61de5ae573ed8f926d6d,12,catechol,xTB,* xtb version 6.7.1pre (5071a88) compiled by 'Marcel@Raven' on 2024-07-23,GFN2-xTB,0,1,completed,0,0,0.4423757000004116,2026-09-16T22:40:27.913662+00:00,2026-09-16T22:40:28.369074+00:00,outputs\notebook_complete\quantum\xtb\molecule_0012\opt\input.xyz,outputs\notebook_complete\quantum\xtb\molecule_0012\opt\xtb_opt.out,outputs\notebook_complete\quantum\xtb\molecule_0012\opt\xtbopt.xyz,c475367fe5c5e7c0e93fc71727ab0f25f5adbb27ddde61de5ae573ed8f926d6d,"   6 C    8 O           2     1.3675101     1.3769751     1.3580451
+
+
+optimized geometry written to: xtbopt.xyz
+
+
+           -------------------------------------------------
+          | TOTAL ENERGY              -24.027986926990 Eh   |
+          | GRADIENT NORM               0.000056530264 Eh/α |
+          | HOMO-LUMO GAP               4.189607127409 eV   |
+           -------------------------------------------------
+
+------------------------------------------------------------------------
+ * finished run on 2026/09/17 at 00:40:28.127     
+------------------------------------------------------------------------
+ total:
+ * wall-time:     0 d,  0 h,  0 min,  0.090 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.297 sec
+ * ratio c/w:     3.299 speedup
+ SCF:
+ * wall-time:     0 d,  0 h,  0 min,  0.005 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.062 sec
+ * ratio c/w:    12.500 speedup
+ ANC optimizer:
+ * wall-time:     0 d,  0 h,  0 min,  0.027 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.109 sec
+ * ratio c/w:     4.051 speedup
+
+
+normal termination of xtb",-24.02798692699,-10.1793,-5.9897,4.1895999999999995,0.547,76.784458,2370.291314,0.10523871068,-23.953190381982,0,-0.0,True,False,2.0947999999999998,-8.0845,8.0845,15.600329446725228,298.15,0.112938,0.0381411,0.0747965
+2.2,f89527e90d7b0ee0d057ebd472dbc41e2cc713a54e80e6c1d026d3fe1055ffe7,13,cyclohexane,xTB,* xtb version 6.7.1pre (5071a88) compiled by 'Marcel@Raven' on 2024-07-23,GFN2-xTB,0,1,completed,0,0,0.8288826999996672,2026-09-16T22:40:28.498887+00:00,2026-09-16T22:40:29.387206+00:00,outputs\notebook_complete\quantum\xtb\molecule_0013\opt\input.xyz,outputs\notebook_complete\quantum\xtb\molecule_0013\opt\xtb_opt.out,outputs\notebook_complete\quantum\xtb\molecule_0013\opt\xtbopt.xyz,f89527e90d7b0ee0d057ebd472dbc41e2cc713a54e80e6c1d026d3fe1055ffe7,"   6 C    6 C           6     1.5258459     1.5258459     1.5258459
+
+
+optimized geometry written to: xtbopt.xyz
+
+
+           -------------------------------------------------
+          | TOTAL ENERGY              -18.986715862819 Eh   |
+          | GRADIENT NORM               0.000074838966 Eh/α |
+          | HOMO-LUMO GAP              13.660571719358 eV   |
+           -------------------------------------------------
+
+------------------------------------------------------------------------
+ * finished run on 2026/09/17 at 00:40:28.983     
+------------------------------------------------------------------------
+ total:
+ * wall-time:     0 d,  0 h,  0 min,  0.361 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.766 sec
+ * ratio c/w:     2.121 speedup
+ SCF:
+ * wall-time:     0 d,  0 h,  0 min,  0.006 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.000 sec
+ * ratio c/w:     0.000 speedup
+ ANC optimizer:
+ * wall-time:     0 d,  0 h,  0 min,  0.036 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.125 sec
+ * ratio c/w:     3.472 speedup
+
+
+normal termination of xtb",-18.98671586282,-11.1331,2.5275,13.6606,-0.335,70.066192,2230.550209,0.168443710077,-18.845325313296,0,-0.0,True,False,6.8303,-4.3028,4.3028,1.3552909711140069,298.15,0.175066,0.0336755,0.141391
+2.2,1a2dcbf0b9c7c23dff594cca93ef81132e498fab3446dbc57408d054f8dc6ae1,14,gamma-valerolactone,xTB,* xtb version 6.7.1pre (5071a88) compiled by 'Marcel@Raven' on 2024-07-23,GFN2-xTB,0,1,completed,0,0,0.45412279999982275,2026-09-16T22:40:29.503452+00:00,2026-09-16T22:40:29.974609+00:00,outputs\notebook_complete\quantum\xtb\molecule_0014\opt\input.xyz,outputs\notebook_complete\quantum\xtb\molecule_0014\opt\xtb_opt.out,outputs\notebook_complete\quantum\xtb\molecule_0014\opt\xtbopt.xyz,1a2dcbf0b9c7c23dff594cca93ef81132e498fab3446dbc57408d054f8dc6ae1,"   6 C    8 O           3     1.3206549     1.4292014     1.1954448
+
+
+optimized geometry written to: xtbopt.xyz
+
+
+           -------------------------------------------------
+          | TOTAL ENERGY              -22.940250642088 Eh   |
+          | GRADIENT NORM               0.000158104395 Eh/α |
+          | HOMO-LUMO GAP               5.106833450917 eV   |
+           -------------------------------------------------
+
+------------------------------------------------------------------------
+ * finished run on 2026/09/17 at 00:40:29.683     
+------------------------------------------------------------------------
+ total:
+ * wall-time:     0 d,  0 h,  0 min,  0.077 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.297 sec
+ * ratio c/w:     3.856 speedup
+ SCF:
+ * wall-time:     0 d,  0 h,  0 min,  0.006 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.000 sec
+ * ratio c/w:     0.000 speedup
+ ANC optimizer:
+ * wall-time:     0 d,  0 h,  0 min,  0.051 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.172 sec
+ * ratio c/w:     3.370 speedup
+
+
+normal termination of xtb",-22.940250642089,-11.2956,-6.1888,5.106800000000001,0.371,64.516885,1920.391929,0.123478502516,-22.847563276811,0,-0.0,True,False,2.5534000000000003,-8.7422,8.7422,14.965548061408317,298.15,0.131142,0.038455,0.0926874
+2.2,ace8043b8864d12737abed28b5acbed12f689d8a5477ac5ad36c78035d96c48a,15,"2,5-dimethylfuran",xTB,* xtb version 6.7.1pre (5071a88) compiled by 'Marcel@Raven' on 2024-07-23,GFN2-xTB,0,1,completed,0,0,0.4091026999994938,2026-09-16T22:40:30.197190+00:00,2026-09-16T22:40:30.622576+00:00,outputs\notebook_complete\quantum\xtb\molecule_0015\opt\input.xyz,outputs\notebook_complete\quantum\xtb\molecule_0015\opt\xtb_opt.out,outputs\notebook_complete\quantum\xtb\molecule_0015\opt\xtbopt.xyz,ace8043b8864d12737abed28b5acbed12f689d8a5477ac5ad36c78035d96c48a,"   6 C    8 O           2     1.3539230     1.3539230     1.3539230
+
+
+optimized geometry written to: xtbopt.xyz
+
+
+           -------------------------------------------------
+          | TOTAL ENERGY              -20.987607802059 Eh   |
+          | GRADIENT NORM               0.000079815295 Eh/α |
+          | HOMO-LUMO GAP               4.617827177960 eV   |
+           -------------------------------------------------
+
+------------------------------------------------------------------------
+ * finished run on 2026/09/17 at 00:40:30.341     
+------------------------------------------------------------------------
+ total:
+ * wall-time:     0 d,  0 h,  0 min,  0.064 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.188 sec
+ * ratio c/w:     2.930 speedup
+ SCF:
+ * wall-time:     0 d,  0 h,  0 min,  0.006 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.000 sec
+ * ratio c/w:     0.000 speedup
+ ANC optimizer:
+ * wall-time:     0 d,  0 h,  0 min,  0.033 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.125 sec
+ * ratio c/w:     3.788 speedup
+
+
+normal termination of xtb",-20.98760780206,-9.941,-5.3232,4.617800000000001,-1.162,72.95418,2203.80345,0.122740210031,-20.895940317824,0,-0.0,True,False,2.3089000000000004,-7.6321,7.6321,12.61400459309628,298.15,0.131064,0.039397,0.0916675
+2.2,de90f81160c799792b732b50a31a30f1c4fa005b251f504febb33eae75fc8324,171,2-methylheptane,xTB,* xtb version 6.7.1pre (5071a88) compiled by 'Marcel@Raven' on 2024-07-23,GFN2-xTB,0,1,completed,0,0,0.7401226999991195,2026-09-16T22:40:30.748717+00:00,2026-09-16T22:40:31.504076+00:00,outputs\notebook_complete\quantum\xtb\molecule_0171\opt\input.xyz,outputs\notebook_complete\quantum\xtb\molecule_0171\opt\xtb_opt.out,outputs\notebook_complete\quantum\xtb\molecule_0171\opt\xtbopt.xyz,de90f81160c799792b732b50a31a30f1c4fa005b251f504febb33eae75fc8324,"   6 C    6 C           7     1.5274726     1.5326220     1.5237101
+
+
+optimized geometry written to: xtbopt.xyz
+
+
+           -------------------------------------------------
+          | TOTAL ENERGY              -26.323896944825 Eh   |
+          | GRADIENT NORM               0.000163372840 Eh/α |
+          | HOMO-LUMO GAP              12.629690647830 eV   |
+           -------------------------------------------------
+
+------------------------------------------------------------------------
+ * finished run on 2026/09/17 at 00:40:30.926     
+------------------------------------------------------------------------
+ total:
+ * wall-time:     0 d,  0 h,  0 min,  0.090 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.375 sec
+ * ratio c/w:     4.167 speedup
+ SCF:
+ * wall-time:     0 d,  0 h,  0 min,  0.007 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.016 sec
+ * ratio c/w:     2.232 speedup
+ ANC optimizer:
+ * wall-time:     0 d,  0 h,  0 min,  0.062 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.250 sec
+ * ratio c/w:     4.032 speedup
+
+
+normal termination of xtb",-26.323896944825,-11.248,1.3817,12.6297,-0.013,98.428186,4378.798187,0.243293727768,-26.117044213852,0,-0.0,True,False,6.31485,-4.9331499999999995,4.9331499999999995,1.9268841637172691,298.15,0.255367,0.0485139,0.206853
+2.2,5bd60c2354b0b5f902d25ed83fdc6d96f1dbaa2a62f43edfc42405ab8188a876,172,ethylcyclohexane,xTB,* xtb version 6.7.1pre (5071a88) compiled by 'Marcel@Raven' on 2024-07-23,GFN2-xTB,0,1,completed,0,0,0.7913184999979421,2026-09-16T22:40:31.601344+00:00,2026-09-16T22:40:32.421466+00:00,outputs\notebook_complete\quantum\xtb\molecule_0172\opt\input.xyz,outputs\notebook_complete\quantum\xtb\molecule_0172\opt\xtb_opt.out,outputs\notebook_complete\quantum\xtb\molecule_0172\opt\xtbopt.xyz,5bd60c2354b0b5f902d25ed83fdc6d96f1dbaa2a62f43edfc42405ab8188a876,"   6 C    6 C           8     1.5273778     1.5326576     1.5244868
+
+
+optimized geometry written to: xtbopt.xyz
+
+
+           -------------------------------------------------
+          | TOTAL ENERGY              -25.316768729102 Eh   |
+          | GRADIENT NORM               0.000067111134 Eh/α |
+          | HOMO-LUMO GAP              12.734223651647 eV   |
+           -------------------------------------------------
+
+------------------------------------------------------------------------
+ * finished run on 2026/09/17 at 00:40:31.918     
+------------------------------------------------------------------------
+ total:
+ * wall-time:     0 d,  0 h,  0 min,  0.195 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.672 sec
+ * ratio c/w:     3.446 speedup
+ SCF:
+ * wall-time:     0 d,  0 h,  0 min,  0.007 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.000 sec
+ * ratio c/w:     0.000 speedup
+ ANC optimizer:
+ * wall-time:     0 d,  0 h,  0 min,  0.100 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.375 sec
+ * ratio c/w:     3.750 speedup
+
+
+normal termination of xtb",-25.316768729102,-10.9841,1.7501,12.7342,0.155,93.337911,3958.872994,0.224294987339,-25.125282847976,0,-0.0,True,False,6.3671,-4.617,4.617,1.6739715883212138,298.15,0.233757,0.0422706,0.191486
+2.2,4f3638b433676c3e7993832be2b42d4679fa4c19054924644e658b3129e2ee54,173,propylcyclohexane,xTB,* xtb version 6.7.1pre (5071a88) compiled by 'Marcel@Raven' on 2024-07-23,GFN2-xTB,0,1,completed,0,0,0.9520390999969095,2026-09-16T22:40:32.537405+00:00,2026-09-16T22:40:33.503801+00:00,outputs\notebook_complete\quantum\xtb\molecule_0173\opt\input.xyz,outputs\notebook_complete\quantum\xtb\molecule_0173\opt\xtb_opt.out,outputs\notebook_complete\quantum\xtb\molecule_0173\opt\xtbopt.xyz,4f3638b433676c3e7993832be2b42d4679fa4c19054924644e658b3129e2ee54,"   6 C    6 C           9     1.5273441     1.5323925     1.5241282
+
+
+optimized geometry written to: xtbopt.xyz
+
+
+           -------------------------------------------------
+          | TOTAL ENERGY              -28.481259212563 Eh   |
+          | GRADIENT NORM               0.000120178722 Eh/α |
+          | HOMO-LUMO GAP              12.447508688802 eV   |
+           -------------------------------------------------
+
+------------------------------------------------------------------------
+ * finished run on 2026/09/17 at 00:40:32.914     
+------------------------------------------------------------------------
+ total:
+ * wall-time:     0 d,  0 h,  0 min,  0.234 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.828 sec
+ * ratio c/w:     3.539 speedup
+ SCF:
+ * wall-time:     0 d,  0 h,  0 min,  0.008 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.062 sec
+ * ratio c/w:     7.813 speedup
+ ANC optimizer:
+ * wall-time:     0 d,  0 h,  0 min,  0.101 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.375 sec
+ * ratio c/w:     3.713 speedup
+
+
+normal termination of xtb",-28.481259212563,-10.9513,1.4962,12.4475,0.273,104.995364,5009.650159,0.252431188072,-28.26375787961,0,-0.0,True,False,6.22375,-4.72755,4.72755,1.795519502108857,298.15,0.26327,0.0457685,0.217501

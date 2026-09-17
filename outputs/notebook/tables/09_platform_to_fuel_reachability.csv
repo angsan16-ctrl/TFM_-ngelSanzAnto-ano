@@ -1,0 +1,6 @@
+source_molecule_id,source_name,fuel_molecule_id,fuel_name,shortest_steps
+1,D-glucose,15,"2,5-dimethylfuran",2
+2,D-xylose,8,2-methylfuran,2
+3,5-hydroxymethylfurfural,15,"2,5-dimethylfuran",1
+4,levulinic acid,14,gamma-valerolactone,1
+6,furfural,8,2-methylfuran,1

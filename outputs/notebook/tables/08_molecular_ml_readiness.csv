@@ -1,0 +1,9 @@
+property_name,unit_std,n_measurements,n_molecules,n_with_rdkit,supervised_ml_ready_n20
+boiling_point,°C,14,10,6,False
+density,kg/m3,11,10,2,False
+energy_density,MJ/L,10,9,1,False
+flash_point,°C,4,4,0,False
+lower_heating_value,MJ/kg,5,4,2,False
+melting_point,°C,4,4,0,False
+octane_number,,5,3,2,False
+specific_energy,MJ/kg,11,11,3,False

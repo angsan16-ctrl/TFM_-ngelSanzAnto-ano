@@ -1,0 +1,17 @@
+biomass_id,common_name,biomass_category,residue_type,n_measurements,n_sources,cellulose_median,hemicellulose_median,lignin_median,ash_median,moisture_median,hhv_median,structural_carbohydrates_median,pareto_biochemical
+1,wheat straw,agricultural_residue,straw,8,4,41.9,32.28,10.23,2.8,,17.51,71.15,True
+2,rice straw,agricultural_residue,straw,6,6,38.455,25.35,17.799999999999997,12.1,7.41,16.04,65.05,True
+6,olive pruning,agricultural_residue,pruning,4,3,24.95,19.15,22.85,3.8000000000000003,,,40.1,False
+18,barley straw,agricultural_residue,straw,1,1,33.25,20.36,17.13,2.18,,,53.61,False
+20,oat straw,agricultural_residue,straw,1,1,37.6,23.34,12.85,2.19,,,60.94,True
+22,sorghum straw,agricultural_residue,straw,1,1,32.0,24.0,13.0,12.0,,,56.0,False
+32,sunflower seed hull,agroindustrial_residue,hull,1,1,29.4,29.4,29.4,2.1,,,58.8,False
+35,canola straw,agricultural_residue,straw,1,1,42.39,16.41,14.15,2.1,,,58.8,True
+39,flax straw,agricultural_residue,straw,1,1,51.34,25.2,14.12,4.13,11.0,,76.54,True
+42,flax oil cake,food_industry_residue,oil_cake,1,1,8.2,4.6,6.0,5.3,,,12.799999999999999,True
+45,hemp oil cake,food_industry_residue,oil_cake,1,1,22.5,14.2,16.7,7.5,,,36.7,False
+46,hull-less pumpkin oil cake,food_industry_residue,oil_cake,1,1,4.4,6.7,0.7,7.8,,,11.100000000000001,True
+80,coffee silverskin,food_industry_residue,silverskin,1,1,10.33,9.64,29.91,5.87,4.81,,19.97,False
+161,softwood stem,woody_biomass,stem,1,1,42.0,27.0,28.0,0.5,,,69.0,True
+162,hardwood stem,woody_biomass,stem,1,1,45.0,30.0,20.0,0.6,,,75.0,True
+182,spelt straw,agricultural_residue,straw,1,1,38.3,24.3,14.8,5.7,,,62.599999999999994,False

@@ -1,0 +1,2 @@
+test_model,feature_block,observed_rmse,permutations,p_value_one_sided,null_rmse_mean,null_rmse_sd,interpretation
+Ridge nested GroupCV,ultimate,1.610908452009714,200,0.004975124378109453,3.009390490982668,0.9356354178079028,Prueba independiente de señal con Ridge; no es el p-valor del modelo seleccionado por mínimo RMSE.

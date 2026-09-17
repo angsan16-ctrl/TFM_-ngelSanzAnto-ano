@@ -1,0 +1,14 @@
+﻿child_sheet,child_column,parent_sheet,parent_column,broken_references
+03_Composition,biomass_id,02_Biomass,biomass_id,0
+03_Composition,source_id,01_Sources,source_id,0
+05_Biomass_Molecule,biomass_id,02_Biomass,biomass_id,0
+05_Biomass_Molecule,molecule_id,04_Molecules,molecule_id,0
+05_Biomass_Molecule,source_id,01_Sources,source_id,0
+06_Reactions,source_id,01_Sources,source_id,0
+07_Reaction_Participants,reaction_id,06_Reactions,reaction_id,0
+07_Reaction_Participants,molecule_id,04_Molecules,molecule_id,0
+08_Fuel_Properties,molecule_id,04_Molecules,molecule_id,0
+08_Fuel_Properties,source_id,01_Sources,source_id,0
+09_Descriptors,molecule_id,04_Molecules,molecule_id,0
+10_Quantum_Calc,molecule_id,04_Molecules,molecule_id,0
+11_Quantum_Properties,calculation_id,10_Quantum_Calc,calculation_id,0

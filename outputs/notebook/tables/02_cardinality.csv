@@ -1,0 +1,5 @@
+relationship,parent_rows,child_rows,children_per_parent_mean
+biomass -> biomass_composition,183,306,2.300751879699248
+molecule -> fuel_property,173,64,3.0476190476190474
+reaction -> reaction_participant,82,164,2.0
+molecule -> reaction_participant,173,164,13.666666666666666

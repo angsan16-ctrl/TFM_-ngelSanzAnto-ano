@@ -1,0 +1,22 @@
+molecule_id,preferred_name,boiling_point [°C],density [kg/m3],energy_density [MJ/L],flash_point [°C],lower_heating_value [MJ/kg],melting_point [°C],octane_number [unitless],specific_energy [MJ/kg]
+6,furfural,161.55,,,,,,,
+7,furfuryl alcohol,171.0,,,,,,,
+8,2-methylfuran,62.925,910.0,,,31.2,,103.0,
+13,cyclohexane,80.78,,,,,,,
+14,gamma-valerolactone,207.55,,,,,,,
+15,"2,5-dimethylfuran",92.925,889.85,30.0,,33.55,,119.0,
+16,methyl levulinate,196.05,,,,,,,
+17,ethyl levulinate,205.85,,,,,,,
+18,tetrahydrofuran,65.85,889.2,,,34.6,,,
+19,2-methyltetrahydrofuran,80.05,854.0,,,32.8,,86.0,
+20,"1,1-diethylcyclohexane",,828.6,35.81,49.2,,-54.4,,43.6
+21,"1,2,3,4-tetramethylcyclohexane",,825.8,35.4,40.5,,-75.0,,43.26
+22,"1,4-dimethylcyclooctane",,827.0,36.22,49.5,,-78.0,,43.82
+23,"1,1,4-trimethylcycloheptane",,807.6,34.83,42.5,,,,43.56
+24,"1,1,5-trimethyl-2-pentylcyclohexane",,812.6,35.0,,,,,43.46
+168,cis-decalin,,901.02,38.7,,,-38.8,,42.98
+169,"1,2-dimethyl-cis-decalin",,,32.6,,,,,42.94
+170,"1,3-dimethyl-cis-decalin",,,32.55,,,,,42.88
+171,2-methylheptane,,,,,,,,44.82
+172,ethylcyclohexane,,,,,,,,43.88
+173,propylcyclohexane,,,,,,,,43.89

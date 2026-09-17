@@ -1,0 +1,696 @@
+molecule_id,preferred_name,molecule_role,xtb_pipeline_version,xtb_input_sha256,xtb_preferred_name,xtb_software,xtb_software_version,xtb_method,xtb_charge,xtb_multiplicity,xtb_status,xtb_returncode,xtb_hessian_returncode,xtb_runtime_seconds,xtb_started_at,xtb_finished_at,xtb_input_path,xtb_output_path,xtb_geometry_path,xtb_file_hash,xtb_stderr_tail,xtb_electronic_energy_Eh,xtb_homo_eV,xtb_lumo_eV,xtb_homo_lumo_gap_eV,xtb_dipole_debye,xtb_isotropic_polarizability_au,xtb_molecular_c6_au,xtb_zero_point_energy_Eh,xtb_total_free_energy_Eh,xtb_imaginary_frequencies,xtb_min_frequency_cm1,xtb_normal_termination,xtb_optimization_converged,xtb_chemical_hardness_eV,xtb_chemical_potential_eV,xtb_electronegativity_eV,xtb_electrophilicity_eV,xtb_temperature_K,xtb_enthalpy_Eh,xtb_entropy_term_Eh,xtb_gibbs_free_energy_Eh,orca_pipeline_version,orca_input_sha256,orca_preferred_name,orca_software,orca_software_version,orca_method,orca_refinement_method,orca_charge,orca_multiplicity,orca_status,orca_returncode,orca_nprocs,orca_runtime_seconds,orca_started_at,orca_finished_at,orca_input_path,orca_output_path,orca_geometry_path,orca_file_hash,orca_error_summary,orca_normal_termination,orca_electronic_energy_Eh,orca_dipole_debye,orca_isotropic_polarizability_au,orca_zero_point_energy_Eh,orca_enthalpy_Eh,orca_gibbs_free_energy_Eh,orca_homo_eV,orca_lumo_eV,orca_imaginary_frequencies,orca_min_frequency_cm1,orca_refinement_status,orca_refinement_returncode,orca_refinement_runtime_seconds,orca_refinement_started_at,orca_refinement_finished_at,orca_refinement_input_path,orca_refinement_output_path,orca_refinement_geometry_path,orca_refinement_file_hash,orca_refinement_nprocs,orca_refinement_normal_termination,orca_refinement_electronic_energy_Eh,orca_refinement_dipole_debye,orca_refinement_isotropic_polarizability_au,orca_refinement_zero_point_energy_Eh,orca_refinement_enthalpy_Eh,orca_refinement_gibbs_free_energy_Eh,orca_refinement_homo_eV,orca_refinement_lumo_eV,orca_refinement_imaginary_frequencies,orca_refinement_min_frequency_cm1,orca_refinement_homo_lumo_gap_eV,orca_refinement_chemical_hardness_eV,orca_refinement_chemical_potential_eV,orca_refinement_electronegativity_eV,orca_refinement_electrophilicity_eV,orca_parallel_worker_runtime_s
+1,D-glucose,platform_molecule,2.2,54d08833ea245bf40c57634c131e7cdb5c6083966b85272b61b69f68e6fa3d8a,D-glucose,xTB,* xtb version 6.7.1pre (5071a88) compiled by 'Marcel@Raven' on 2024-07-23,GFN2-xTB,0.0,1.0,completed,0.0,0.0,0.9121454999994967,2026-09-16T22:11:27.296251+00:00,2026-09-16T22:11:28.232976+00:00,outputs\notebook_complete\quantum\xtb\molecule_0001\opt\input.xyz,outputs\notebook_complete\quantum\xtb\molecule_0001\opt\xtb_opt.out,outputs\notebook_complete\quantum\xtb\molecule_0001\opt\xtbopt.xyz,54d08833ea245bf40c57634c131e7cdb5c6083966b85272b61b69f68e6fa3d8a,"   6 C    8 O           7     1.4029242     1.4195958     1.3874423
+
+
+optimized geometry written to: xtbopt.xyz
+
+
+           -------------------------------------------------
+          | TOTAL ENERGY              -43.362941699021 Eh   |
+          | GRADIENT NORM               0.000388252417 Eh/α |
+          | HOMO-LUMO GAP              10.468721897187 eV   |
+           -------------------------------------------------
+
+------------------------------------------------------------------------
+ * finished run on 2026/09/17 at 00:11:27.567     
+------------------------------------------------------------------------
+ total:
+ * wall-time:     0 d,  0 h,  0 min,  0.202 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.688 sec
+ * ratio c/w:     3.403 speedup
+ SCF:
+ * wall-time:     0 d,  0 h,  0 min,  0.011 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.062 sec
+ * ratio c/w:     5.682 speedup
+ ANC optimizer:
+ * wall-time:     0 d,  0 h,  0 min,  0.164 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.562 sec
+ * ratio c/w:     3.430 speedup
+
+
+normal termination of xtb",-43.36294169902,-11.3445,-0.8757,10.4688,4.042,98.324571,4718.295463,0.18813112533,-43.21305976342,0.0,-0.0,True,False,5.2344,-6.1101,6.1101,3.566151040233838,298.15,0.201988,0.0521058,0.149882,2.2,54d08833ea245bf40c57634c131e7cdb5c6083966b85272b61b69f68e6fa3d8a,D-glucose,ORCA,ORCA_6.1.1,R2SCAN-3C,wB97X-3c,0.0,1.0,completed,0.0,1.0,3397.7761802000005,2026-09-16T23:01:31.060921+00:00,2026-09-16T23:58:08.837032+00:00,outputs\notebook_complete\quantum\orca\molecule_0001\optfreq.inp,outputs\notebook_complete\quantum\orca\molecule_0001\optfreq.out,outputs\notebook_complete\quantum\orca\molecule_0001\optfreq.xyz,4194fb9b4063915d3180fd2134b820b79c01ee17d393ddeec92a878de861a217,,True,-687.096578452443,2.888419292,95.02893,0.19601503,-686.88718918,-686.93762447,0.425498,-0.000686,0.0,0.0,completed,0.0,618.1589324999986,2026-09-16T23:58:08.890554+00:00,2026-09-17T00:08:27.050325+00:00,outputs\notebook_complete\quantum\orca\molecule_0001\refinement\sp.inp,outputs\notebook_complete\quantum\orca\molecule_0001\refinement\sp.out,outputs\notebook_complete\quantum\orca\molecule_0001\refinement\geometry.xyz,e0f7faea3c07cfa41f0f966e9c722fce980d96b452401622bf342d1a40a60b48,1.0,True,-137.772319776636,3.043102037,87.65294,,,,-10.5734,1.6946,,,12.267999999999999,6.1339999999999995,-4.4394,4.4394,1.606478020867297,0.0019834999984595925
+2,D-xylose,platform_molecule,2.2,88fa5a26f92a1d0e634a307020ea9abc0646da18f2084cf0d8b42e7755df18fb,D-xylose,xTB,* xtb version 6.7.1pre (5071a88) compiled by 'Marcel@Raven' on 2024-07-23,GFN2-xTB,0.0,1.0,completed,0.0,0.0,0.631875899998704,2026-09-16T22:40:19.580055+00:00,2026-09-16T22:40:20.238688+00:00,outputs\notebook_complete\quantum\xtb\molecule_0002\opt\input.xyz,outputs\notebook_complete\quantum\xtb\molecule_0002\opt\xtb_opt.out,outputs\notebook_complete\quantum\xtb\molecule_0002\opt\xtbopt.xyz,88fa5a26f92a1d0e634a307020ea9abc0646da18f2084cf0d8b42e7755df18fb,"   6 C    8 O           6     1.4022815     1.4084943     1.3891830
+
+
+optimized geometry written to: xtbopt.xyz
+
+
+           -------------------------------------------------
+          | TOTAL ENERGY              -36.136475332948 Eh   |
+          | GRADIENT NORM               0.000156738659 Eh/α |
+          | HOMO-LUMO GAP              10.663770762690 eV   |
+           -------------------------------------------------
+
+------------------------------------------------------------------------
+ * finished run on 2026/09/17 at 00:40:19.780     
+------------------------------------------------------------------------
+ total:
+ * wall-time:     0 d,  0 h,  0 min,  0.142 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.469 sec
+ * ratio c/w:     3.301 speedup
+ SCF:
+ * wall-time:     0 d,  0 h,  0 min,  0.012 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.047 sec
+ * ratio c/w:     3.906 speedup
+ ANC optimizer:
+ * wall-time:     0 d,  0 h,  0 min,  0.082 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.312 sec
+ * ratio c/w:     3.811 speedup
+
+
+normal termination of xtb",-36.136475332947,-11.223,-0.5592,10.6638,-1.576,81.9847,3279.441871,0.156553886761,-36.014888619702,0.0,-0.0,True,False,5.3319,-5.891100000000001,5.891100000000001,3.2544739408090932,298.15,0.167875,0.0462883,0.121587,2.2,88fa5a26f92a1d0e634a307020ea9abc0646da18f2084cf0d8b42e7755df18fb,D-xylose,ORCA,ORCA_6.1.1,R2SCAN-3C,wB97X-3c,0.0,1.0,completed,0.0,1.0,2289.1983766999983,2026-09-17T00:08:27.069396+00:00,2026-09-17T00:46:36.267239+00:00,outputs\notebook_complete\quantum\orca\molecule_0002\optfreq.inp,outputs\notebook_complete\quantum\orca\molecule_0002\optfreq.out,outputs\notebook_complete\quantum\orca\molecule_0002\optfreq.xyz,4ccc2457759d69c684b5b4ab37d05c260ed2de8b95ab96b270ff676b1ae82551,,True,-572.577303496466,1.90729353,78.44952,0.16321357,-572.40321805,-572.44822996,0.859389,0.0,0.0,0.0,completed,0.0,393.7663309000018,2026-09-17T00:46:36.323985+00:00,2026-09-17T00:53:10.089926+00:00,outputs\notebook_complete\quantum\orca\molecule_0002\refinement\sp.inp,outputs\notebook_complete\quantum\orca\molecule_0002\refinement\sp.out,outputs\notebook_complete\quantum\orca\molecule_0002\refinement\geometry.xyz,e324f3471b8024f5c9f99083f5a0ae1df9827500707081f38c95c3e0b3dbaceb,1.0,True,-114.807535237196,2.015642997,72.67657,,,,-10.3902,1.9419,,,12.3321,6.16605,-4.22415,4.22415,1.4469103577249616,0.0014080000000831205
+3,5-hydroxymethylfurfural,platform_molecule,2.2,933f8df867e272d984eabd6d105386cd46e32dec259b706e974bf12dd19574ae,5-hydroxymethylfurfural,xTB,* xtb version 6.7.1pre (5071a88) compiled by 'Marcel@Raven' on 2024-07-23,GFN2-xTB,0.0,1.0,completed,0.0,0.0,0.6747739000002184,2026-09-16T22:40:20.366915+00:00,2026-09-16T22:40:21.059265+00:00,outputs\notebook_complete\quantum\xtb\molecule_0003\opt\input.xyz,outputs\notebook_complete\quantum\xtb\molecule_0003\opt\xtb_opt.out,outputs\notebook_complete\quantum\xtb\molecule_0003\opt\xtbopt.xyz,933f8df867e272d984eabd6d105386cd46e32dec259b706e974bf12dd19574ae,"   6 C    8 O           4     1.3284407     1.4074223     1.2064779
+
+
+optimized geometry written to: xtbopt.xyz
+
+
+           -------------------------------------------------
+          | TOTAL ENERGY              -28.064630641700 Eh   |
+          | GRADIENT NORM               0.000328624518 Eh/α |
+          | HOMO-LUMO GAP               3.027580545125 eV   |
+           -------------------------------------------------
+
+------------------------------------------------------------------------
+ * finished run on 2026/09/17 at 00:40:20.716     
+------------------------------------------------------------------------
+ total:
+ * wall-time:     0 d,  0 h,  0 min,  0.196 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.641 sec
+ * ratio c/w:     3.268 speedup
+ SCF:
+ * wall-time:     0 d,  0 h,  0 min,  0.019 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.109 sec
+ * ratio c/w:     5.757 speedup
+ ANC optimizer:
+ * wall-time:     0 d,  0 h,  0 min,  0.153 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.484 sec
+ * ratio c/w:     3.166 speedup
+
+
+normal termination of xtb",-28.0646306417,-11.1961,-8.1685,3.0275999999999996,7.451,79.649464,2676.457689,0.108123522233,-27.990291727202,0.0,-0.0,True,False,1.5137999999999998,-9.6823,9.6823,30.96410797000925,298.15,0.117603,0.0432639,0.0743389,2.2,933f8df867e272d984eabd6d105386cd46e32dec259b706e974bf12dd19574ae,5-hydroxymethylfurfural,ORCA,ORCA_6.1.1,R2SCAN-3C,wB97X-3c,0.0,1.0,completed,0.0,1.0,1135.3642227000018,2026-09-17T00:53:10.105843+00:00,2026-09-17T01:12:05.470609+00:00,outputs\notebook_complete\quantum\orca\molecule_0003\optfreq.inp,outputs\notebook_complete\quantum\orca\molecule_0003\optfreq.out,outputs\notebook_complete\quantum\orca\molecule_0003\optfreq.xyz,855aaedc38fefbc5657e369b43155de0161718b06da45d95ee7ef75e0eb07dbd,,True,-457.807846374207,2.939135672,83.89521,0.1115432,-457.6870514,-457.72941567,0.472322,-2.7683,0.0,0.0,completed,0.0,251.83296500000142,2026-09-17T01:12:05.516676+00:00,2026-09-17T01:16:17.348915+00:00,outputs\notebook_complete\quantum\orca\molecule_0003\refinement\sp.inp,outputs\notebook_complete\quantum\orca\molecule_0003\refinement\sp.out,outputs\notebook_complete\quantum\orca\molecule_0003\refinement\geometry.xyz,74011a7408d241cd08d83173b1cb25643139863552c0daa387507892de04e899,1.0,True,-85.913617643223,2.78185446,77.20845,,,,-9.4998,-0.0861,,,9.4137,4.70685,-4.79295,4.79295,2.440312491634533,0.005040800002461765
+4,levulinic acid,platform_molecule,2.2,475b901a31fd18775b6ec521037356a988516db9f1fab03d00e7b280291a2ef7,levulinic acid,xTB,* xtb version 6.7.1pre (5071a88) compiled by 'Marcel@Raven' on 2024-07-23,GFN2-xTB,0.0,1.0,completed,0.0,0.0,0.617906800000128,2026-09-16T22:40:21.165679+00:00,2026-09-16T22:40:21.803186+00:00,outputs\notebook_complete\quantum\xtb\molecule_0004\opt\input.xyz,outputs\notebook_complete\quantum\xtb\molecule_0004\opt\xtb_opt.out,outputs\notebook_complete\quantum\xtb\molecule_0004\opt\xtbopt.xyz,475b901a31fd18775b6ec521037356a988516db9f1fab03d00e7b280291a2ef7,"   6 C    8 O           3     1.2477060     1.3371146     1.2018603
+
+
+optimized geometry written to: xtbopt.xyz
+
+
+           -------------------------------------------------
+          | TOTAL ENERGY              -26.986926703697 Eh   |
+          | GRADIENT NORM               0.000219223223 Eh/α |
+          | HOMO-LUMO GAP               4.092092679410 eV   |
+           -------------------------------------------------
+
+------------------------------------------------------------------------
+ * finished run on 2026/09/17 at 00:40:21.492     
+------------------------------------------------------------------------
+ total:
+ * wall-time:     0 d,  0 h,  0 min,  0.165 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.625 sec
+ * ratio c/w:     3.788 speedup
+ SCF:
+ * wall-time:     0 d,  0 h,  0 min,  0.008 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.000 sec
+ * ratio c/w:     0.000 speedup
+ ANC optimizer:
+ * wall-time:     0 d,  0 h,  0 min,  0.132 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.547 sec
+ * ratio c/w:     4.143 speedup
+
+
+normal termination of xtb",-26.986926703699,-10.8002,-6.7081,4.0921,-5.315,70.974924,2304.103773,0.124400094553,-26.896800826263,0.0,-0.0,True,False,2.04605,-8.75415,8.75415,18.72758295801666,298.15,0.134395,0.0442695,0.0901259,2.2,475b901a31fd18775b6ec521037356a988516db9f1fab03d00e7b280291a2ef7,levulinic acid,ORCA,ORCA_6.1.1,R2SCAN-3C,wB97X-3c,0.0,1.0,completed,0.0,1.0,1250.7757165000003,2026-09-17T01:16:17.364638+00:00,2026-09-17T01:37:08.139926+00:00,outputs\notebook_complete\quantum\orca\molecule_0004\optfreq.inp,outputs\notebook_complete\quantum\orca\molecule_0004\optfreq.out,outputs\notebook_complete\quantum\orca\molecule_0004\optfreq.xyz,e3cf5aaf784eae443a8513e40c982a2274b1b8036f64e92c04080e883c109791,,True,-420.975935581506,2.584240906,67.19869,0.12726869,-420.83886515,-420.88214682,0.642824,-1.2316,0.0,0.0,completed,0.0,242.1954227999995,2026-09-17T01:37:08.203938+00:00,2026-09-17T01:41:10.399381+00:00,outputs\notebook_complete\quantum\orca\molecule_0004\refinement\sp.inp,outputs\notebook_complete\quantum\orca\molecule_0004\refinement\sp.out,outputs\notebook_complete\quantum\orca\molecule_0004\refinement\geometry.xyz,a26b927509ef0f1b541d576c266556171319c4c33a05da6a1ed440272df04bd8,1.0,True,-81.512933198996,2.86377911,63.00445,,,,-9.9539,1.7484,,,11.702300000000001,5.8511500000000005,-4.10275,4.10275,1.4383973716705265,0.004470600000786362
+5,sorbitol,platform_molecule,2.2,58add8cbe88faaf620e7be623bda1d4aa1a07c6b770ad1297e0bd96d374885eb,sorbitol,xTB,* xtb version 6.7.1pre (5071a88) compiled by 'Marcel@Raven' on 2024-07-23,GFN2-xTB,0.0,1.0,completed,0.0,0.0,1.1126086000003852,2026-09-16T22:40:21.957853+00:00,2026-09-16T22:40:23.093419+00:00,outputs\notebook_complete\quantum\xtb\molecule_0005\opt\input.xyz,outputs\notebook_complete\quantum\xtb\molecule_0005\opt\xtb_opt.out,outputs\notebook_complete\quantum\xtb\molecule_0005\opt\xtbopt.xyz,58add8cbe88faaf620e7be623bda1d4aa1a07c6b770ad1297e0bd96d374885eb,"   6 C    8 O           6     1.4095996     1.4159608     1.4014346
+
+
+optimized geometry written to: xtbopt.xyz
+
+
+           -------------------------------------------------
+          | TOTAL ENERGY              -44.363046758795 Eh   |
+          | GRADIENT NORM               0.000166042035 Eh/α |
+          | HOMO-LUMO GAP              10.604006301224 eV   |
+           -------------------------------------------------
+
+------------------------------------------------------------------------
+ * finished run on 2026/09/17 at 00:40:22.304     
+------------------------------------------------------------------------
+ total:
+ * wall-time:     0 d,  0 h,  0 min,  0.221 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.781 sec
+ * ratio c/w:     3.535 speedup
+ SCF:
+ * wall-time:     0 d,  0 h,  0 min,  0.030 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.062 sec
+ * ratio c/w:     2.083 speedup
+ ANC optimizer:
+ * wall-time:     0 d,  0 h,  0 min,  0.144 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.547 sec
+ * ratio c/w:     3.798 speedup
+
+
+normal termination of xtb",-44.363046758795,-10.9469,-0.3429,10.604,-0.42,102.93422,5141.292697,0.208793513946,-44.19493813717,0.0,-0.0,True,False,5.302,-5.6449,5.6449,3.00498830724255,298.15,0.224315,0.0562061,0.168109,2.2,58add8cbe88faaf620e7be623bda1d4aa1a07c6b770ad1297e0bd96d374885eb,sorbitol,ORCA,ORCA_6.1.1,R2SCAN-3C,wB97X-3c,0.0,1.0,completed,0.0,1.0,5221.8959196,2026-09-17T03:05:05.969756+00:00,2026-09-17T04:32:07.865548+00:00,outputs\notebook_complete\quantum\orca\molecule_0005\optfreq.inp,outputs\notebook_complete\quantum\orca\molecule_0005\optfreq.out,outputs\notebook_complete\quantum\orca\molecule_0005\optfreq.xyz,da2e3a979a213d4d75a2c534687abb4e16a9aab1c8e67744f6238df7ead308f6,,True,-688.292241395868,2.066400191,99.17798,0.21751748,-688.05972986,-688.11365124,0.707981,0.0,0.0,0.0,completed,0.0,790.0389744999993,2026-09-17T04:32:07.966493+00:00,2026-09-17T04:45:18.006278+00:00,outputs\notebook_complete\quantum\orca\molecule_0005\refinement\sp.inp,outputs\notebook_complete\quantum\orca\molecule_0005\refinement\sp.out,outputs\notebook_complete\quantum\orca\molecule_0005\refinement\geometry.xyz,349fd51536fb92eba59bf6e7db8c7d9600bc8ec6b679e014eed3e80e0b6ffbea,1.0,True,-138.983050408914,2.199182137,91.26297,,,,-10.314,1.8047,,,12.1187,6.05935,-4.25465,4.25465,1.4937284215716204,6012.0775546
+6,furfural,platform_molecule,2.2,e20fa29eb9a85157d9530dd3e3605dc1a1f7b5181fed5a83932e29fffa607ecd,furfural,xTB,* xtb version 6.7.1pre (5071a88) compiled by 'Marcel@Raven' on 2024-07-23,GFN2-xTB,0.0,1.0,completed,0.0,0.0,0.49388309999994817,2026-09-16T22:40:23.190619+00:00,2026-09-16T22:40:23.744036+00:00,outputs\notebook_complete\quantum\xtb\molecule_0006\opt\input.xyz,outputs\notebook_complete\quantum\xtb\molecule_0006\opt\xtb_opt.out,outputs\notebook_complete\quantum\xtb\molecule_0006\opt\xtbopt.xyz,e20fa29eb9a85157d9530dd3e3605dc1a1f7b5181fed5a83932e29fffa607ecd,"   6 C    8 O           3     1.2979731     1.3562568     1.2064188
+
+
+optimized geometry written to: xtbopt.xyz
+
+
+           -------------------------------------------------
+          | TOTAL ENERGY              -20.838424274377 Eh   |
+          | GRADIENT NORM               0.000241554122 Eh/α |
+          | HOMO-LUMO GAP               3.050182456706 eV   |
+           -------------------------------------------------
+
+------------------------------------------------------------------------
+ * finished run on 2026/09/17 at 00:40:23.440     
+------------------------------------------------------------------------
+ total:
+ * wall-time:     0 d,  0 h,  0 min,  0.101 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.328 sec
+ * ratio c/w:     3.249 speedup
+ SCF:
+ * wall-time:     0 d,  0 h,  0 min,  0.020 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.016 sec
+ * ratio c/w:     0.781 speedup
+ ANC optimizer:
+ * wall-time:     0 d,  0 h,  0 min,  0.059 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.203 sec
+ * ratio c/w:     3.443 speedup
+
+
+normal termination of xtb",-20.838424274377,-11.1335,-8.0833,3.0502000000000002,3.381,63.390013,1630.729546,0.076852156432,-20.791178095044,0.0,-0.0,True,False,1.5251000000000001,-9.6084,9.6084,30.26731052390007,298.15,0.083517,0.0362708,0.0472462,2.2,e20fa29eb9a85157d9530dd3e3605dc1a1f7b5181fed5a83932e29fffa607ecd,furfural,ORCA,ORCA_6.1.1,R2SCAN-3C,wB97X-3c,0.0,1.0,completed,0.0,1.0,833.3692714999997,2026-09-17T03:05:05.970865+00:00,2026-09-17T03:18:59.341062+00:00,outputs\notebook_complete\quantum\orca\molecule_0006\optfreq.inp,outputs\notebook_complete\quantum\orca\molecule_0006\optfreq.out,outputs\notebook_complete\quantum\orca\molecule_0006\optfreq.xyz,ea74c97d0e31495e276b42e523ca86d261bdbfec096d01f75017b30a41aa1aa9,,True,-343.291073094677,3.808122652,64.16536,0.07890623,-343.2056472,-343.24162992,0.694183,-2.6822,0.0,0.0,completed,0.0,186.04432529999758,2026-09-17T03:18:59.388048+00:00,2026-09-17T03:22:05.432512+00:00,outputs\notebook_complete\quantum\orca\molecule_0006\refinement\sp.inp,outputs\notebook_complete\quantum\orca\molecule_0006\refinement\sp.out,outputs\notebook_complete\quantum\orca\molecule_0006\refinement\geometry.xyz,1502b9c449aa3b3e17a1253c88ef6e0d328f073425e6434929d146aa2450b29b,1.0,True,-62.951259165703,3.716030974,59.92712,,,,-9.5583,0.0448,,,9.6031,4.80155,-4.756749999999999,4.756749999999999,2.3561839991773486,1019.4951009999968
+7,furfuryl alcohol,intermediate,2.2,b6abf3bd7e133823b268252fde9ef00824d34678cb460200cd3bd3d74a26fe63,furfuryl alcohol,xTB,* xtb version 6.7.1pre (5071a88) compiled by 'Marcel@Raven' on 2024-07-23,GFN2-xTB,0.0,1.0,completed,0.0,0.0,0.5909176000004663,2026-09-16T22:40:23.904356+00:00,2026-09-16T22:40:24.512992+00:00,outputs\notebook_complete\quantum\xtb\molecule_0007\opt\input.xyz,outputs\notebook_complete\quantum\xtb\molecule_0007\opt\xtb_opt.out,outputs\notebook_complete\quantum\xtb\molecule_0007\opt\xtbopt.xyz,b6abf3bd7e133823b268252fde9ef00824d34678cb460200cd3bd3d74a26fe63,"   6 C    8 O           3     1.3696840     1.4113052     1.3436387
+
+
+optimized geometry written to: xtbopt.xyz
+
+
+           -------------------------------------------------
+          | TOTAL ENERGY              -21.871254929259 Eh   |
+          | GRADIENT NORM               0.000100424611 Eh/α |
+          | HOMO-LUMO GAP               4.753497382632 eV   |
+           -------------------------------------------------
+
+------------------------------------------------------------------------
+ * finished run on 2026/09/17 at 00:40:24.159     
+------------------------------------------------------------------------
+ total:
+ * wall-time:     0 d,  0 h,  0 min,  0.144 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.547 sec
+ * ratio c/w:     3.798 speedup
+ SCF:
+ * wall-time:     0 d,  0 h,  0 min,  0.005 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.000 sec
+ * ratio c/w:     0.000 speedup
+ ANC optimizer:
+ * wall-time:     0 d,  0 h,  0 min,  0.085 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.375 sec
+ * ratio c/w:     4.412 speedup
+
+
+normal termination of xtb",-21.871254929257,-10.7097,-5.9562,4.7535,3.612,66.212249,1828.739354,0.099684976541,-21.802117604553,0.0,-0.0,True,False,2.37675,-8.33295,8.33295,14.6077744193752,298.15,0.107075,0.037938,0.0691373,2.2,b6abf3bd7e133823b268252fde9ef00824d34678cb460200cd3bd3d74a26fe63,furfuryl alcohol,ORCA,ORCA_6.1.1,R2SCAN-3C,wB97X-3c,0.0,1.0,completed,0.0,1.0,1072.0987300999986,2026-09-17T03:05:05.971873+00:00,2026-09-17T03:22:58.070422+00:00,outputs\notebook_complete\quantum\orca\molecule_0007\optfreq.inp,outputs\notebook_complete\quantum\orca\molecule_0007\optfreq.out,outputs\notebook_complete\quantum\orca\molecule_0007\optfreq.xyz,f989fcd931055da7b5e1d0980993652ff08f5470a3ba1a4f5303263f172408d3,,True,-344.491262113518,1.573811246,62.85914,0.10231073,-344.38164004,-344.41921859,0.465154,-0.8134,0.0,0.0,completed,0.0,202.96868600000016,2026-09-17T03:22:58.148954+00:00,2026-09-17T03:26:21.118114+00:00,outputs\notebook_complete\quantum\orca\molecule_0007\refinement\sp.inp,outputs\notebook_complete\quantum\orca\molecule_0007\refinement\sp.out,outputs\notebook_complete\quantum\orca\molecule_0007\refinement\geometry.xyz,7f31c7b259f9e7aca36fdf5da5a679e175ffd8779868fce9708affaefc263249,1.0,True,-64.1719106592,1.782198116,58.81516,,,,-9.0595,1.8556,,,10.915099999999999,5.4575499999999995,-3.60195,3.60195,1.1886326100997702,1275.1818426999998
+8,2-methylfuran,fuel_candidate,2.2,61943b9450c5feb23f5280ddc68113a466357e4640d4267b991a43417a0cbd6d,2-methylfuran,xTB,* xtb version 6.7.1pre (5071a88) compiled by 'Marcel@Raven' on 2024-07-23,GFN2-xTB,0.0,1.0,completed,0.0,0.0,0.49876150000091,2026-09-16T22:40:24.678914+00:00,2026-09-16T22:40:25.194018+00:00,outputs\notebook_complete\quantum\xtb\molecule_0008\opt\input.xyz,outputs\notebook_complete\quantum\xtb\molecule_0008\opt\xtb_opt.out,outputs\notebook_complete\quantum\xtb\molecule_0008\opt\xtbopt.xyz,61943b9450c5feb23f5280ddc68113a466357e4640d4267b991a43417a0cbd6d,"   6 C    8 O           2     1.3483875     1.3510130     1.3457619
+
+
+optimized geometry written to: xtbopt.xyz
+
+
+           -------------------------------------------------
+          | TOTAL ENERGY              -17.816401133275 Eh   |
+          | GRADIENT NORM               0.000077531442 Eh/α |
+          | HOMO-LUMO GAP               4.763284053542 eV   |
+           -------------------------------------------------
+
+------------------------------------------------------------------------
+ * finished run on 2026/09/17 at 00:40:24.948     
+------------------------------------------------------------------------
+ total:
+ * wall-time:     0 d,  0 h,  0 min,  0.099 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.297 sec
+ * ratio c/w:     2.999 speedup
+ SCF:
+ * wall-time:     0 d,  0 h,  0 min,  0.005 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.031 sec
+ * ratio c/w:     6.250 speedup
+ ANC optimizer:
+ * wall-time:     0 d,  0 h,  0 min,  0.070 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.203 sec
+ * ratio c/w:     2.902 speedup
+
+
+normal termination of xtb",-17.816401133275,-10.2766,-5.5133,4.7633,-0.187,61.4616,1535.524217,0.095505113324,-17.749933693088,0.0,-0.0,True,False,2.38165,-7.89495,7.89495,13.085515399512941,298.15,0.101995,0.0355279,0.0664674,2.2,61943b9450c5feb23f5280ddc68113a466357e4640d4267b991a43417a0cbd6d,2-methylfuran,ORCA,ORCA_6.1.1,R2SCAN-3C,wB97X-3c,0.0,1.0,completed,0.0,1.0,715.9764388000003,2026-09-17T03:22:05.465630+00:00,2026-09-17T03:34:01.441826+00:00,outputs\notebook_complete\quantum\orca\molecule_0008\optfreq.inp,outputs\notebook_complete\quantum\orca\molecule_0008\optfreq.out,outputs\notebook_complete\quantum\orca\molecule_0008\optfreq.xyz,1b3b2ad45fedc9941204e04505989a8465ebc68c273c266b6419b9e09cad3bb0,,True,-269.283369059527,0.636380448,57.11255,0.09705394,-269.1800405,-269.21483235,0.773501,-0.3324,0.0,0.0,completed,0.0,238.46919779999735,2026-09-17T03:34:01.537018+00:00,2026-09-17T03:38:00.006508+00:00,outputs\notebook_complete\quantum\orca\molecule_0008\refinement\sp.inp,outputs\notebook_complete\quantum\orca\molecule_0008\refinement\sp.out,outputs\notebook_complete\quantum\orca\molecule_0008\refinement\geometry.xyz,b70d436e2724b965cf0dcb6b0755c6f69259eaa34d6fe06930ca5dafa75b88aa,1.0,True,-48.12684134596,0.72405923,54.87116,,,,-8.6571,2.4094,,,11.0665,5.53325,-3.12385,3.12385,0.8817999207066373,954.6033395999984
+9,phenol,intermediate,2.2,18ca757eb4f4f11d049c4c2ca74a861c0d801441b1fef86d6b936e5d7d970be7,phenol,xTB,* xtb version 6.7.1pre (5071a88) compiled by 'Marcel@Raven' on 2024-07-23,GFN2-xTB,0.0,1.0,completed,0.0,0.0,0.9640570999999909,2026-09-16T22:40:25.268342+00:00,2026-09-16T22:40:26.248682+00:00,outputs\notebook_complete\quantum\xtb\molecule_0009\opt\input.xyz,outputs\notebook_complete\quantum\xtb\molecule_0009\opt\xtb_opt.out,outputs\notebook_complete\quantum\xtb\molecule_0009\opt\xtbopt.xyz,18ca757eb4f4f11d049c4c2ca74a861c0d801441b1fef86d6b936e5d7d970be7,"   6 C    8 O           1     1.3613582     1.3613582     1.3613582
+
+
+optimized geometry written to: xtbopt.xyz
+
+
+           -------------------------------------------------
+          | TOTAL ENERGY              -19.954146323170 Eh   |
+          | GRADIENT NORM               0.000060591238 Eh/α |
+          | HOMO-LUMO GAP               4.352141837448 eV   |
+           -------------------------------------------------
+
+------------------------------------------------------------------------
+ * finished run on 2026/09/17 at 00:40:25.529     
+------------------------------------------------------------------------
+ total:
+ * wall-time:     0 d,  0 h,  0 min,  0.094 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.281 sec
+ * ratio c/w:     2.992 speedup
+ SCF:
+ * wall-time:     0 d,  0 h,  0 min,  0.005 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.000 sec
+ * ratio c/w:     0.000 speedup
+ ANC optimizer:
+ * wall-time:     0 d,  0 h,  0 min,  0.023 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.125 sec
+ * ratio c/w:     5.435 speedup
+
+
+normal termination of xtb",-19.95414632317,-10.4277,-6.0755,4.3522,0.77,72.308594,2046.285788,0.101331662396,-19.881854567719,0.0,-0.0,True,False,2.1761,-8.2516,8.2516,15.644709011534395,298.15,0.107921,0.035629,0.0722918,2.2,18ca757eb4f4f11d049c4c2ca74a861c0d801441b1fef86d6b936e5d7d970be7,phenol,ORCA,ORCA_6.1.1,R2SCAN-3C,wB97X-3c,0.0,1.0,completed,0.0,1.0,1124.9932297999985,2026-09-17T03:26:21.152132+00:00,2026-09-17T03:45:06.145423+00:00,outputs\notebook_complete\quantum\orca\molecule_0009\optfreq.inp,outputs\notebook_complete\quantum\orca\molecule_0009\optfreq.out,outputs\notebook_complete\quantum\orca\molecule_0009\optfreq.xyz,ef7e75fae96dbbc0596281f2aabc705e56f8c695de3fb887130af5844eb3f9d0,,True,-307.405960642248,1.277622092,69.10484,0.10433519,-307.29515355,-307.33062222,0.81546,-0.974,0.0,0.0,completed,0.0,296.9880388999991,2026-09-17T03:45:06.212243+00:00,2026-09-17T03:50:03.199303+00:00,outputs\notebook_complete\quantum\orca\molecule_0009\refinement\sp.inp,outputs\notebook_complete\quantum\orca\molecule_0009\refinement\sp.out,outputs\notebook_complete\quantum\orca\molecule_0009\refinement\geometry.xyz,8cba9bb45c772ab4e3a0f75ba0b82c51e881549fe319b5100d088039e16a4544,1.0,True,-53.836535157812,1.381630025,66.54999,,,,-8.8358,1.6849,,,10.520700000000001,5.260350000000001,-3.5754500000000005,3.5754500000000005,1.2151133196935566,1422.0848798000006
+10,guaiacol,intermediate,2.2,6fed79fe003d94c5e5ba0d514a1042ffbd83c034870707a574c494cd9a93ac13,guaiacol,xTB,* xtb version 6.7.1pre (5071a88) compiled by 'Marcel@Raven' on 2024-07-23,GFN2-xTB,0.0,1.0,completed,0.0,0.0,0.5140077000014571,2026-09-16T22:40:26.323917+00:00,2026-09-16T22:40:26.850677+00:00,outputs\notebook_complete\quantum\xtb\molecule_0010\opt\input.xyz,outputs\notebook_complete\quantum\xtb\molecule_0010\opt\xtb_opt.out,outputs\notebook_complete\quantum\xtb\molecule_0010\opt\xtbopt.xyz,6fed79fe003d94c5e5ba0d514a1042ffbd83c034870707a574c494cd9a93ac13,"   6 C    8 O           3     1.3809668     1.4045696     1.3590954
+
+
+optimized geometry written to: xtbopt.xyz
+
+
+           -------------------------------------------------
+          | TOTAL ENERGY              -27.187138220283 Eh   |
+          | GRADIENT NORM               0.000146169052 Eh/α |
+          | HOMO-LUMO GAP               4.167685595511 eV   |
+           -------------------------------------------------
+
+------------------------------------------------------------------------
+ * finished run on 2026/09/17 at 00:40:26.490     
+------------------------------------------------------------------------
+ total:
+ * wall-time:     0 d,  0 h,  0 min,  0.067 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.250 sec
+ * ratio c/w:     3.731 speedup
+ SCF:
+ * wall-time:     0 d,  0 h,  0 min,  0.007 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.000 sec
+ * ratio c/w:     0.000 speedup
+ ANC optimizer:
+ * wall-time:     0 d,  0 h,  0 min,  0.038 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.172 sec
+ * ratio c/w:     4.523 speedup
+
+
+normal termination of xtb",-27.187138220281,-10.0728,-5.9051,4.167700000000001,-0.248,88.785848,3212.338561,0.132823979551,-27.086958014499,0.0,-0.0,True,False,2.0838500000000004,-7.988950000000001,7.988950000000001,15.313799482328383,298.15,0.14201,0.0418298,0.10018,2.2,6fed79fe003d94c5e5ba0d514a1042ffbd83c034870707a574c494cd9a93ac13,guaiacol,ORCA,ORCA_6.1.1,R2SCAN-3C,wB97X-3c,0.0,1.0,completed,0.0,1.0,1906.7310362000026,2026-09-17T03:38:00.084287+00:00,2026-09-17T04:09:46.815951+00:00,outputs\notebook_complete\quantum\orca\molecule_0010\optfreq.inp,outputs\notebook_complete\quantum\orca\molecule_0010\optfreq.out,outputs\notebook_complete\quantum\orca\molecule_0010\optfreq.xyz,8c955c2d36927f89fcec3bc9bb82bd41a504f73a5baf0f4f0f5bbde8537c194a,,True,-421.912239765092,2.721774003,87.11962,0.136906,-421.76640391,-421.80753991,0.991497,-0.6472,0.0,0.0,completed,0.0,513.1050985000002,2026-09-17T04:09:46.870401+00:00,2026-09-17T04:18:19.975587+00:00,outputs\notebook_complete\quantum\orca\molecule_0010\refinement\sp.inp,outputs\notebook_complete\quantum\orca\molecule_0010\refinement\sp.out,outputs\notebook_complete\quantum\orca\molecule_0010\refinement\geometry.xyz,ec555e81d9859225d36bc268f5c4d553b525056885a96eaa8987843c9b9dec6d,1.0,True,-76.78867103976,2.907867667,83.25773,,,,-8.3924,1.9541,,,10.3465,5.17325,-3.21915,3.21915,1.0015876598366595,2419.942735200002
+11,syringol,intermediate,2.2,f6d0d8daa966a742161ee04b1fc4129616a49559f4374d6d8a2fe3fa4f849e27,syringol,xTB,* xtb version 6.7.1pre (5071a88) compiled by 'Marcel@Raven' on 2024-07-23,GFN2-xTB,0.0,1.0,completed,0.0,0.0,0.8231444999983069,2026-09-16T22:40:26.933674+00:00,2026-09-16T22:40:27.810090+00:00,outputs\notebook_complete\quantum\xtb\molecule_0011\opt\input.xyz,outputs\notebook_complete\quantum\xtb\molecule_0011\opt\xtb_opt.out,outputs\notebook_complete\quantum\xtb\molecule_0011\opt\xtbopt.xyz,f6d0d8daa966a742161ee04b1fc4129616a49559f4374d6d8a2fe3fa4f849e27,"   6 C    8 O           5     1.3824324     1.4046237     1.3609293
+
+
+optimized geometry written to: xtbopt.xyz
+
+
+           -------------------------------------------------
+          | TOTAL ENERGY              -34.413040113307 Eh   |
+          | GRADIENT NORM               0.000083470456 Eh/α |
+          | HOMO-LUMO GAP               4.094809238702 eV   |
+           -------------------------------------------------
+
+------------------------------------------------------------------------
+ * finished run on 2026/09/17 at 00:40:27.193     
+------------------------------------------------------------------------
+ total:
+ * wall-time:     0 d,  0 h,  0 min,  0.085 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.312 sec
+ * ratio c/w:     3.676 speedup
+ SCF:
+ * wall-time:     0 d,  0 h,  0 min,  0.011 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.016 sec
+ * ratio c/w:     1.420 speedup
+ ANC optimizer:
+ * wall-time:     0 d,  0 h,  0 min,  0.052 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.234 sec
+ * ratio c/w:     4.507 speedup
+
+
+normal termination of xtb",-34.413040113304,-9.8196,-5.7248,4.094799999999999,-8.202,105.381491,4650.521398,0.163973270329,-34.28517851194,0.0,-0.0,True,False,2.0473999999999997,-7.7722,7.7722,14.752147318550358,298.15,0.175903,0.0480419,0.127862,2.2,f6d0d8daa966a742161ee04b1fc4129616a49559f4374d6d8a2fe3fa4f849e27,syringol,ORCA,ORCA_6.1.1,R2SCAN-3C,wB97X-3c,0.0,1.0,completed,0.0,1.0,2784.076299700002,2026-09-17T03:50:03.240141+00:00,2026-09-17T04:36:27.316315+00:00,outputs\notebook_complete\quantum\orca\molecule_0011\optfreq.inp,outputs\notebook_complete\quantum\orca\molecule_0011\optfreq.out,outputs\notebook_complete\quantum\orca\molecule_0011\optfreq.xyz,3bfb5e6a572c96cd990c869cfa0229a6122accf4ad9ce2f82198e7e38311bd06,,True,-536.411831963269,2.031333647,106.42671,0.16901955,-536.23123266,-536.2780967,0.566141,-0.3215,0.0,0.0,completed,0.0,592.5929614999986,2026-09-17T04:36:27.350603+00:00,2026-09-17T04:46:19.943000+00:00,outputs\notebook_complete\quantum\orca\molecule_0011\refinement\sp.inp,outputs\notebook_complete\quantum\orca\molecule_0011\refinement\sp.out,outputs\notebook_complete\quantum\orca\molecule_0011\refinement\geometry.xyz,54452d75638b7ba2d9b56dbbe4dd72c3af8d0d41a40952fc5d5556138314a013,1.0,True,-99.733267198444,2.576610572,101.12856,,,,-8.1386,2.2014,,,10.34,5.17,-2.9686000000000003,2.9686000000000003,0.8522810406189557,3376.7403687000005
+12,catechol,intermediate,2.2,c475367fe5c5e7c0e93fc71727ab0f25f5adbb27ddde61de5ae573ed8f926d6d,catechol,xTB,* xtb version 6.7.1pre (5071a88) compiled by 'Marcel@Raven' on 2024-07-23,GFN2-xTB,0.0,1.0,completed,0.0,0.0,0.4423757000004116,2026-09-16T22:40:27.913662+00:00,2026-09-16T22:40:28.369074+00:00,outputs\notebook_complete\quantum\xtb\molecule_0012\opt\input.xyz,outputs\notebook_complete\quantum\xtb\molecule_0012\opt\xtb_opt.out,outputs\notebook_complete\quantum\xtb\molecule_0012\opt\xtbopt.xyz,c475367fe5c5e7c0e93fc71727ab0f25f5adbb27ddde61de5ae573ed8f926d6d,"   6 C    8 O           2     1.3675101     1.3769751     1.3580451
+
+
+optimized geometry written to: xtbopt.xyz
+
+
+           -------------------------------------------------
+          | TOTAL ENERGY              -24.027986926990 Eh   |
+          | GRADIENT NORM               0.000056530264 Eh/α |
+          | HOMO-LUMO GAP               4.189607127409 eV   |
+           -------------------------------------------------
+
+------------------------------------------------------------------------
+ * finished run on 2026/09/17 at 00:40:28.127     
+------------------------------------------------------------------------
+ total:
+ * wall-time:     0 d,  0 h,  0 min,  0.090 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.297 sec
+ * ratio c/w:     3.299 speedup
+ SCF:
+ * wall-time:     0 d,  0 h,  0 min,  0.005 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.062 sec
+ * ratio c/w:    12.500 speedup
+ ANC optimizer:
+ * wall-time:     0 d,  0 h,  0 min,  0.027 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.109 sec
+ * ratio c/w:     4.051 speedup
+
+
+normal termination of xtb",-24.02798692699,-10.1793,-5.9897,4.1895999999999995,0.547,76.784458,2370.291314,0.10523871068,-23.953190381982,0.0,-0.0,True,False,2.0947999999999998,-8.0845,8.0845,15.600329446725228,298.15,0.112938,0.0381411,0.0747965,2.2,c475367fe5c5e7c0e93fc71727ab0f25f5adbb27ddde61de5ae573ed8f926d6d,catechol,ORCA,ORCA_6.1.1,R2SCAN-3C,wB97X-3c,0.0,1.0,completed,0.0,1.0,1001.822780399998,2026-09-17T04:18:20.011624+00:00,2026-09-17T04:35:01.833871+00:00,outputs\notebook_complete\quantum\orca\molecule_0012\optfreq.inp,outputs\notebook_complete\quantum\orca\molecule_0012\optfreq.out,outputs\notebook_complete\quantum\orca\molecule_0012\optfreq.xyz,39e1dce5f9d951edc2b8775cd70a7ed34463e7ee1abc9a305d1d5465bccb1547,,True,-382.628601367459,2.350811921,74.72556,0.10847149,-382.51239346,-382.5506855,0.550672,-0.783,0.0,0.0,completed,0.0,239.25668059999953,2026-09-17T04:35:01.872030+00:00,2026-09-17T04:39:01.129802+00:00,outputs\notebook_complete\quantum\orca\molecule_0012\refinement\sp.inp,outputs\notebook_complete\quantum\orca\molecule_0012\refinement\sp.out,outputs\notebook_complete\quantum\orca\molecule_0012\refinement\geometry.xyz,c075e7e63aa611e9efef5774c6915d3c68f8f51b9a2923aabcc63728fdd4e238,1.0,True,-69.895132594096,2.522424937,70.75225,,,,-8.5572,1.7152,,,10.2724,5.1362,-3.421,3.421,1.1392898446322184,1241.150110399998
+13,cyclohexane,fuel_candidate,2.2,f89527e90d7b0ee0d057ebd472dbc41e2cc713a54e80e6c1d026d3fe1055ffe7,cyclohexane,xTB,* xtb version 6.7.1pre (5071a88) compiled by 'Marcel@Raven' on 2024-07-23,GFN2-xTB,0.0,1.0,completed,0.0,0.0,0.8288826999996672,2026-09-16T22:40:28.498887+00:00,2026-09-16T22:40:29.387206+00:00,outputs\notebook_complete\quantum\xtb\molecule_0013\opt\input.xyz,outputs\notebook_complete\quantum\xtb\molecule_0013\opt\xtb_opt.out,outputs\notebook_complete\quantum\xtb\molecule_0013\opt\xtbopt.xyz,f89527e90d7b0ee0d057ebd472dbc41e2cc713a54e80e6c1d026d3fe1055ffe7,"   6 C    6 C           6     1.5258459     1.5258459     1.5258459
+
+
+optimized geometry written to: xtbopt.xyz
+
+
+           -------------------------------------------------
+          | TOTAL ENERGY              -18.986715862819 Eh   |
+          | GRADIENT NORM               0.000074838966 Eh/α |
+          | HOMO-LUMO GAP              13.660571719358 eV   |
+           -------------------------------------------------
+
+------------------------------------------------------------------------
+ * finished run on 2026/09/17 at 00:40:28.983     
+------------------------------------------------------------------------
+ total:
+ * wall-time:     0 d,  0 h,  0 min,  0.361 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.766 sec
+ * ratio c/w:     2.121 speedup
+ SCF:
+ * wall-time:     0 d,  0 h,  0 min,  0.006 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.000 sec
+ * ratio c/w:     0.000 speedup
+ ANC optimizer:
+ * wall-time:     0 d,  0 h,  0 min,  0.036 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.125 sec
+ * ratio c/w:     3.472 speedup
+
+
+normal termination of xtb",-18.98671586282,-11.1331,2.5275,13.6606,-0.335,70.066192,2230.550209,0.168443710077,-18.845325313296,0.0,-0.0,True,False,6.8303,-4.3028,4.3028,1.3552909711140069,298.15,0.175066,0.0336755,0.141391,2.2,f89527e90d7b0ee0d057ebd472dbc41e2cc713a54e80e6c1d026d3fe1055ffe7,cyclohexane,ORCA,ORCA_6.1.1,R2SCAN-3C,wB97X-3c,0.0,1.0,completed,0.0,1.0,1021.0188658000006,2026-09-17T04:39:01.159568+00:00,2026-09-17T04:56:02.177739+00:00,outputs\notebook_complete\quantum\orca\molecule_0013\optfreq.inp,outputs\notebook_complete\quantum\orca\molecule_0013\optfreq.out,outputs\notebook_complete\quantum\orca\molecule_0013\optfreq.xyz,737632e26bda2b7c66a9c0e0c998006fb6a5fad4a799cbd5c16f9eeb2595e4c6,,True,-235.798573984607,0.000134144,64.2452,0.16948348,-235.62247156,-235.65781416,0.436567,0.0,0.0,0.0,completed,0.0,241.65372399999978,2026-09-17T04:56:02.211361+00:00,2026-09-17T05:00:03.865399+00:00,outputs\notebook_complete\quantum\orca\molecule_0013\refinement\sp.inp,outputs\notebook_complete\quantum\orca\molecule_0013\refinement\sp.out,outputs\notebook_complete\quantum\orca\molecule_0013\refinement\geometry.xyz,3239d368c3240fe1d7f1508f69f9bb110ab45f3c09af073d8392e9d270bedbcc,1.0,True,-41.449880381311,0.000107815,66.53033,,,,-10.788,2.5448,,,13.3328,6.6664,-4.1216,4.1216,1.274119956798272,1262.7349772000016
+14,gamma-valerolactone,fuel_candidate,2.2,1a2dcbf0b9c7c23dff594cca93ef81132e498fab3446dbc57408d054f8dc6ae1,gamma-valerolactone,xTB,* xtb version 6.7.1pre (5071a88) compiled by 'Marcel@Raven' on 2024-07-23,GFN2-xTB,0.0,1.0,completed,0.0,0.0,0.45412279999982275,2026-09-16T22:40:29.503452+00:00,2026-09-16T22:40:29.974609+00:00,outputs\notebook_complete\quantum\xtb\molecule_0014\opt\input.xyz,outputs\notebook_complete\quantum\xtb\molecule_0014\opt\xtb_opt.out,outputs\notebook_complete\quantum\xtb\molecule_0014\opt\xtbopt.xyz,1a2dcbf0b9c7c23dff594cca93ef81132e498fab3446dbc57408d054f8dc6ae1,"   6 C    8 O           3     1.3206549     1.4292014     1.1954448
+
+
+optimized geometry written to: xtbopt.xyz
+
+
+           -------------------------------------------------
+          | TOTAL ENERGY              -22.940250642088 Eh   |
+          | GRADIENT NORM               0.000158104395 Eh/α |
+          | HOMO-LUMO GAP               5.106833450917 eV   |
+           -------------------------------------------------
+
+------------------------------------------------------------------------
+ * finished run on 2026/09/17 at 00:40:29.683     
+------------------------------------------------------------------------
+ total:
+ * wall-time:     0 d,  0 h,  0 min,  0.077 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.297 sec
+ * ratio c/w:     3.856 speedup
+ SCF:
+ * wall-time:     0 d,  0 h,  0 min,  0.006 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.000 sec
+ * ratio c/w:     0.000 speedup
+ ANC optimizer:
+ * wall-time:     0 d,  0 h,  0 min,  0.051 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.172 sec
+ * ratio c/w:     3.370 speedup
+
+
+normal termination of xtb",-22.940250642089,-11.2956,-6.1888,5.106800000000001,0.371,64.516885,1920.391929,0.123478502516,-22.847563276811,0.0,-0.0,True,False,2.5534000000000003,-8.7422,8.7422,14.965548061408317,298.15,0.131142,0.038455,0.0926874,2.2,1a2dcbf0b9c7c23dff594cca93ef81132e498fab3446dbc57408d054f8dc6ae1,gamma-valerolactone,ORCA,ORCA_6.1.1,R2SCAN-3C,wB97X-3c,0.0,1.0,completed,0.0,1.0,1052.714113599999,2026-09-17T04:45:18.046111+00:00,2026-09-17T05:02:50.759328+00:00,outputs\notebook_complete\quantum\orca\molecule_0014\optfreq.inp,outputs\notebook_complete\quantum\orca\molecule_0014\optfreq.out,outputs\notebook_complete\quantum\orca\molecule_0014\optfreq.xyz,f75b15096706f6d730bfa7a927c510dc907bde655f0f67e4834167e7f6831fb7,,True,-345.747372539609,4.772805539,61.57561,0.12549403,-345.61442003,-345.65222154,0.64248,-0.516,0.0,0.0,completed,0.0,232.95922879999853,2026-09-17T05:02:50.797849+00:00,2026-09-17T05:06:43.757620+00:00,outputs\notebook_complete\quantum\orca\molecule_0014\refinement\sp.inp,outputs\notebook_complete\quantum\orca\molecule_0014\refinement\sp.out,outputs\notebook_complete\quantum\orca\molecule_0014\refinement\geometry.xyz,41df133330e9bf9178441ca37acc0adaf51a3fb06d8f01ec17d31a9d15c294eb,1.0,True,-65.446996278571,5.121764582,59.30785,,,,-10.4469,1.9601,,,12.407,6.2035,-4.243399999999999,4.243399999999999,1.4513132554203267,1285.750431200002
+15,"2,5-dimethylfuran",fuel_candidate,2.2,ace8043b8864d12737abed28b5acbed12f689d8a5477ac5ad36c78035d96c48a,"2,5-dimethylfuran",xTB,* xtb version 6.7.1pre (5071a88) compiled by 'Marcel@Raven' on 2024-07-23,GFN2-xTB,0.0,1.0,completed,0.0,0.0,0.4091026999994938,2026-09-16T22:40:30.197190+00:00,2026-09-16T22:40:30.622576+00:00,outputs\notebook_complete\quantum\xtb\molecule_0015\opt\input.xyz,outputs\notebook_complete\quantum\xtb\molecule_0015\opt\xtb_opt.out,outputs\notebook_complete\quantum\xtb\molecule_0015\opt\xtbopt.xyz,ace8043b8864d12737abed28b5acbed12f689d8a5477ac5ad36c78035d96c48a,"   6 C    8 O           2     1.3539230     1.3539230     1.3539230
+
+
+optimized geometry written to: xtbopt.xyz
+
+
+           -------------------------------------------------
+          | TOTAL ENERGY              -20.987607802059 Eh   |
+          | GRADIENT NORM               0.000079815295 Eh/α |
+          | HOMO-LUMO GAP               4.617827177960 eV   |
+           -------------------------------------------------
+
+------------------------------------------------------------------------
+ * finished run on 2026/09/17 at 00:40:30.341     
+------------------------------------------------------------------------
+ total:
+ * wall-time:     0 d,  0 h,  0 min,  0.064 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.188 sec
+ * ratio c/w:     2.930 speedup
+ SCF:
+ * wall-time:     0 d,  0 h,  0 min,  0.006 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.000 sec
+ * ratio c/w:     0.000 speedup
+ ANC optimizer:
+ * wall-time:     0 d,  0 h,  0 min,  0.033 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.125 sec
+ * ratio c/w:     3.788 speedup
+
+
+normal termination of xtb",-20.98760780206,-9.941,-5.3232,4.617800000000001,-1.162,72.95418,2203.80345,0.122740210031,-20.895940317824,0.0,-0.0,True,False,2.3089000000000004,-7.6321,7.6321,12.61400459309628,298.15,0.131064,0.039397,0.0916675,2.2,ace8043b8864d12737abed28b5acbed12f689d8a5477ac5ad36c78035d96c48a,"2,5-dimethylfuran",ORCA,ORCA_6.1.1,R2SCAN-3C,wB97X-3c,0.0,1.0,completed,0.0,1.0,858.4228743999993,2026-09-17T04:46:19.974939+00:00,2026-09-17T05:00:38.397478+00:00,outputs\notebook_complete\quantum\orca\molecule_0015\optfreq.inp,outputs\notebook_complete\quantum\orca\molecule_0015\optfreq.out,outputs\notebook_complete\quantum\orca\molecule_0015\optfreq.xyz,5c07adada9fb13a34ee189d3f9581b7080e1e4c8d044af3e7a8794240c5f3875,,True,-308.592017864772,0.058014852,70.01429,0.12448846,-308.45959826,-308.49822305,0.508839,-0.1374,0.0,0.0,completed,0.0,238.0066958999996,2026-09-17T05:00:38.422742+00:00,2026-09-17T05:04:36.430177+00:00,outputs\notebook_complete\quantum\orca\molecule_0015\refinement\sp.inp,outputs\notebook_complete\quantum\orca\molecule_0015\refinement\sp.out,outputs\notebook_complete\quantum\orca\molecule_0015\refinement\geometry.xyz,665dbf09a94a3c683ca5486916843028da93d9e590907aa6b02826b6c680c04f,1.0,True,-55.044023215248,0.234445494,67.594,,,,-8.291,2.3818,,,10.6728,5.3364,-2.9546,2.9546,0.8179354208829923,1096.487894599999
+16,methyl levulinate,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17,ethyl levulinate,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+18,tetrahydrofuran,fuel_candidate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+19,2-methyltetrahydrofuran,fuel_candidate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+20,"1,1-diethylcyclohexane",fuel_candidate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+21,"1,2,3,4-tetramethylcyclohexane",fuel_candidate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+22,"1,4-dimethylcyclooctane",fuel_candidate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+23,"1,1,4-trimethylcycloheptane",fuel_candidate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+24,"1,1,5-trimethyl-2-pentylcyclohexane",fuel_candidate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+25,glycolaldehyde,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+26,acetic acid,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+27,acetol,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+28,3-hydroxy-2-butanone,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+29,propanoic acid,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+30,butanoic acid,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+31,2-cyclopenten-1-one,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+32,crotonic acid,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+33,5-methylfurfural,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+34,2(5H)-furanone,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35,"3-methyl-1,2-cyclopentanedione",intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+36,3-methyl-2(5H)-furanone,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+37,o-cresol,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+38,maltol,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+39,p-cresol,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+40,m-cresol,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+41,creosol,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+42,"1,3-dihydroxy-2-propanone",intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+43,3-ethyl-2-hydroxy-2-cyclopenten-1-one,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+44,5-hydroxymethyldihydrofuran-2-one,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+45,cyclopropylmethanol,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+46,tetradecane,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+47,"2,3-anhydro-D-mannosan",intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+48,"1,4:3,6-dianhydro-alpha-D-glucopyranose",intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+49,4-propylguaiacol,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+50,trans-isoeugenol,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+51,isoeugenol,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+52,"3,4,5-trimethoxytoluene",intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+53,D-mannose,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+54,guaiacylacetone,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+55,methoxyeugenol,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+56,D-allose,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+57,dihydromethyleugenol,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+58,coniferyl alcohol,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+59,"tetrahydro-2,5-dimethoxyfuran",intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+60,"1,2-cyclopentanedione",intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+61,1-hydroxy-2-pentanone,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+62,levoglucosenone,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+63,"1,2,3-benzenetriol",intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+64,"3,4-anhydro-D-galactosan",intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+65,3-methylbenzaldehyde,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+66,5-hydroxy-9-oxabicyclo[3.3.1]nonan-2-one,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+67,levoglucosan,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+68,bisphenol A,byproduct,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+69,"1,2,3-butanetriol",intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+70,"ethyl 2,2-dimethylacetoacetate",intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+71,"2,5-dimethyl-4-hydroxy-3(2H)-furanone",intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+72,fumaric acid,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+73,rosolic acid,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+74,mequinol,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+75,4-ethylcatechol,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+76,o-xylenol,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+77,4-ethylguaiacol,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+78,ethyl-m-cresol,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+79,eugenol,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+80,acetophenone,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+81,mandelic acid,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+82,m-xylene,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+83,pyruvic acid,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+84,1-octene,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+85,cyclopentane,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+86,vanillin,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+87,glutaric acid,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+88,cyclopentanone,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+89,5-ethylfurfural,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+90,4-ethylcyclohexanone,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+91,pentenoic acid,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+92,"3-hydroxy-1,8-nonadiene",intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+93,furan-3-carbaldehyde,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+94,1-acetoxyacetone,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+95,2-methyl-2-cyclopenten-1-one,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+96,"2,4-dimethylcyclohexan-1-ol",intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+97,4-ethyl-4-methylcyclohex-2-en-1-one,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+98,methyl cyclopentenolone,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+99,4-ethylphenol,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+100,"2,3-dihydrobenzofuran",intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+101,4-hydroxy-3-methoxystyrene,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+102,3-hydroxydodecanoic acid,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+103,trimethyl orthoacetate,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+104,acetol acetate,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+105,"2,5-dimethoxytetrahydrofuran",intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+106,4-oxo-5-methoxy-2-penten-5-olide,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+107,erythritol tetramethyl ether,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+108,"2,3,4-trimethylfuran",intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+109,hexanal dimethyl acetal,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+110,"1,1,N,N-tetramethylbuta-1,3-diene-4-amine",intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+111,methyl vinyl ketone,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+112,1-methylcyclopentadiene,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+113,4-hydroxy-4-methyl-2-pentanone,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+114,toluene,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+115,ethylbenzene,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+116,o-xylene,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+117,p-xylene,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+118,N-butyl-tert-butylamine,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+119,3-methylcatechol,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+120,3-methoxycatechol,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+121,4-methylcatechol,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+122,2-methoxy-4-vinylphenol,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+123,"3,5-dimethoxy-4-hydroxytoluene",intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+124,5-tert-butylpyrogallol,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+125,"4-acetyl-2,6-dimethoxyphenol",intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+126,butyrovanillone,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+127,syringaldehyde,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+128,coniferyl aldehyde,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+129,syringylacetone,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+130,butylsyringone,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+131,acetic acid hydrazide,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+132,methyl 2-methylbutanoate,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+133,styrene,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+134,dihydro-5-methyl-2(3H)-furanone,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+135,3-phenyl-1-propanol acetate,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+136,benzofuran,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+137,indene,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+138,phenyl acetate,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+139,cinnamaldehyde,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+140,"2,3-dimethylphenol",intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+141,3-methyl-1H-indene,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+142,azulene,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+143,1-methylnaphthalene,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+144,"1,2-diacetoxybenzene",intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+145,biphenyl,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+146,"1,3-dimethylnaphthalene",intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+147,acenaphthene,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+148,biphenylene,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+149,"3,3-dimethylhexane",intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+150,fluorene,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+151,anthracene,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+152,9-methylenefluorene,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+153,phthalic acid,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+154,fluoranthene,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+155,"1,2,3-trimethylbenzene",intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+156,butanoic anhydride,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+157,diethylene glycol diacetate,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+158,indane,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+159,"2,5-dimethylphenol",intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+160,naphthalene,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+161,2-methylnaphthalene,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+162,"3-pentanol, 2,2,4,4-tetramethyl-",intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+163,2-methyllactic acid anhydride,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+164,n-hexadecanoic acid,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+165,ethyl hexadecanoate,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+166,octadecanoic acid,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+167,methyl 17-methyloctadecanoate,intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+168,cis-decalin,fuel_candidate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+169,"1,2-dimethyl-cis-decalin",fuel_candidate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+170,"1,3-dimethyl-cis-decalin",fuel_candidate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+171,2-methylheptane,fuel_candidate,2.2,de90f81160c799792b732b50a31a30f1c4fa005b251f504febb33eae75fc8324,2-methylheptane,xTB,* xtb version 6.7.1pre (5071a88) compiled by 'Marcel@Raven' on 2024-07-23,GFN2-xTB,0.0,1.0,completed,0.0,0.0,0.7401226999991195,2026-09-16T22:40:30.748717+00:00,2026-09-16T22:40:31.504076+00:00,outputs\notebook_complete\quantum\xtb\molecule_0171\opt\input.xyz,outputs\notebook_complete\quantum\xtb\molecule_0171\opt\xtb_opt.out,outputs\notebook_complete\quantum\xtb\molecule_0171\opt\xtbopt.xyz,de90f81160c799792b732b50a31a30f1c4fa005b251f504febb33eae75fc8324,"   6 C    6 C           7     1.5274726     1.5326220     1.5237101
+
+
+optimized geometry written to: xtbopt.xyz
+
+
+           -------------------------------------------------
+          | TOTAL ENERGY              -26.323896944825 Eh   |
+          | GRADIENT NORM               0.000163372840 Eh/α |
+          | HOMO-LUMO GAP              12.629690647830 eV   |
+           -------------------------------------------------
+
+------------------------------------------------------------------------
+ * finished run on 2026/09/17 at 00:40:30.926     
+------------------------------------------------------------------------
+ total:
+ * wall-time:     0 d,  0 h,  0 min,  0.090 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.375 sec
+ * ratio c/w:     4.167 speedup
+ SCF:
+ * wall-time:     0 d,  0 h,  0 min,  0.007 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.016 sec
+ * ratio c/w:     2.232 speedup
+ ANC optimizer:
+ * wall-time:     0 d,  0 h,  0 min,  0.062 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.250 sec
+ * ratio c/w:     4.032 speedup
+
+
+normal termination of xtb",-26.323896944825,-11.248,1.3817,12.6297,-0.013,98.428186,4378.798187,0.243293727768,-26.117044213852,0.0,-0.0,True,False,6.31485,-4.9331499999999995,4.9331499999999995,1.9268841637172691,298.15,0.255367,0.0485139,0.206853,2.2,de90f81160c799792b732b50a31a30f1c4fa005b251f504febb33eae75fc8324,2-methylheptane,ORCA,ORCA_6.1.1,R2SCAN-3C,wB97X-3c,0.0,1.0,completed,0.0,1.0,1809.4450012000016,2026-09-17T05:00:03.899653+00:00,2026-09-17T05:31:33.706549+00:00,outputs\notebook_complete\quantum\orca\molecule_0171\optfreq.inp,outputs\notebook_complete\quantum\orca\molecule_0171\optfreq.out,outputs\notebook_complete\quantum\orca\molecule_0171\optfreq.xyz,60ca435226160bb86a0724e70b22c65d285da7a65101fefb10ed87517e49e20f,,True,-315.595027067127,0.103367679,92.53084,0.24434995,-315.3388161,-315.3859655,0.815253,0.0,0.0,0.0,completed,0.0,477.12082999999984,2026-09-17T05:31:33.757729+00:00,2026-09-17T05:39:30.878642+00:00,outputs\notebook_complete\quantum\orca\molecule_0171\refinement\sp.inp,outputs\notebook_complete\quantum\orca\molecule_0171\refinement\sp.out,outputs\notebook_complete\quantum\orca\molecule_0171\refinement\geometry.xyz,2d64d4f2f432c5231bcaf3e31f1ff6ff6f8a815afeee3452e20baa14d1212eaf,1.0,True,-56.47737149539,0.127702562,95.05232,,,,-10.9365,2.5522,,,13.488700000000001,6.744350000000001,-4.19215,4.19215,1.3028773434430299,2286.660638600002
+172,ethylcyclohexane,fuel_candidate,2.2,5bd60c2354b0b5f902d25ed83fdc6d96f1dbaa2a62f43edfc42405ab8188a876,ethylcyclohexane,xTB,* xtb version 6.7.1pre (5071a88) compiled by 'Marcel@Raven' on 2024-07-23,GFN2-xTB,0.0,1.0,completed,0.0,0.0,0.7913184999979421,2026-09-16T22:40:31.601344+00:00,2026-09-16T22:40:32.421466+00:00,outputs\notebook_complete\quantum\xtb\molecule_0172\opt\input.xyz,outputs\notebook_complete\quantum\xtb\molecule_0172\opt\xtb_opt.out,outputs\notebook_complete\quantum\xtb\molecule_0172\opt\xtbopt.xyz,5bd60c2354b0b5f902d25ed83fdc6d96f1dbaa2a62f43edfc42405ab8188a876,"   6 C    6 C           8     1.5273778     1.5326576     1.5244868
+
+
+optimized geometry written to: xtbopt.xyz
+
+
+           -------------------------------------------------
+          | TOTAL ENERGY              -25.316768729102 Eh   |
+          | GRADIENT NORM               0.000067111134 Eh/α |
+          | HOMO-LUMO GAP              12.734223651647 eV   |
+           -------------------------------------------------
+
+------------------------------------------------------------------------
+ * finished run on 2026/09/17 at 00:40:31.918     
+------------------------------------------------------------------------
+ total:
+ * wall-time:     0 d,  0 h,  0 min,  0.195 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.672 sec
+ * ratio c/w:     3.446 speedup
+ SCF:
+ * wall-time:     0 d,  0 h,  0 min,  0.007 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.000 sec
+ * ratio c/w:     0.000 speedup
+ ANC optimizer:
+ * wall-time:     0 d,  0 h,  0 min,  0.100 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.375 sec
+ * ratio c/w:     3.750 speedup
+
+
+normal termination of xtb",-25.316768729102,-10.9841,1.7501,12.7342,0.155,93.337911,3958.872994,0.224294987339,-25.125282847976,0.0,-0.0,True,False,6.3671,-4.617,4.617,1.6739715883212138,298.15,0.233757,0.0422706,0.191486,2.2,5bd60c2354b0b5f902d25ed83fdc6d96f1dbaa2a62f43edfc42405ab8188a876,ethylcyclohexane,ORCA,ORCA_6.1.1,R2SCAN-3C,wB97X-3c,0.0,1.0,completed,0.0,1.0,1934.1510772000001,2026-09-17T05:04:36.463544+00:00,2026-09-17T05:38:10.977226+00:00,outputs\notebook_complete\quantum\orca\molecule_0172\optfreq.inp,outputs\notebook_complete\quantum\orca\molecule_0172\optfreq.out,outputs\notebook_complete\quantum\orca\molecule_0172\optfreq.xyz,7ef8cf98c614b1c5ae2b4bb408828a12d11889da7994d7557830923ae0e2d056,,True,-314.401056542954,0.048710784,87.16743,0.22555311,-314.1661255,-314.20785647,0.649139,0.0,0.0,0.0,completed,0.0,552.8531624000025,2026-09-17T05:38:11.025719+00:00,2026-09-17T05:47:23.878666+00:00,outputs\notebook_complete\quantum\orca\molecule_0172\refinement\sp.inp,outputs\notebook_complete\quantum\orca\molecule_0172\refinement\sp.out,outputs\notebook_complete\quantum\orca\molecule_0172\refinement\geometry.xyz,94d20495a2907396a417393b4857016b92d4acbb02452956ef0e1262bcfd5072,1.0,True,-55.269093940101,0.053801424,89.36204,,,,-10.612,2.4813,,,13.0933,6.54665,-4.0653500000000005,4.0653500000000005,1.2622540247683935,2487.082909599998
+173,propylcyclohexane,fuel_candidate,2.2,4f3638b433676c3e7993832be2b42d4679fa4c19054924644e658b3129e2ee54,propylcyclohexane,xTB,* xtb version 6.7.1pre (5071a88) compiled by 'Marcel@Raven' on 2024-07-23,GFN2-xTB,0.0,1.0,completed,0.0,0.0,0.9520390999969095,2026-09-16T22:40:32.537405+00:00,2026-09-16T22:40:33.503801+00:00,outputs\notebook_complete\quantum\xtb\molecule_0173\opt\input.xyz,outputs\notebook_complete\quantum\xtb\molecule_0173\opt\xtb_opt.out,outputs\notebook_complete\quantum\xtb\molecule_0173\opt\xtbopt.xyz,4f3638b433676c3e7993832be2b42d4679fa4c19054924644e658b3129e2ee54,"   6 C    6 C           9     1.5273441     1.5323925     1.5241282
+
+
+optimized geometry written to: xtbopt.xyz
+
+
+           -------------------------------------------------
+          | TOTAL ENERGY              -28.481259212563 Eh   |
+          | GRADIENT NORM               0.000120178722 Eh/α |
+          | HOMO-LUMO GAP              12.447508688802 eV   |
+           -------------------------------------------------
+
+------------------------------------------------------------------------
+ * finished run on 2026/09/17 at 00:40:32.914     
+------------------------------------------------------------------------
+ total:
+ * wall-time:     0 d,  0 h,  0 min,  0.234 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.828 sec
+ * ratio c/w:     3.539 speedup
+ SCF:
+ * wall-time:     0 d,  0 h,  0 min,  0.008 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.062 sec
+ * ratio c/w:     7.813 speedup
+ ANC optimizer:
+ * wall-time:     0 d,  0 h,  0 min,  0.101 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  0.375 sec
+ * ratio c/w:     3.713 speedup
+
+
+normal termination of xtb",-28.481259212563,-10.9513,1.4962,12.4475,0.273,104.995364,5009.650159,0.252431188072,-28.26375787961,0.0,-0.0,True,False,6.22375,-4.72755,4.72755,1.795519502108857,298.15,0.26327,0.0457685,0.217501,2.2,4f3638b433676c3e7993832be2b42d4679fa4c19054924644e658b3129e2ee54,propylcyclohexane,ORCA,ORCA_6.1.1,R2SCAN-3C,wB97X-3c,0.0,1.0,completed,0.0,1.0,2384.353246399998,2026-09-17T05:06:43.796354+00:00,2026-09-17T05:47:48.512437+00:00,outputs\notebook_complete\quantum\orca\molecule_0173\optfreq.inp,outputs\notebook_complete\quantum\orca\molecule_0173\optfreq.out,outputs\notebook_complete\quantum\orca\molecule_0173\optfreq.xyz,b5db71ef32b14f3d3079c12d71f975d208b18456b49cd8de05a23d3bcc6bae48,,True,-353.701386530025,0.090822549,98.91903,0.25383836,-353.43679714,-353.481722,0.472462,0.0,0.0,0.0,completed,0.0,560.7217251000038,2026-09-17T05:47:48.566360+00:00,2026-09-17T05:57:09.288447+00:00,outputs\notebook_complete\quantum\orca\molecule_0173\refinement\sp.inp,outputs\notebook_complete\quantum\orca\molecule_0173\refinement\sp.out,outputs\notebook_complete\quantum\orca\molecule_0173\refinement\geometry.xyz,bac476c014c5133f9b3259f9e04aa3b90f5d3bb2ae399f8fe74cd9e8659a95d2,1.0,True,-62.177925069218,0.119069525,101.21497,,,,-10.5422,2.4457,,,12.9879,6.49395,-4.0482499999999995,4.0482499999999995,1.2618150788426146,2945.1663028999974

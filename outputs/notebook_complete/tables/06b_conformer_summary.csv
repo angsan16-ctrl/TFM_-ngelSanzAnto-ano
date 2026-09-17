@@ -1,0 +1,19 @@
+molecule_id,preferred_name,status,force_field,best_energy_kcal_mol,best_conf_id,n_embedded,n_kept_5kcal,best_xyz_path,ensemble_sdf_path
+1,D-glucose,ok,MMFF94,78.58415067908977,0,14,3,outputs\notebook_complete\conformers\molecule_0001_best.xyz,outputs\notebook_complete\conformers\molecule_0001_ensemble.sdf
+2,D-xylose,ok,MMFF94,62.55955580241754,0,8,1,outputs\notebook_complete\conformers\molecule_0002_best.xyz,outputs\notebook_complete\conformers\molecule_0002_ensemble.sdf
+3,5-hydroxymethylfurfural,ok,MMFF94,22.852185610034574,0,4,3,outputs\notebook_complete\conformers\molecule_0003_best.xyz,outputs\notebook_complete\conformers\molecule_0003_ensemble.sdf
+4,levulinic acid,ok,MMFF94,-37.003894722192406,1,12,12,outputs\notebook_complete\conformers\molecule_0004_best.xyz,outputs\notebook_complete\conformers\molecule_0004_ensemble.sdf
+5,sorbitol,ok,MMFF94,90.34677335301353,22,29,8,outputs\notebook_complete\conformers\molecule_0005_best.xyz,outputs\notebook_complete\conformers\molecule_0005_ensemble.sdf
+6,furfural,ok,MMFF94,18.182824322806127,1,2,2,outputs\notebook_complete\conformers\molecule_0006_best.xyz,outputs\notebook_complete\conformers\molecule_0006_ensemble.sdf
+7,furfuryl alcohol,ok,MMFF94,5.420873000329117,1,2,2,outputs\notebook_complete\conformers\molecule_0007_best.xyz,outputs\notebook_complete\conformers\molecule_0007_ensemble.sdf
+8,2-methylfuran,ok,MMFF94,1.8062203127675274,0,1,1,outputs\notebook_complete\conformers\molecule_0008_best.xyz,outputs\notebook_complete\conformers\molecule_0008_ensemble.sdf
+9,phenol,ok,MMFF94,5.713261106108133,0,1,1,outputs\notebook_complete\conformers\molecule_0009_best.xyz,outputs\notebook_complete\conformers\molecule_0009_ensemble.sdf
+10,guaiacol,ok,MMFF94,19.323519959669316,0,1,1,outputs\notebook_complete\conformers\molecule_0010_best.xyz,outputs\notebook_complete\conformers\molecule_0010_ensemble.sdf
+11,syringol,ok,MMFF94,40.03867495445486,0,1,1,outputs\notebook_complete\conformers\molecule_0011_best.xyz,outputs\notebook_complete\conformers\molecule_0011_ensemble.sdf
+12,catechol,ok,MMFF94,4.6741662650753755,0,1,1,outputs\notebook_complete\conformers\molecule_0012_best.xyz,outputs\notebook_complete\conformers\molecule_0012_ensemble.sdf
+13,cyclohexane,ok,MMFF94,-3.5609335406778335,0,2,1,outputs\notebook_complete\conformers\molecule_0013_best.xyz,outputs\notebook_complete\conformers\molecule_0013_ensemble.sdf
+14,gamma-valerolactone,ok,MMFF94,-7.462398887364944,3,5,5,outputs\notebook_complete\conformers\molecule_0014_best.xyz,outputs\notebook_complete\conformers\molecule_0014_ensemble.sdf
+15,"2,5-dimethylfuran",ok,MMFF94,2.0074226129318964,0,1,1,outputs\notebook_complete\conformers\molecule_0015_best.xyz,outputs\notebook_complete\conformers\molecule_0015_ensemble.sdf
+171,2-methylheptane,ok,MMFF94,-0.23577194132528057,1,16,16,outputs\notebook_complete\conformers\molecule_0171_best.xyz,outputs\notebook_complete\conformers\molecule_0171_ensemble.sdf
+172,ethylcyclohexane,ok,MMFF94,1.4392077887324017,3,7,2,outputs\notebook_complete\conformers\molecule_0172_best.xyz,outputs\notebook_complete\conformers\molecule_0172_ensemble.sdf
+173,propylcyclohexane,ok,MMFF94,1.2808756409298727,7,12,6,outputs\notebook_complete\conformers\molecule_0173_best.xyz,outputs\notebook_complete\conformers\molecule_0173_ensemble.sdf

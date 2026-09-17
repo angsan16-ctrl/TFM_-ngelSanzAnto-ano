@@ -1,0 +1,19 @@
+molecule_id,preferred_name,status,force_field,energy,xyz_path,charge,multiplicity,xtb_method,orca_method,input_hash
+1,D-glucose,ok,MMFF94,87.02454542295564,outputs\notebook\conformers\molecule_0001.xyz,0,1,gfn2,r2SCAN-3c,cfd83abfa2d5cd45a6695b66e060b58028fd99d1d0d7f131c0fa30f7519d7186
+2,D-xylose,ok,MMFF94,69.5185437524152,outputs\notebook\conformers\molecule_0002.xyz,0,1,gfn2,r2SCAN-3c,442c40a19740dbec1be8be75b355443716329c52df72c6e3137aa0c07d91b86b
+3,5-hydroxymethylfurfural,ok,MMFF94,25.923758205591437,outputs\notebook\conformers\molecule_0003.xyz,0,1,gfn2,r2SCAN-3c,889e11cca81771ed28328197462ba8a9cb533519539d0ddbe2f5c1936c106875
+4,levulinic acid,ok,MMFF94,-35.39601694048192,outputs\notebook\conformers\molecule_0004.xyz,0,1,gfn2,r2SCAN-3c,d9ca50ffa8b4cb3637d92695145e0439d88461b74ad599db7fa5ae5c4b095425
+5,sorbitol,ok,MMFF94,91.74876540032304,outputs\notebook\conformers\molecule_0005.xyz,0,1,gfn2,r2SCAN-3c,511e61c784af0a87d7c66eea499b2f48d28e5059ebaa72c841f6d2084532775b
+6,furfural,ok,MMFF94,18.182824328786616,outputs\notebook\conformers\molecule_0006.xyz,0,1,gfn2,r2SCAN-3c,e49e4757a56c02fbff96b64b209a8b0836bcb02060c678d79e03fa167cbd374b
+7,furfuryl alcohol,ok,MMFF94,5.420873001251267,outputs\notebook\conformers\molecule_0007.xyz,0,1,gfn2,r2SCAN-3c,48afd8331c3a95af503c49a54d92e79e9035e908137ad3d9fd1911005ce3a710
+8,2-methylfuran,ok,MMFF94,1.8062203125274041,outputs\notebook\conformers\molecule_0008.xyz,0,1,gfn2,r2SCAN-3c,710be3e1b2ec3b3b2c7d6dc4b0f7096eaf1560768defd188b022f57beacfcf3b
+9,phenol,ok,MMFF94,5.713261107010964,outputs\notebook\conformers\molecule_0009.xyz,0,1,gfn2,r2SCAN-3c,de7f7299771bb9942c837d02dee5cc37a77269584287a88edbddf661c8e740ab
+10,guaiacol,ok,MMFF94,19.32351996122331,outputs\notebook\conformers\molecule_0010.xyz,0,1,gfn2,r2SCAN-3c,0dff5941eae7e2a90e68cefd1d0f8334f4d906c95ad9eb3c67c53547724e2291
+11,syringol,ok,MMFF94,40.03867501048585,outputs\notebook\conformers\molecule_0011.xyz,0,1,gfn2,r2SCAN-3c,ea5e1cf56a8e34e6a58404a2b0413db66e53bc721c42ad41b677eb5ae2cd9ceb
+12,catechol,ok,MMFF94,4.674166263586796,outputs\notebook\conformers\molecule_0012.xyz,0,1,gfn2,r2SCAN-3c,e84482fa943764f2a7b2eda509e1109d8e6a3a0ced4daa340320dafdd92312ab
+13,cyclohexane,ok,MMFF94,-3.560933543059626,outputs\notebook\conformers\molecule_0013.xyz,0,1,gfn2,r2SCAN-3c,9cb64306f8c591acda18d73bbe015663aac4bf1a03a20648a81d0ad6ac12e899
+14,gamma-valerolactone,ok,MMFF94,-7.462398887325043,outputs\notebook\conformers\molecule_0014.xyz,0,1,gfn2,r2SCAN-3c,b5f1a61fba1060fa42e14fb2a1f52efedf0dc06f26b9dbd0c3ebc3a1ca2eb790
+15,"2,5-dimethylfuran",ok,MMFF94,2.007422613581202,outputs\notebook\conformers\molecule_0015.xyz,0,1,gfn2,r2SCAN-3c,296907af5829bc17aa52c655c7ced616465ba50c0ff37476b6c67adab18e417a
+171,2-methylheptane,ok,MMFF94,0.37369261473397053,outputs\notebook\conformers\molecule_0171.xyz,0,1,gfn2,r2SCAN-3c,210ef8f16d8b89a892ad8b3dcc7b2c725639834ccae341b1bd3f16d76b823ae9
+172,ethylcyclohexane,ok,MMFF94,7.23193959846361,outputs\notebook\conformers\molecule_0172.xyz,0,1,gfn2,r2SCAN-3c,f1fc44d83d82dcdbb51447c249681192691badd38ff1977fd2c246c081068846
+173,propylcyclohexane,ok,MMFF94,3.3958017776793588,outputs\notebook\conformers\molecule_0173.xyz,0,1,gfn2,r2SCAN-3c,7848127d6313e59168aba8a03de88ad2f1f428002ce90bbcca737a3e680f562d
